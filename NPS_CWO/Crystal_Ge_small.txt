@@ -1,0 +1,3465 @@
+s:Ge/CWO_0/Parent   = "SeptaGroup"
+s:Ge/CWO_0/Type = "TsBox"
+d:Ge/CWO_0/HLX = 1.570 mm
+d:Ge/CWO_0/HLY = 1.570 mm
+d:Ge/CWO_0/HLZ = 7.5 mm
+s:Ge/CWO_0/Material = "CWO"
+d:Ge/CWO_0/TransX = -20.0 mm
+d:Ge/CWO_0/TransY = -20.0 mm
+
+s:Ge/Septa_0/Parent   = "SeptaGroup"
+s:Ge/Septa_0/Type = "TsBox"
+d:Ge/Septa_0/HLX = 0.430 mm
+d:Ge/Septa_0/HLY = 1.570 mm
+d:Ge/Septa_0/HLZ = 7.5 mm
+s:Ge/Septa_0/Material = "Al_Mylar"
+d:Ge/Septa_0/TransX = Ge/CWO_0/TransX - 2 mm
+d:Ge/Septa_0/TransY = -20.0 mm
+
+s:Ge/Septa_top0/Parent   = "SeptaGroup"
+s:Ge/Septa_top0/Type = "TsBox"
+d:Ge/Septa_top0/HLX = 2. mm
+d:Ge/Septa_top0/HLY = 0.430 mm
+d:Ge/Septa_top0/HLZ = 7.5 mm
+s:Ge/Septa_top0/Material = "Al_Mylar"
+d:Ge/Septa_top0/TransY = Ge/CWO_0/TransY - 2 mm
+d:Ge/Septa_top0/TransX = -20.0 mm
+
+s:Ge/CWO_1/Parent   = "SeptaGroup"
+s:Ge/CWO_1/Type = "TsBox"
+d:Ge/CWO_1/HLX = 1.570 mm
+d:Ge/CWO_1/HLY = 1.570 mm
+d:Ge/CWO_1/HLZ = 7.5 mm
+s:Ge/CWO_1/Material = "CWO"
+d:Ge/CWO_1/TransX = -20.0 mm
+d:Ge/CWO_1/TransY = -16.0 mm
+
+s:Ge/Septa_1/Parent   = "SeptaGroup"
+s:Ge/Septa_1/Type = "TsBox"
+d:Ge/Septa_1/HLX = 0.430 mm
+d:Ge/Septa_1/HLY = 1.570 mm
+d:Ge/Septa_1/HLZ = 7.5 mm
+s:Ge/Septa_1/Material = "Al_Mylar"
+d:Ge/Septa_1/TransX = Ge/CWO_1/TransX - 2 mm
+d:Ge/Septa_1/TransY = -16.0 mm
+
+s:Ge/Septa_top1/Parent   = "SeptaGroup"
+s:Ge/Septa_top1/Type = "TsBox"
+d:Ge/Septa_top1/HLX = 2. mm
+d:Ge/Septa_top1/HLY = 0.430 mm
+d:Ge/Septa_top1/HLZ = 7.5 mm
+s:Ge/Septa_top1/Material = "Al_Mylar"
+d:Ge/Septa_top1/TransY = Ge/CWO_1/TransY - 2 mm
+d:Ge/Septa_top1/TransX = -20.0 mm
+
+s:Ge/CWO_2/Parent   = "SeptaGroup"
+s:Ge/CWO_2/Type = "TsBox"
+d:Ge/CWO_2/HLX = 1.570 mm
+d:Ge/CWO_2/HLY = 1.570 mm
+d:Ge/CWO_2/HLZ = 7.5 mm
+s:Ge/CWO_2/Material = "CWO"
+d:Ge/CWO_2/TransX = -20.0 mm
+d:Ge/CWO_2/TransY = -12.0 mm
+
+s:Ge/Septa_2/Parent   = "SeptaGroup"
+s:Ge/Septa_2/Type = "TsBox"
+d:Ge/Septa_2/HLX = 0.430 mm
+d:Ge/Septa_2/HLY = 1.570 mm
+d:Ge/Septa_2/HLZ = 7.5 mm
+s:Ge/Septa_2/Material = "Al_Mylar"
+d:Ge/Septa_2/TransX = Ge/CWO_2/TransX - 2 mm
+d:Ge/Septa_2/TransY = -12.0 mm
+
+s:Ge/Septa_top2/Parent   = "SeptaGroup"
+s:Ge/Septa_top2/Type = "TsBox"
+d:Ge/Septa_top2/HLX = 2. mm
+d:Ge/Septa_top2/HLY = 0.430 mm
+d:Ge/Septa_top2/HLZ = 7.5 mm
+s:Ge/Septa_top2/Material = "Al_Mylar"
+d:Ge/Septa_top2/TransY = Ge/CWO_2/TransY - 2 mm
+d:Ge/Septa_top2/TransX = -20.0 mm
+
+s:Ge/CWO_3/Parent   = "SeptaGroup"
+s:Ge/CWO_3/Type = "TsBox"
+d:Ge/CWO_3/HLX = 1.570 mm
+d:Ge/CWO_3/HLY = 1.570 mm
+d:Ge/CWO_3/HLZ = 7.5 mm
+s:Ge/CWO_3/Material = "CWO"
+d:Ge/CWO_3/TransX = -20.0 mm
+d:Ge/CWO_3/TransY = -8.0 mm
+
+s:Ge/Septa_3/Parent   = "SeptaGroup"
+s:Ge/Septa_3/Type = "TsBox"
+d:Ge/Septa_3/HLX = 0.430 mm
+d:Ge/Septa_3/HLY = 1.570 mm
+d:Ge/Septa_3/HLZ = 7.5 mm
+s:Ge/Septa_3/Material = "Al_Mylar"
+d:Ge/Septa_3/TransX = Ge/CWO_3/TransX - 2 mm
+d:Ge/Septa_3/TransY = -8.0 mm
+
+s:Ge/Septa_top3/Parent   = "SeptaGroup"
+s:Ge/Septa_top3/Type = "TsBox"
+d:Ge/Septa_top3/HLX = 2. mm
+d:Ge/Septa_top3/HLY = 0.430 mm
+d:Ge/Septa_top3/HLZ = 7.5 mm
+s:Ge/Septa_top3/Material = "Al_Mylar"
+d:Ge/Septa_top3/TransY = Ge/CWO_3/TransY - 2 mm
+d:Ge/Septa_top3/TransX = -20.0 mm
+
+s:Ge/CWO_4/Parent   = "SeptaGroup"
+s:Ge/CWO_4/Type = "TsBox"
+d:Ge/CWO_4/HLX = 1.570 mm
+d:Ge/CWO_4/HLY = 1.570 mm
+d:Ge/CWO_4/HLZ = 7.5 mm
+s:Ge/CWO_4/Material = "CWO"
+d:Ge/CWO_4/TransX = -20.0 mm
+d:Ge/CWO_4/TransY = -4.0 mm
+
+s:Ge/Septa_4/Parent   = "SeptaGroup"
+s:Ge/Septa_4/Type = "TsBox"
+d:Ge/Septa_4/HLX = 0.430 mm
+d:Ge/Septa_4/HLY = 1.570 mm
+d:Ge/Septa_4/HLZ = 7.5 mm
+s:Ge/Septa_4/Material = "Al_Mylar"
+d:Ge/Septa_4/TransX = Ge/CWO_4/TransX - 2 mm
+d:Ge/Septa_4/TransY = -4.0 mm
+
+s:Ge/Septa_top4/Parent   = "SeptaGroup"
+s:Ge/Septa_top4/Type = "TsBox"
+d:Ge/Septa_top4/HLX = 2. mm
+d:Ge/Septa_top4/HLY = 0.430 mm
+d:Ge/Septa_top4/HLZ = 7.5 mm
+s:Ge/Septa_top4/Material = "Al_Mylar"
+d:Ge/Septa_top4/TransY = Ge/CWO_4/TransY - 2 mm
+d:Ge/Septa_top4/TransX = -20.0 mm
+
+s:Ge/CWO_5/Parent   = "SeptaGroup"
+s:Ge/CWO_5/Type = "TsBox"
+d:Ge/CWO_5/HLX = 1.570 mm
+d:Ge/CWO_5/HLY = 1.570 mm
+d:Ge/CWO_5/HLZ = 7.5 mm
+s:Ge/CWO_5/Material = "CWO"
+d:Ge/CWO_5/TransX = -20.0 mm
+d:Ge/CWO_5/TransY = 0.0 mm
+
+s:Ge/Septa_5/Parent   = "SeptaGroup"
+s:Ge/Septa_5/Type = "TsBox"
+d:Ge/Septa_5/HLX = 0.430 mm
+d:Ge/Septa_5/HLY = 1.570 mm
+d:Ge/Septa_5/HLZ = 7.5 mm
+s:Ge/Septa_5/Material = "Al_Mylar"
+d:Ge/Septa_5/TransX = Ge/CWO_5/TransX - 2 mm
+d:Ge/Septa_5/TransY = 0.0 mm
+
+s:Ge/Septa_top5/Parent   = "SeptaGroup"
+s:Ge/Septa_top5/Type = "TsBox"
+d:Ge/Septa_top5/HLX = 2. mm
+d:Ge/Septa_top5/HLY = 0.430 mm
+d:Ge/Septa_top5/HLZ = 7.5 mm
+s:Ge/Septa_top5/Material = "Al_Mylar"
+d:Ge/Septa_top5/TransY = Ge/CWO_5/TransY - 2 mm
+d:Ge/Septa_top5/TransX = -20.0 mm
+
+s:Ge/CWO_6/Parent   = "SeptaGroup"
+s:Ge/CWO_6/Type = "TsBox"
+d:Ge/CWO_6/HLX = 1.570 mm
+d:Ge/CWO_6/HLY = 1.570 mm
+d:Ge/CWO_6/HLZ = 7.5 mm
+s:Ge/CWO_6/Material = "CWO"
+d:Ge/CWO_6/TransX = -20.0 mm
+d:Ge/CWO_6/TransY = 4.0 mm
+
+s:Ge/Septa_6/Parent   = "SeptaGroup"
+s:Ge/Septa_6/Type = "TsBox"
+d:Ge/Septa_6/HLX = 0.430 mm
+d:Ge/Septa_6/HLY = 1.570 mm
+d:Ge/Septa_6/HLZ = 7.5 mm
+s:Ge/Septa_6/Material = "Al_Mylar"
+d:Ge/Septa_6/TransX = Ge/CWO_6/TransX - 2 mm
+d:Ge/Septa_6/TransY = 4.0 mm
+
+s:Ge/Septa_top6/Parent   = "SeptaGroup"
+s:Ge/Septa_top6/Type = "TsBox"
+d:Ge/Septa_top6/HLX = 2. mm
+d:Ge/Septa_top6/HLY = 0.430 mm
+d:Ge/Septa_top6/HLZ = 7.5 mm
+s:Ge/Septa_top6/Material = "Al_Mylar"
+d:Ge/Septa_top6/TransY = Ge/CWO_6/TransY - 2 mm
+d:Ge/Septa_top6/TransX = -20.0 mm
+
+s:Ge/CWO_7/Parent   = "SeptaGroup"
+s:Ge/CWO_7/Type = "TsBox"
+d:Ge/CWO_7/HLX = 1.570 mm
+d:Ge/CWO_7/HLY = 1.570 mm
+d:Ge/CWO_7/HLZ = 7.5 mm
+s:Ge/CWO_7/Material = "CWO"
+d:Ge/CWO_7/TransX = -20.0 mm
+d:Ge/CWO_7/TransY = 8.0 mm
+
+s:Ge/Septa_7/Parent   = "SeptaGroup"
+s:Ge/Septa_7/Type = "TsBox"
+d:Ge/Septa_7/HLX = 0.430 mm
+d:Ge/Septa_7/HLY = 1.570 mm
+d:Ge/Septa_7/HLZ = 7.5 mm
+s:Ge/Septa_7/Material = "Al_Mylar"
+d:Ge/Septa_7/TransX = Ge/CWO_7/TransX - 2 mm
+d:Ge/Septa_7/TransY = 8.0 mm
+
+s:Ge/Septa_top7/Parent   = "SeptaGroup"
+s:Ge/Septa_top7/Type = "TsBox"
+d:Ge/Septa_top7/HLX = 2. mm
+d:Ge/Septa_top7/HLY = 0.430 mm
+d:Ge/Septa_top7/HLZ = 7.5 mm
+s:Ge/Septa_top7/Material = "Al_Mylar"
+d:Ge/Septa_top7/TransY = Ge/CWO_7/TransY - 2 mm
+d:Ge/Septa_top7/TransX = -20.0 mm
+
+s:Ge/CWO_8/Parent   = "SeptaGroup"
+s:Ge/CWO_8/Type = "TsBox"
+d:Ge/CWO_8/HLX = 1.570 mm
+d:Ge/CWO_8/HLY = 1.570 mm
+d:Ge/CWO_8/HLZ = 7.5 mm
+s:Ge/CWO_8/Material = "CWO"
+d:Ge/CWO_8/TransX = -20.0 mm
+d:Ge/CWO_8/TransY = 12.0 mm
+
+s:Ge/Septa_8/Parent   = "SeptaGroup"
+s:Ge/Septa_8/Type = "TsBox"
+d:Ge/Septa_8/HLX = 0.430 mm
+d:Ge/Septa_8/HLY = 1.570 mm
+d:Ge/Septa_8/HLZ = 7.5 mm
+s:Ge/Septa_8/Material = "Al_Mylar"
+d:Ge/Septa_8/TransX = Ge/CWO_8/TransX - 2 mm
+d:Ge/Septa_8/TransY = 12.0 mm
+
+s:Ge/Septa_top8/Parent   = "SeptaGroup"
+s:Ge/Septa_top8/Type = "TsBox"
+d:Ge/Septa_top8/HLX = 2. mm
+d:Ge/Septa_top8/HLY = 0.430 mm
+d:Ge/Septa_top8/HLZ = 7.5 mm
+s:Ge/Septa_top8/Material = "Al_Mylar"
+d:Ge/Septa_top8/TransY = Ge/CWO_8/TransY - 2 mm
+d:Ge/Septa_top8/TransX = -20.0 mm
+
+s:Ge/CWO_9/Parent   = "SeptaGroup"
+s:Ge/CWO_9/Type = "TsBox"
+d:Ge/CWO_9/HLX = 1.570 mm
+d:Ge/CWO_9/HLY = 1.570 mm
+d:Ge/CWO_9/HLZ = 7.5 mm
+s:Ge/CWO_9/Material = "CWO"
+d:Ge/CWO_9/TransX = -20.0 mm
+d:Ge/CWO_9/TransY = 16.0 mm
+
+s:Ge/Septa_9/Parent   = "SeptaGroup"
+s:Ge/Septa_9/Type = "TsBox"
+d:Ge/Septa_9/HLX = 0.430 mm
+d:Ge/Septa_9/HLY = 1.570 mm
+d:Ge/Septa_9/HLZ = 7.5 mm
+s:Ge/Septa_9/Material = "Al_Mylar"
+d:Ge/Septa_9/TransX = Ge/CWO_9/TransX - 2 mm
+d:Ge/Septa_9/TransY = 16.0 mm
+
+s:Ge/Septa_top9/Parent   = "SeptaGroup"
+s:Ge/Septa_top9/Type = "TsBox"
+d:Ge/Septa_top9/HLX = 2. mm
+d:Ge/Septa_top9/HLY = 0.430 mm
+d:Ge/Septa_top9/HLZ = 7.5 mm
+s:Ge/Septa_top9/Material = "Al_Mylar"
+d:Ge/Septa_top9/TransY = Ge/CWO_9/TransY - 2 mm
+d:Ge/Septa_top9/TransX = -20.0 mm
+
+s:Ge/CWO_10/Parent   = "SeptaGroup"
+s:Ge/CWO_10/Type = "TsBox"
+d:Ge/CWO_10/HLX = 1.570 mm
+d:Ge/CWO_10/HLY = 1.570 mm
+d:Ge/CWO_10/HLZ = 7.5 mm
+s:Ge/CWO_10/Material = "CWO"
+d:Ge/CWO_10/TransX = -20.0 mm
+d:Ge/CWO_10/TransY = 20.0 mm
+
+s:Ge/Septa_10/Parent   = "SeptaGroup"
+s:Ge/Septa_10/Type = "TsBox"
+d:Ge/Septa_10/HLX = 0.430 mm
+d:Ge/Septa_10/HLY = 1.570 mm
+d:Ge/Septa_10/HLZ = 7.5 mm
+s:Ge/Septa_10/Material = "Al_Mylar"
+d:Ge/Septa_10/TransX = Ge/CWO_10/TransX - 2 mm
+d:Ge/Septa_10/TransY = 20.0 mm
+
+s:Ge/Septa_top10/Parent   = "SeptaGroup"
+s:Ge/Septa_top10/Type = "TsBox"
+d:Ge/Septa_top10/HLX = 2. mm
+d:Ge/Septa_top10/HLY = 0.430 mm
+d:Ge/Septa_top10/HLZ = 7.5 mm
+s:Ge/Septa_top10/Material = "Al_Mylar"
+d:Ge/Septa_top10/TransY = Ge/CWO_10/TransY - 2 mm
+d:Ge/Septa_top10/TransX = -20.0 mm
+
+s:Ge/Septa_bottom10/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom10/Type = "TsBox"
+d:Ge/Septa_bottom10/HLX = 2. mm
+d:Ge/Septa_bottom10/HLY = 0.430 mm
+d:Ge/Septa_bottom10/HLZ = 7.5 mm
+s:Ge/Septa_bottom10/Material = "Al_Mylar"
+d:Ge/Septa_bottom10/TransY = Ge/CWO_10/TransY + 2 mm
+d:Ge/Septa_bottom10/TransX = -20.0 mm
+
+s:Ge/CWO_11/Parent   = "SeptaGroup"
+s:Ge/CWO_11/Type = "TsBox"
+d:Ge/CWO_11/HLX = 1.570 mm
+d:Ge/CWO_11/HLY = 1.570 mm
+d:Ge/CWO_11/HLZ = 7.5 mm
+s:Ge/CWO_11/Material = "CWO"
+d:Ge/CWO_11/TransX = -16.0 mm
+d:Ge/CWO_11/TransY = -20.0 mm
+
+s:Ge/Septa_11/Parent   = "SeptaGroup"
+s:Ge/Septa_11/Type = "TsBox"
+d:Ge/Septa_11/HLX = 0.430 mm
+d:Ge/Septa_11/HLY = 1.570 mm
+d:Ge/Septa_11/HLZ = 7.5 mm
+s:Ge/Septa_11/Material = "Al_Mylar"
+d:Ge/Septa_11/TransX = Ge/CWO_11/TransX - 2 mm
+d:Ge/Septa_11/TransY = -20.0 mm
+
+s:Ge/Septa_top11/Parent   = "SeptaGroup"
+s:Ge/Septa_top11/Type = "TsBox"
+d:Ge/Septa_top11/HLX = 2. mm
+d:Ge/Septa_top11/HLY = 0.430 mm
+d:Ge/Septa_top11/HLZ = 7.5 mm
+s:Ge/Septa_top11/Material = "Al_Mylar"
+d:Ge/Septa_top11/TransY = Ge/CWO_11/TransY - 2 mm
+d:Ge/Septa_top11/TransX = -16.0 mm
+
+s:Ge/CWO_12/Parent   = "SeptaGroup"
+s:Ge/CWO_12/Type = "TsBox"
+d:Ge/CWO_12/HLX = 1.570 mm
+d:Ge/CWO_12/HLY = 1.570 mm
+d:Ge/CWO_12/HLZ = 7.5 mm
+s:Ge/CWO_12/Material = "CWO"
+d:Ge/CWO_12/TransX = -16.0 mm
+d:Ge/CWO_12/TransY = -16.0 mm
+
+s:Ge/Septa_12/Parent   = "SeptaGroup"
+s:Ge/Septa_12/Type = "TsBox"
+d:Ge/Septa_12/HLX = 0.430 mm
+d:Ge/Septa_12/HLY = 1.570 mm
+d:Ge/Septa_12/HLZ = 7.5 mm
+s:Ge/Septa_12/Material = "Al_Mylar"
+d:Ge/Septa_12/TransX = Ge/CWO_12/TransX - 2 mm
+d:Ge/Septa_12/TransY = -16.0 mm
+
+s:Ge/Septa_top12/Parent   = "SeptaGroup"
+s:Ge/Septa_top12/Type = "TsBox"
+d:Ge/Septa_top12/HLX = 2. mm
+d:Ge/Septa_top12/HLY = 0.430 mm
+d:Ge/Septa_top12/HLZ = 7.5 mm
+s:Ge/Septa_top12/Material = "Al_Mylar"
+d:Ge/Septa_top12/TransY = Ge/CWO_12/TransY - 2 mm
+d:Ge/Septa_top12/TransX = -16.0 mm
+
+s:Ge/CWO_13/Parent   = "SeptaGroup"
+s:Ge/CWO_13/Type = "TsBox"
+d:Ge/CWO_13/HLX = 1.570 mm
+d:Ge/CWO_13/HLY = 1.570 mm
+d:Ge/CWO_13/HLZ = 7.5 mm
+s:Ge/CWO_13/Material = "CWO"
+d:Ge/CWO_13/TransX = -16.0 mm
+d:Ge/CWO_13/TransY = -12.0 mm
+
+s:Ge/Septa_13/Parent   = "SeptaGroup"
+s:Ge/Septa_13/Type = "TsBox"
+d:Ge/Septa_13/HLX = 0.430 mm
+d:Ge/Septa_13/HLY = 1.570 mm
+d:Ge/Septa_13/HLZ = 7.5 mm
+s:Ge/Septa_13/Material = "Al_Mylar"
+d:Ge/Septa_13/TransX = Ge/CWO_13/TransX - 2 mm
+d:Ge/Septa_13/TransY = -12.0 mm
+
+s:Ge/Septa_top13/Parent   = "SeptaGroup"
+s:Ge/Septa_top13/Type = "TsBox"
+d:Ge/Septa_top13/HLX = 2. mm
+d:Ge/Septa_top13/HLY = 0.430 mm
+d:Ge/Septa_top13/HLZ = 7.5 mm
+s:Ge/Septa_top13/Material = "Al_Mylar"
+d:Ge/Septa_top13/TransY = Ge/CWO_13/TransY - 2 mm
+d:Ge/Septa_top13/TransX = -16.0 mm
+
+s:Ge/CWO_14/Parent   = "SeptaGroup"
+s:Ge/CWO_14/Type = "TsBox"
+d:Ge/CWO_14/HLX = 1.570 mm
+d:Ge/CWO_14/HLY = 1.570 mm
+d:Ge/CWO_14/HLZ = 7.5 mm
+s:Ge/CWO_14/Material = "CWO"
+d:Ge/CWO_14/TransX = -16.0 mm
+d:Ge/CWO_14/TransY = -8.0 mm
+
+s:Ge/Septa_14/Parent   = "SeptaGroup"
+s:Ge/Septa_14/Type = "TsBox"
+d:Ge/Septa_14/HLX = 0.430 mm
+d:Ge/Septa_14/HLY = 1.570 mm
+d:Ge/Septa_14/HLZ = 7.5 mm
+s:Ge/Septa_14/Material = "Al_Mylar"
+d:Ge/Septa_14/TransX = Ge/CWO_14/TransX - 2 mm
+d:Ge/Septa_14/TransY = -8.0 mm
+
+s:Ge/Septa_top14/Parent   = "SeptaGroup"
+s:Ge/Septa_top14/Type = "TsBox"
+d:Ge/Septa_top14/HLX = 2. mm
+d:Ge/Septa_top14/HLY = 0.430 mm
+d:Ge/Septa_top14/HLZ = 7.5 mm
+s:Ge/Septa_top14/Material = "Al_Mylar"
+d:Ge/Septa_top14/TransY = Ge/CWO_14/TransY - 2 mm
+d:Ge/Septa_top14/TransX = -16.0 mm
+
+s:Ge/CWO_15/Parent   = "SeptaGroup"
+s:Ge/CWO_15/Type = "TsBox"
+d:Ge/CWO_15/HLX = 1.570 mm
+d:Ge/CWO_15/HLY = 1.570 mm
+d:Ge/CWO_15/HLZ = 7.5 mm
+s:Ge/CWO_15/Material = "CWO"
+d:Ge/CWO_15/TransX = -16.0 mm
+d:Ge/CWO_15/TransY = -4.0 mm
+
+s:Ge/Septa_15/Parent   = "SeptaGroup"
+s:Ge/Septa_15/Type = "TsBox"
+d:Ge/Septa_15/HLX = 0.430 mm
+d:Ge/Septa_15/HLY = 1.570 mm
+d:Ge/Septa_15/HLZ = 7.5 mm
+s:Ge/Septa_15/Material = "Al_Mylar"
+d:Ge/Septa_15/TransX = Ge/CWO_15/TransX - 2 mm
+d:Ge/Septa_15/TransY = -4.0 mm
+
+s:Ge/Septa_top15/Parent   = "SeptaGroup"
+s:Ge/Septa_top15/Type = "TsBox"
+d:Ge/Septa_top15/HLX = 2. mm
+d:Ge/Septa_top15/HLY = 0.430 mm
+d:Ge/Septa_top15/HLZ = 7.5 mm
+s:Ge/Septa_top15/Material = "Al_Mylar"
+d:Ge/Septa_top15/TransY = Ge/CWO_15/TransY - 2 mm
+d:Ge/Septa_top15/TransX = -16.0 mm
+
+s:Ge/CWO_16/Parent   = "SeptaGroup"
+s:Ge/CWO_16/Type = "TsBox"
+d:Ge/CWO_16/HLX = 1.570 mm
+d:Ge/CWO_16/HLY = 1.570 mm
+d:Ge/CWO_16/HLZ = 7.5 mm
+s:Ge/CWO_16/Material = "CWO"
+d:Ge/CWO_16/TransX = -16.0 mm
+d:Ge/CWO_16/TransY = 0.0 mm
+
+s:Ge/Septa_16/Parent   = "SeptaGroup"
+s:Ge/Septa_16/Type = "TsBox"
+d:Ge/Septa_16/HLX = 0.430 mm
+d:Ge/Septa_16/HLY = 1.570 mm
+d:Ge/Septa_16/HLZ = 7.5 mm
+s:Ge/Septa_16/Material = "Al_Mylar"
+d:Ge/Septa_16/TransX = Ge/CWO_16/TransX - 2 mm
+d:Ge/Septa_16/TransY = 0.0 mm
+
+s:Ge/Septa_top16/Parent   = "SeptaGroup"
+s:Ge/Septa_top16/Type = "TsBox"
+d:Ge/Septa_top16/HLX = 2. mm
+d:Ge/Septa_top16/HLY = 0.430 mm
+d:Ge/Septa_top16/HLZ = 7.5 mm
+s:Ge/Septa_top16/Material = "Al_Mylar"
+d:Ge/Septa_top16/TransY = Ge/CWO_16/TransY - 2 mm
+d:Ge/Septa_top16/TransX = -16.0 mm
+
+s:Ge/CWO_17/Parent   = "SeptaGroup"
+s:Ge/CWO_17/Type = "TsBox"
+d:Ge/CWO_17/HLX = 1.570 mm
+d:Ge/CWO_17/HLY = 1.570 mm
+d:Ge/CWO_17/HLZ = 7.5 mm
+s:Ge/CWO_17/Material = "CWO"
+d:Ge/CWO_17/TransX = -16.0 mm
+d:Ge/CWO_17/TransY = 4.0 mm
+
+s:Ge/Septa_17/Parent   = "SeptaGroup"
+s:Ge/Septa_17/Type = "TsBox"
+d:Ge/Septa_17/HLX = 0.430 mm
+d:Ge/Septa_17/HLY = 1.570 mm
+d:Ge/Septa_17/HLZ = 7.5 mm
+s:Ge/Septa_17/Material = "Al_Mylar"
+d:Ge/Septa_17/TransX = Ge/CWO_17/TransX - 2 mm
+d:Ge/Septa_17/TransY = 4.0 mm
+
+s:Ge/Septa_top17/Parent   = "SeptaGroup"
+s:Ge/Septa_top17/Type = "TsBox"
+d:Ge/Septa_top17/HLX = 2. mm
+d:Ge/Septa_top17/HLY = 0.430 mm
+d:Ge/Septa_top17/HLZ = 7.5 mm
+s:Ge/Septa_top17/Material = "Al_Mylar"
+d:Ge/Septa_top17/TransY = Ge/CWO_17/TransY - 2 mm
+d:Ge/Septa_top17/TransX = -16.0 mm
+
+s:Ge/CWO_18/Parent   = "SeptaGroup"
+s:Ge/CWO_18/Type = "TsBox"
+d:Ge/CWO_18/HLX = 1.570 mm
+d:Ge/CWO_18/HLY = 1.570 mm
+d:Ge/CWO_18/HLZ = 7.5 mm
+s:Ge/CWO_18/Material = "CWO"
+d:Ge/CWO_18/TransX = -16.0 mm
+d:Ge/CWO_18/TransY = 8.0 mm
+
+s:Ge/Septa_18/Parent   = "SeptaGroup"
+s:Ge/Septa_18/Type = "TsBox"
+d:Ge/Septa_18/HLX = 0.430 mm
+d:Ge/Septa_18/HLY = 1.570 mm
+d:Ge/Septa_18/HLZ = 7.5 mm
+s:Ge/Septa_18/Material = "Al_Mylar"
+d:Ge/Septa_18/TransX = Ge/CWO_18/TransX - 2 mm
+d:Ge/Septa_18/TransY = 8.0 mm
+
+s:Ge/Septa_top18/Parent   = "SeptaGroup"
+s:Ge/Septa_top18/Type = "TsBox"
+d:Ge/Septa_top18/HLX = 2. mm
+d:Ge/Septa_top18/HLY = 0.430 mm
+d:Ge/Septa_top18/HLZ = 7.5 mm
+s:Ge/Septa_top18/Material = "Al_Mylar"
+d:Ge/Septa_top18/TransY = Ge/CWO_18/TransY - 2 mm
+d:Ge/Septa_top18/TransX = -16.0 mm
+
+s:Ge/CWO_19/Parent   = "SeptaGroup"
+s:Ge/CWO_19/Type = "TsBox"
+d:Ge/CWO_19/HLX = 1.570 mm
+d:Ge/CWO_19/HLY = 1.570 mm
+d:Ge/CWO_19/HLZ = 7.5 mm
+s:Ge/CWO_19/Material = "CWO"
+d:Ge/CWO_19/TransX = -16.0 mm
+d:Ge/CWO_19/TransY = 12.0 mm
+
+s:Ge/Septa_19/Parent   = "SeptaGroup"
+s:Ge/Septa_19/Type = "TsBox"
+d:Ge/Septa_19/HLX = 0.430 mm
+d:Ge/Septa_19/HLY = 1.570 mm
+d:Ge/Septa_19/HLZ = 7.5 mm
+s:Ge/Septa_19/Material = "Al_Mylar"
+d:Ge/Septa_19/TransX = Ge/CWO_19/TransX - 2 mm
+d:Ge/Septa_19/TransY = 12.0 mm
+
+s:Ge/Septa_top19/Parent   = "SeptaGroup"
+s:Ge/Septa_top19/Type = "TsBox"
+d:Ge/Septa_top19/HLX = 2. mm
+d:Ge/Septa_top19/HLY = 0.430 mm
+d:Ge/Septa_top19/HLZ = 7.5 mm
+s:Ge/Septa_top19/Material = "Al_Mylar"
+d:Ge/Septa_top19/TransY = Ge/CWO_19/TransY - 2 mm
+d:Ge/Septa_top19/TransX = -16.0 mm
+
+s:Ge/CWO_20/Parent   = "SeptaGroup"
+s:Ge/CWO_20/Type = "TsBox"
+d:Ge/CWO_20/HLX = 1.570 mm
+d:Ge/CWO_20/HLY = 1.570 mm
+d:Ge/CWO_20/HLZ = 7.5 mm
+s:Ge/CWO_20/Material = "CWO"
+d:Ge/CWO_20/TransX = -16.0 mm
+d:Ge/CWO_20/TransY = 16.0 mm
+
+s:Ge/Septa_20/Parent   = "SeptaGroup"
+s:Ge/Septa_20/Type = "TsBox"
+d:Ge/Septa_20/HLX = 0.430 mm
+d:Ge/Septa_20/HLY = 1.570 mm
+d:Ge/Septa_20/HLZ = 7.5 mm
+s:Ge/Septa_20/Material = "Al_Mylar"
+d:Ge/Septa_20/TransX = Ge/CWO_20/TransX - 2 mm
+d:Ge/Septa_20/TransY = 16.0 mm
+
+s:Ge/Septa_top20/Parent   = "SeptaGroup"
+s:Ge/Septa_top20/Type = "TsBox"
+d:Ge/Septa_top20/HLX = 2. mm
+d:Ge/Septa_top20/HLY = 0.430 mm
+d:Ge/Septa_top20/HLZ = 7.5 mm
+s:Ge/Septa_top20/Material = "Al_Mylar"
+d:Ge/Septa_top20/TransY = Ge/CWO_20/TransY - 2 mm
+d:Ge/Septa_top20/TransX = -16.0 mm
+
+s:Ge/CWO_21/Parent   = "SeptaGroup"
+s:Ge/CWO_21/Type = "TsBox"
+d:Ge/CWO_21/HLX = 1.570 mm
+d:Ge/CWO_21/HLY = 1.570 mm
+d:Ge/CWO_21/HLZ = 7.5 mm
+s:Ge/CWO_21/Material = "CWO"
+d:Ge/CWO_21/TransX = -16.0 mm
+d:Ge/CWO_21/TransY = 20.0 mm
+
+s:Ge/Septa_21/Parent   = "SeptaGroup"
+s:Ge/Septa_21/Type = "TsBox"
+d:Ge/Septa_21/HLX = 0.430 mm
+d:Ge/Septa_21/HLY = 1.570 mm
+d:Ge/Septa_21/HLZ = 7.5 mm
+s:Ge/Septa_21/Material = "Al_Mylar"
+d:Ge/Septa_21/TransX = Ge/CWO_21/TransX - 2 mm
+d:Ge/Septa_21/TransY = 20.0 mm
+
+s:Ge/Septa_top21/Parent   = "SeptaGroup"
+s:Ge/Septa_top21/Type = "TsBox"
+d:Ge/Septa_top21/HLX = 2. mm
+d:Ge/Septa_top21/HLY = 0.430 mm
+d:Ge/Septa_top21/HLZ = 7.5 mm
+s:Ge/Septa_top21/Material = "Al_Mylar"
+d:Ge/Septa_top21/TransY = Ge/CWO_21/TransY - 2 mm
+d:Ge/Septa_top21/TransX = -16.0 mm
+
+s:Ge/Septa_bottom21/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom21/Type = "TsBox"
+d:Ge/Septa_bottom21/HLX = 2. mm
+d:Ge/Septa_bottom21/HLY = 0.430 mm
+d:Ge/Septa_bottom21/HLZ = 7.5 mm
+s:Ge/Septa_bottom21/Material = "Al_Mylar"
+d:Ge/Septa_bottom21/TransY = Ge/CWO_21/TransY + 2 mm
+d:Ge/Septa_bottom21/TransX = -16.0 mm
+
+s:Ge/CWO_22/Parent   = "SeptaGroup"
+s:Ge/CWO_22/Type = "TsBox"
+d:Ge/CWO_22/HLX = 1.570 mm
+d:Ge/CWO_22/HLY = 1.570 mm
+d:Ge/CWO_22/HLZ = 7.5 mm
+s:Ge/CWO_22/Material = "CWO"
+d:Ge/CWO_22/TransX = -12.0 mm
+d:Ge/CWO_22/TransY = -20.0 mm
+
+s:Ge/Septa_22/Parent   = "SeptaGroup"
+s:Ge/Septa_22/Type = "TsBox"
+d:Ge/Septa_22/HLX = 0.430 mm
+d:Ge/Septa_22/HLY = 1.570 mm
+d:Ge/Septa_22/HLZ = 7.5 mm
+s:Ge/Septa_22/Material = "Al_Mylar"
+d:Ge/Septa_22/TransX = Ge/CWO_22/TransX - 2 mm
+d:Ge/Septa_22/TransY = -20.0 mm
+
+s:Ge/Septa_top22/Parent   = "SeptaGroup"
+s:Ge/Septa_top22/Type = "TsBox"
+d:Ge/Septa_top22/HLX = 2. mm
+d:Ge/Septa_top22/HLY = 0.430 mm
+d:Ge/Septa_top22/HLZ = 7.5 mm
+s:Ge/Septa_top22/Material = "Al_Mylar"
+d:Ge/Septa_top22/TransY = Ge/CWO_22/TransY - 2 mm
+d:Ge/Septa_top22/TransX = -12.0 mm
+
+s:Ge/CWO_23/Parent   = "SeptaGroup"
+s:Ge/CWO_23/Type = "TsBox"
+d:Ge/CWO_23/HLX = 1.570 mm
+d:Ge/CWO_23/HLY = 1.570 mm
+d:Ge/CWO_23/HLZ = 7.5 mm
+s:Ge/CWO_23/Material = "CWO"
+d:Ge/CWO_23/TransX = -12.0 mm
+d:Ge/CWO_23/TransY = -16.0 mm
+
+s:Ge/Septa_23/Parent   = "SeptaGroup"
+s:Ge/Septa_23/Type = "TsBox"
+d:Ge/Septa_23/HLX = 0.430 mm
+d:Ge/Septa_23/HLY = 1.570 mm
+d:Ge/Septa_23/HLZ = 7.5 mm
+s:Ge/Septa_23/Material = "Al_Mylar"
+d:Ge/Septa_23/TransX = Ge/CWO_23/TransX - 2 mm
+d:Ge/Septa_23/TransY = -16.0 mm
+
+s:Ge/Septa_top23/Parent   = "SeptaGroup"
+s:Ge/Septa_top23/Type = "TsBox"
+d:Ge/Septa_top23/HLX = 2. mm
+d:Ge/Septa_top23/HLY = 0.430 mm
+d:Ge/Septa_top23/HLZ = 7.5 mm
+s:Ge/Septa_top23/Material = "Al_Mylar"
+d:Ge/Septa_top23/TransY = Ge/CWO_23/TransY - 2 mm
+d:Ge/Septa_top23/TransX = -12.0 mm
+
+s:Ge/CWO_24/Parent   = "SeptaGroup"
+s:Ge/CWO_24/Type = "TsBox"
+d:Ge/CWO_24/HLX = 1.570 mm
+d:Ge/CWO_24/HLY = 1.570 mm
+d:Ge/CWO_24/HLZ = 7.5 mm
+s:Ge/CWO_24/Material = "CWO"
+d:Ge/CWO_24/TransX = -12.0 mm
+d:Ge/CWO_24/TransY = -12.0 mm
+
+s:Ge/Septa_24/Parent   = "SeptaGroup"
+s:Ge/Septa_24/Type = "TsBox"
+d:Ge/Septa_24/HLX = 0.430 mm
+d:Ge/Septa_24/HLY = 1.570 mm
+d:Ge/Septa_24/HLZ = 7.5 mm
+s:Ge/Septa_24/Material = "Al_Mylar"
+d:Ge/Septa_24/TransX = Ge/CWO_24/TransX - 2 mm
+d:Ge/Septa_24/TransY = -12.0 mm
+
+s:Ge/Septa_top24/Parent   = "SeptaGroup"
+s:Ge/Septa_top24/Type = "TsBox"
+d:Ge/Septa_top24/HLX = 2. mm
+d:Ge/Septa_top24/HLY = 0.430 mm
+d:Ge/Septa_top24/HLZ = 7.5 mm
+s:Ge/Septa_top24/Material = "Al_Mylar"
+d:Ge/Septa_top24/TransY = Ge/CWO_24/TransY - 2 mm
+d:Ge/Septa_top24/TransX = -12.0 mm
+
+s:Ge/CWO_25/Parent   = "SeptaGroup"
+s:Ge/CWO_25/Type = "TsBox"
+d:Ge/CWO_25/HLX = 1.570 mm
+d:Ge/CWO_25/HLY = 1.570 mm
+d:Ge/CWO_25/HLZ = 7.5 mm
+s:Ge/CWO_25/Material = "CWO"
+d:Ge/CWO_25/TransX = -12.0 mm
+d:Ge/CWO_25/TransY = -8.0 mm
+
+s:Ge/Septa_25/Parent   = "SeptaGroup"
+s:Ge/Septa_25/Type = "TsBox"
+d:Ge/Septa_25/HLX = 0.430 mm
+d:Ge/Septa_25/HLY = 1.570 mm
+d:Ge/Septa_25/HLZ = 7.5 mm
+s:Ge/Septa_25/Material = "Al_Mylar"
+d:Ge/Septa_25/TransX = Ge/CWO_25/TransX - 2 mm
+d:Ge/Septa_25/TransY = -8.0 mm
+
+s:Ge/Septa_top25/Parent   = "SeptaGroup"
+s:Ge/Septa_top25/Type = "TsBox"
+d:Ge/Septa_top25/HLX = 2. mm
+d:Ge/Septa_top25/HLY = 0.430 mm
+d:Ge/Septa_top25/HLZ = 7.5 mm
+s:Ge/Septa_top25/Material = "Al_Mylar"
+d:Ge/Septa_top25/TransY = Ge/CWO_25/TransY - 2 mm
+d:Ge/Septa_top25/TransX = -12.0 mm
+
+s:Ge/CWO_26/Parent   = "SeptaGroup"
+s:Ge/CWO_26/Type = "TsBox"
+d:Ge/CWO_26/HLX = 1.570 mm
+d:Ge/CWO_26/HLY = 1.570 mm
+d:Ge/CWO_26/HLZ = 7.5 mm
+s:Ge/CWO_26/Material = "CWO"
+d:Ge/CWO_26/TransX = -12.0 mm
+d:Ge/CWO_26/TransY = -4.0 mm
+
+s:Ge/Septa_26/Parent   = "SeptaGroup"
+s:Ge/Septa_26/Type = "TsBox"
+d:Ge/Septa_26/HLX = 0.430 mm
+d:Ge/Septa_26/HLY = 1.570 mm
+d:Ge/Septa_26/HLZ = 7.5 mm
+s:Ge/Septa_26/Material = "Al_Mylar"
+d:Ge/Septa_26/TransX = Ge/CWO_26/TransX - 2 mm
+d:Ge/Septa_26/TransY = -4.0 mm
+
+s:Ge/Septa_top26/Parent   = "SeptaGroup"
+s:Ge/Septa_top26/Type = "TsBox"
+d:Ge/Septa_top26/HLX = 2. mm
+d:Ge/Septa_top26/HLY = 0.430 mm
+d:Ge/Septa_top26/HLZ = 7.5 mm
+s:Ge/Septa_top26/Material = "Al_Mylar"
+d:Ge/Septa_top26/TransY = Ge/CWO_26/TransY - 2 mm
+d:Ge/Septa_top26/TransX = -12.0 mm
+
+s:Ge/CWO_27/Parent   = "SeptaGroup"
+s:Ge/CWO_27/Type = "TsBox"
+d:Ge/CWO_27/HLX = 1.570 mm
+d:Ge/CWO_27/HLY = 1.570 mm
+d:Ge/CWO_27/HLZ = 7.5 mm
+s:Ge/CWO_27/Material = "CWO"
+d:Ge/CWO_27/TransX = -12.0 mm
+d:Ge/CWO_27/TransY = 0.0 mm
+
+s:Ge/Septa_27/Parent   = "SeptaGroup"
+s:Ge/Septa_27/Type = "TsBox"
+d:Ge/Septa_27/HLX = 0.430 mm
+d:Ge/Septa_27/HLY = 1.570 mm
+d:Ge/Septa_27/HLZ = 7.5 mm
+s:Ge/Septa_27/Material = "Al_Mylar"
+d:Ge/Septa_27/TransX = Ge/CWO_27/TransX - 2 mm
+d:Ge/Septa_27/TransY = 0.0 mm
+
+s:Ge/Septa_top27/Parent   = "SeptaGroup"
+s:Ge/Septa_top27/Type = "TsBox"
+d:Ge/Septa_top27/HLX = 2. mm
+d:Ge/Septa_top27/HLY = 0.430 mm
+d:Ge/Septa_top27/HLZ = 7.5 mm
+s:Ge/Septa_top27/Material = "Al_Mylar"
+d:Ge/Septa_top27/TransY = Ge/CWO_27/TransY - 2 mm
+d:Ge/Septa_top27/TransX = -12.0 mm
+
+s:Ge/CWO_28/Parent   = "SeptaGroup"
+s:Ge/CWO_28/Type = "TsBox"
+d:Ge/CWO_28/HLX = 1.570 mm
+d:Ge/CWO_28/HLY = 1.570 mm
+d:Ge/CWO_28/HLZ = 7.5 mm
+s:Ge/CWO_28/Material = "CWO"
+d:Ge/CWO_28/TransX = -12.0 mm
+d:Ge/CWO_28/TransY = 4.0 mm
+
+s:Ge/Septa_28/Parent   = "SeptaGroup"
+s:Ge/Septa_28/Type = "TsBox"
+d:Ge/Septa_28/HLX = 0.430 mm
+d:Ge/Septa_28/HLY = 1.570 mm
+d:Ge/Septa_28/HLZ = 7.5 mm
+s:Ge/Septa_28/Material = "Al_Mylar"
+d:Ge/Septa_28/TransX = Ge/CWO_28/TransX - 2 mm
+d:Ge/Septa_28/TransY = 4.0 mm
+
+s:Ge/Septa_top28/Parent   = "SeptaGroup"
+s:Ge/Septa_top28/Type = "TsBox"
+d:Ge/Septa_top28/HLX = 2. mm
+d:Ge/Septa_top28/HLY = 0.430 mm
+d:Ge/Septa_top28/HLZ = 7.5 mm
+s:Ge/Septa_top28/Material = "Al_Mylar"
+d:Ge/Septa_top28/TransY = Ge/CWO_28/TransY - 2 mm
+d:Ge/Septa_top28/TransX = -12.0 mm
+
+s:Ge/CWO_29/Parent   = "SeptaGroup"
+s:Ge/CWO_29/Type = "TsBox"
+d:Ge/CWO_29/HLX = 1.570 mm
+d:Ge/CWO_29/HLY = 1.570 mm
+d:Ge/CWO_29/HLZ = 7.5 mm
+s:Ge/CWO_29/Material = "CWO"
+d:Ge/CWO_29/TransX = -12.0 mm
+d:Ge/CWO_29/TransY = 8.0 mm
+
+s:Ge/Septa_29/Parent   = "SeptaGroup"
+s:Ge/Septa_29/Type = "TsBox"
+d:Ge/Septa_29/HLX = 0.430 mm
+d:Ge/Septa_29/HLY = 1.570 mm
+d:Ge/Septa_29/HLZ = 7.5 mm
+s:Ge/Septa_29/Material = "Al_Mylar"
+d:Ge/Septa_29/TransX = Ge/CWO_29/TransX - 2 mm
+d:Ge/Septa_29/TransY = 8.0 mm
+
+s:Ge/Septa_top29/Parent   = "SeptaGroup"
+s:Ge/Septa_top29/Type = "TsBox"
+d:Ge/Septa_top29/HLX = 2. mm
+d:Ge/Septa_top29/HLY = 0.430 mm
+d:Ge/Septa_top29/HLZ = 7.5 mm
+s:Ge/Septa_top29/Material = "Al_Mylar"
+d:Ge/Septa_top29/TransY = Ge/CWO_29/TransY - 2 mm
+d:Ge/Septa_top29/TransX = -12.0 mm
+
+s:Ge/CWO_30/Parent   = "SeptaGroup"
+s:Ge/CWO_30/Type = "TsBox"
+d:Ge/CWO_30/HLX = 1.570 mm
+d:Ge/CWO_30/HLY = 1.570 mm
+d:Ge/CWO_30/HLZ = 7.5 mm
+s:Ge/CWO_30/Material = "CWO"
+d:Ge/CWO_30/TransX = -12.0 mm
+d:Ge/CWO_30/TransY = 12.0 mm
+
+s:Ge/Septa_30/Parent   = "SeptaGroup"
+s:Ge/Septa_30/Type = "TsBox"
+d:Ge/Septa_30/HLX = 0.430 mm
+d:Ge/Septa_30/HLY = 1.570 mm
+d:Ge/Septa_30/HLZ = 7.5 mm
+s:Ge/Septa_30/Material = "Al_Mylar"
+d:Ge/Septa_30/TransX = Ge/CWO_30/TransX - 2 mm
+d:Ge/Septa_30/TransY = 12.0 mm
+
+s:Ge/Septa_top30/Parent   = "SeptaGroup"
+s:Ge/Septa_top30/Type = "TsBox"
+d:Ge/Septa_top30/HLX = 2. mm
+d:Ge/Septa_top30/HLY = 0.430 mm
+d:Ge/Septa_top30/HLZ = 7.5 mm
+s:Ge/Septa_top30/Material = "Al_Mylar"
+d:Ge/Septa_top30/TransY = Ge/CWO_30/TransY - 2 mm
+d:Ge/Septa_top30/TransX = -12.0 mm
+
+s:Ge/CWO_31/Parent   = "SeptaGroup"
+s:Ge/CWO_31/Type = "TsBox"
+d:Ge/CWO_31/HLX = 1.570 mm
+d:Ge/CWO_31/HLY = 1.570 mm
+d:Ge/CWO_31/HLZ = 7.5 mm
+s:Ge/CWO_31/Material = "CWO"
+d:Ge/CWO_31/TransX = -12.0 mm
+d:Ge/CWO_31/TransY = 16.0 mm
+
+s:Ge/Septa_31/Parent   = "SeptaGroup"
+s:Ge/Septa_31/Type = "TsBox"
+d:Ge/Septa_31/HLX = 0.430 mm
+d:Ge/Septa_31/HLY = 1.570 mm
+d:Ge/Septa_31/HLZ = 7.5 mm
+s:Ge/Septa_31/Material = "Al_Mylar"
+d:Ge/Septa_31/TransX = Ge/CWO_31/TransX - 2 mm
+d:Ge/Septa_31/TransY = 16.0 mm
+
+s:Ge/Septa_top31/Parent   = "SeptaGroup"
+s:Ge/Septa_top31/Type = "TsBox"
+d:Ge/Septa_top31/HLX = 2. mm
+d:Ge/Septa_top31/HLY = 0.430 mm
+d:Ge/Septa_top31/HLZ = 7.5 mm
+s:Ge/Septa_top31/Material = "Al_Mylar"
+d:Ge/Septa_top31/TransY = Ge/CWO_31/TransY - 2 mm
+d:Ge/Septa_top31/TransX = -12.0 mm
+
+s:Ge/CWO_32/Parent   = "SeptaGroup"
+s:Ge/CWO_32/Type = "TsBox"
+d:Ge/CWO_32/HLX = 1.570 mm
+d:Ge/CWO_32/HLY = 1.570 mm
+d:Ge/CWO_32/HLZ = 7.5 mm
+s:Ge/CWO_32/Material = "CWO"
+d:Ge/CWO_32/TransX = -12.0 mm
+d:Ge/CWO_32/TransY = 20.0 mm
+
+s:Ge/Septa_32/Parent   = "SeptaGroup"
+s:Ge/Septa_32/Type = "TsBox"
+d:Ge/Septa_32/HLX = 0.430 mm
+d:Ge/Septa_32/HLY = 1.570 mm
+d:Ge/Septa_32/HLZ = 7.5 mm
+s:Ge/Septa_32/Material = "Al_Mylar"
+d:Ge/Septa_32/TransX = Ge/CWO_32/TransX - 2 mm
+d:Ge/Septa_32/TransY = 20.0 mm
+
+s:Ge/Septa_top32/Parent   = "SeptaGroup"
+s:Ge/Septa_top32/Type = "TsBox"
+d:Ge/Septa_top32/HLX = 2. mm
+d:Ge/Septa_top32/HLY = 0.430 mm
+d:Ge/Septa_top32/HLZ = 7.5 mm
+s:Ge/Septa_top32/Material = "Al_Mylar"
+d:Ge/Septa_top32/TransY = Ge/CWO_32/TransY - 2 mm
+d:Ge/Septa_top32/TransX = -12.0 mm
+
+s:Ge/Septa_bottom32/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom32/Type = "TsBox"
+d:Ge/Septa_bottom32/HLX = 2. mm
+d:Ge/Septa_bottom32/HLY = 0.430 mm
+d:Ge/Septa_bottom32/HLZ = 7.5 mm
+s:Ge/Septa_bottom32/Material = "Al_Mylar"
+d:Ge/Septa_bottom32/TransY = Ge/CWO_32/TransY + 2 mm
+d:Ge/Septa_bottom32/TransX = -12.0 mm
+
+s:Ge/CWO_33/Parent   = "SeptaGroup"
+s:Ge/CWO_33/Type = "TsBox"
+d:Ge/CWO_33/HLX = 1.570 mm
+d:Ge/CWO_33/HLY = 1.570 mm
+d:Ge/CWO_33/HLZ = 7.5 mm
+s:Ge/CWO_33/Material = "CWO"
+d:Ge/CWO_33/TransX = -8.0 mm
+d:Ge/CWO_33/TransY = -20.0 mm
+
+s:Ge/Septa_33/Parent   = "SeptaGroup"
+s:Ge/Septa_33/Type = "TsBox"
+d:Ge/Septa_33/HLX = 0.430 mm
+d:Ge/Septa_33/HLY = 1.570 mm
+d:Ge/Septa_33/HLZ = 7.5 mm
+s:Ge/Septa_33/Material = "Al_Mylar"
+d:Ge/Septa_33/TransX = Ge/CWO_33/TransX - 2 mm
+d:Ge/Septa_33/TransY = -20.0 mm
+
+s:Ge/Septa_top33/Parent   = "SeptaGroup"
+s:Ge/Septa_top33/Type = "TsBox"
+d:Ge/Septa_top33/HLX = 2. mm
+d:Ge/Septa_top33/HLY = 0.430 mm
+d:Ge/Septa_top33/HLZ = 7.5 mm
+s:Ge/Septa_top33/Material = "Al_Mylar"
+d:Ge/Septa_top33/TransY = Ge/CWO_33/TransY - 2 mm
+d:Ge/Septa_top33/TransX = -8.0 mm
+
+s:Ge/CWO_34/Parent   = "SeptaGroup"
+s:Ge/CWO_34/Type = "TsBox"
+d:Ge/CWO_34/HLX = 1.570 mm
+d:Ge/CWO_34/HLY = 1.570 mm
+d:Ge/CWO_34/HLZ = 7.5 mm
+s:Ge/CWO_34/Material = "CWO"
+d:Ge/CWO_34/TransX = -8.0 mm
+d:Ge/CWO_34/TransY = -16.0 mm
+
+s:Ge/Septa_34/Parent   = "SeptaGroup"
+s:Ge/Septa_34/Type = "TsBox"
+d:Ge/Septa_34/HLX = 0.430 mm
+d:Ge/Septa_34/HLY = 1.570 mm
+d:Ge/Septa_34/HLZ = 7.5 mm
+s:Ge/Septa_34/Material = "Al_Mylar"
+d:Ge/Septa_34/TransX = Ge/CWO_34/TransX - 2 mm
+d:Ge/Septa_34/TransY = -16.0 mm
+
+s:Ge/Septa_top34/Parent   = "SeptaGroup"
+s:Ge/Septa_top34/Type = "TsBox"
+d:Ge/Septa_top34/HLX = 2. mm
+d:Ge/Septa_top34/HLY = 0.430 mm
+d:Ge/Septa_top34/HLZ = 7.5 mm
+s:Ge/Septa_top34/Material = "Al_Mylar"
+d:Ge/Septa_top34/TransY = Ge/CWO_34/TransY - 2 mm
+d:Ge/Septa_top34/TransX = -8.0 mm
+
+s:Ge/CWO_35/Parent   = "SeptaGroup"
+s:Ge/CWO_35/Type = "TsBox"
+d:Ge/CWO_35/HLX = 1.570 mm
+d:Ge/CWO_35/HLY = 1.570 mm
+d:Ge/CWO_35/HLZ = 7.5 mm
+s:Ge/CWO_35/Material = "CWO"
+d:Ge/CWO_35/TransX = -8.0 mm
+d:Ge/CWO_35/TransY = -12.0 mm
+
+s:Ge/Septa_35/Parent   = "SeptaGroup"
+s:Ge/Septa_35/Type = "TsBox"
+d:Ge/Septa_35/HLX = 0.430 mm
+d:Ge/Septa_35/HLY = 1.570 mm
+d:Ge/Septa_35/HLZ = 7.5 mm
+s:Ge/Septa_35/Material = "Al_Mylar"
+d:Ge/Septa_35/TransX = Ge/CWO_35/TransX - 2 mm
+d:Ge/Septa_35/TransY = -12.0 mm
+
+s:Ge/Septa_top35/Parent   = "SeptaGroup"
+s:Ge/Septa_top35/Type = "TsBox"
+d:Ge/Septa_top35/HLX = 2. mm
+d:Ge/Septa_top35/HLY = 0.430 mm
+d:Ge/Septa_top35/HLZ = 7.5 mm
+s:Ge/Septa_top35/Material = "Al_Mylar"
+d:Ge/Septa_top35/TransY = Ge/CWO_35/TransY - 2 mm
+d:Ge/Septa_top35/TransX = -8.0 mm
+
+s:Ge/CWO_36/Parent   = "SeptaGroup"
+s:Ge/CWO_36/Type = "TsBox"
+d:Ge/CWO_36/HLX = 1.570 mm
+d:Ge/CWO_36/HLY = 1.570 mm
+d:Ge/CWO_36/HLZ = 7.5 mm
+s:Ge/CWO_36/Material = "CWO"
+d:Ge/CWO_36/TransX = -8.0 mm
+d:Ge/CWO_36/TransY = -8.0 mm
+
+s:Ge/Septa_36/Parent   = "SeptaGroup"
+s:Ge/Septa_36/Type = "TsBox"
+d:Ge/Septa_36/HLX = 0.430 mm
+d:Ge/Septa_36/HLY = 1.570 mm
+d:Ge/Septa_36/HLZ = 7.5 mm
+s:Ge/Septa_36/Material = "Al_Mylar"
+d:Ge/Septa_36/TransX = Ge/CWO_36/TransX - 2 mm
+d:Ge/Septa_36/TransY = -8.0 mm
+
+s:Ge/Septa_top36/Parent   = "SeptaGroup"
+s:Ge/Septa_top36/Type = "TsBox"
+d:Ge/Septa_top36/HLX = 2. mm
+d:Ge/Septa_top36/HLY = 0.430 mm
+d:Ge/Septa_top36/HLZ = 7.5 mm
+s:Ge/Septa_top36/Material = "Al_Mylar"
+d:Ge/Septa_top36/TransY = Ge/CWO_36/TransY - 2 mm
+d:Ge/Septa_top36/TransX = -8.0 mm
+
+s:Ge/CWO_37/Parent   = "SeptaGroup"
+s:Ge/CWO_37/Type = "TsBox"
+d:Ge/CWO_37/HLX = 1.570 mm
+d:Ge/CWO_37/HLY = 1.570 mm
+d:Ge/CWO_37/HLZ = 7.5 mm
+s:Ge/CWO_37/Material = "CWO"
+d:Ge/CWO_37/TransX = -8.0 mm
+d:Ge/CWO_37/TransY = -4.0 mm
+
+s:Ge/Septa_37/Parent   = "SeptaGroup"
+s:Ge/Septa_37/Type = "TsBox"
+d:Ge/Septa_37/HLX = 0.430 mm
+d:Ge/Septa_37/HLY = 1.570 mm
+d:Ge/Septa_37/HLZ = 7.5 mm
+s:Ge/Septa_37/Material = "Al_Mylar"
+d:Ge/Septa_37/TransX = Ge/CWO_37/TransX - 2 mm
+d:Ge/Septa_37/TransY = -4.0 mm
+
+s:Ge/Septa_top37/Parent   = "SeptaGroup"
+s:Ge/Septa_top37/Type = "TsBox"
+d:Ge/Septa_top37/HLX = 2. mm
+d:Ge/Septa_top37/HLY = 0.430 mm
+d:Ge/Septa_top37/HLZ = 7.5 mm
+s:Ge/Septa_top37/Material = "Al_Mylar"
+d:Ge/Septa_top37/TransY = Ge/CWO_37/TransY - 2 mm
+d:Ge/Septa_top37/TransX = -8.0 mm
+
+s:Ge/CWO_38/Parent   = "SeptaGroup"
+s:Ge/CWO_38/Type = "TsBox"
+d:Ge/CWO_38/HLX = 1.570 mm
+d:Ge/CWO_38/HLY = 1.570 mm
+d:Ge/CWO_38/HLZ = 7.5 mm
+s:Ge/CWO_38/Material = "CWO"
+d:Ge/CWO_38/TransX = -8.0 mm
+d:Ge/CWO_38/TransY = 0.0 mm
+
+s:Ge/Septa_38/Parent   = "SeptaGroup"
+s:Ge/Septa_38/Type = "TsBox"
+d:Ge/Septa_38/HLX = 0.430 mm
+d:Ge/Septa_38/HLY = 1.570 mm
+d:Ge/Septa_38/HLZ = 7.5 mm
+s:Ge/Septa_38/Material = "Al_Mylar"
+d:Ge/Septa_38/TransX = Ge/CWO_38/TransX - 2 mm
+d:Ge/Septa_38/TransY = 0.0 mm
+
+s:Ge/Septa_top38/Parent   = "SeptaGroup"
+s:Ge/Septa_top38/Type = "TsBox"
+d:Ge/Septa_top38/HLX = 2. mm
+d:Ge/Septa_top38/HLY = 0.430 mm
+d:Ge/Septa_top38/HLZ = 7.5 mm
+s:Ge/Septa_top38/Material = "Al_Mylar"
+d:Ge/Septa_top38/TransY = Ge/CWO_38/TransY - 2 mm
+d:Ge/Septa_top38/TransX = -8.0 mm
+
+s:Ge/CWO_39/Parent   = "SeptaGroup"
+s:Ge/CWO_39/Type = "TsBox"
+d:Ge/CWO_39/HLX = 1.570 mm
+d:Ge/CWO_39/HLY = 1.570 mm
+d:Ge/CWO_39/HLZ = 7.5 mm
+s:Ge/CWO_39/Material = "CWO"
+d:Ge/CWO_39/TransX = -8.0 mm
+d:Ge/CWO_39/TransY = 4.0 mm
+
+s:Ge/Septa_39/Parent   = "SeptaGroup"
+s:Ge/Septa_39/Type = "TsBox"
+d:Ge/Septa_39/HLX = 0.430 mm
+d:Ge/Septa_39/HLY = 1.570 mm
+d:Ge/Septa_39/HLZ = 7.5 mm
+s:Ge/Septa_39/Material = "Al_Mylar"
+d:Ge/Septa_39/TransX = Ge/CWO_39/TransX - 2 mm
+d:Ge/Septa_39/TransY = 4.0 mm
+
+s:Ge/Septa_top39/Parent   = "SeptaGroup"
+s:Ge/Septa_top39/Type = "TsBox"
+d:Ge/Septa_top39/HLX = 2. mm
+d:Ge/Septa_top39/HLY = 0.430 mm
+d:Ge/Septa_top39/HLZ = 7.5 mm
+s:Ge/Septa_top39/Material = "Al_Mylar"
+d:Ge/Septa_top39/TransY = Ge/CWO_39/TransY - 2 mm
+d:Ge/Septa_top39/TransX = -8.0 mm
+
+s:Ge/CWO_40/Parent   = "SeptaGroup"
+s:Ge/CWO_40/Type = "TsBox"
+d:Ge/CWO_40/HLX = 1.570 mm
+d:Ge/CWO_40/HLY = 1.570 mm
+d:Ge/CWO_40/HLZ = 7.5 mm
+s:Ge/CWO_40/Material = "CWO"
+d:Ge/CWO_40/TransX = -8.0 mm
+d:Ge/CWO_40/TransY = 8.0 mm
+
+s:Ge/Septa_40/Parent   = "SeptaGroup"
+s:Ge/Septa_40/Type = "TsBox"
+d:Ge/Septa_40/HLX = 0.430 mm
+d:Ge/Septa_40/HLY = 1.570 mm
+d:Ge/Septa_40/HLZ = 7.5 mm
+s:Ge/Septa_40/Material = "Al_Mylar"
+d:Ge/Septa_40/TransX = Ge/CWO_40/TransX - 2 mm
+d:Ge/Septa_40/TransY = 8.0 mm
+
+s:Ge/Septa_top40/Parent   = "SeptaGroup"
+s:Ge/Septa_top40/Type = "TsBox"
+d:Ge/Septa_top40/HLX = 2. mm
+d:Ge/Septa_top40/HLY = 0.430 mm
+d:Ge/Septa_top40/HLZ = 7.5 mm
+s:Ge/Septa_top40/Material = "Al_Mylar"
+d:Ge/Septa_top40/TransY = Ge/CWO_40/TransY - 2 mm
+d:Ge/Septa_top40/TransX = -8.0 mm
+
+s:Ge/CWO_41/Parent   = "SeptaGroup"
+s:Ge/CWO_41/Type = "TsBox"
+d:Ge/CWO_41/HLX = 1.570 mm
+d:Ge/CWO_41/HLY = 1.570 mm
+d:Ge/CWO_41/HLZ = 7.5 mm
+s:Ge/CWO_41/Material = "CWO"
+d:Ge/CWO_41/TransX = -8.0 mm
+d:Ge/CWO_41/TransY = 12.0 mm
+
+s:Ge/Septa_41/Parent   = "SeptaGroup"
+s:Ge/Septa_41/Type = "TsBox"
+d:Ge/Septa_41/HLX = 0.430 mm
+d:Ge/Septa_41/HLY = 1.570 mm
+d:Ge/Septa_41/HLZ = 7.5 mm
+s:Ge/Septa_41/Material = "Al_Mylar"
+d:Ge/Septa_41/TransX = Ge/CWO_41/TransX - 2 mm
+d:Ge/Septa_41/TransY = 12.0 mm
+
+s:Ge/Septa_top41/Parent   = "SeptaGroup"
+s:Ge/Septa_top41/Type = "TsBox"
+d:Ge/Septa_top41/HLX = 2. mm
+d:Ge/Septa_top41/HLY = 0.430 mm
+d:Ge/Septa_top41/HLZ = 7.5 mm
+s:Ge/Septa_top41/Material = "Al_Mylar"
+d:Ge/Septa_top41/TransY = Ge/CWO_41/TransY - 2 mm
+d:Ge/Septa_top41/TransX = -8.0 mm
+
+s:Ge/CWO_42/Parent   = "SeptaGroup"
+s:Ge/CWO_42/Type = "TsBox"
+d:Ge/CWO_42/HLX = 1.570 mm
+d:Ge/CWO_42/HLY = 1.570 mm
+d:Ge/CWO_42/HLZ = 7.5 mm
+s:Ge/CWO_42/Material = "CWO"
+d:Ge/CWO_42/TransX = -8.0 mm
+d:Ge/CWO_42/TransY = 16.0 mm
+
+s:Ge/Septa_42/Parent   = "SeptaGroup"
+s:Ge/Septa_42/Type = "TsBox"
+d:Ge/Septa_42/HLX = 0.430 mm
+d:Ge/Septa_42/HLY = 1.570 mm
+d:Ge/Septa_42/HLZ = 7.5 mm
+s:Ge/Septa_42/Material = "Al_Mylar"
+d:Ge/Septa_42/TransX = Ge/CWO_42/TransX - 2 mm
+d:Ge/Septa_42/TransY = 16.0 mm
+
+s:Ge/Septa_top42/Parent   = "SeptaGroup"
+s:Ge/Septa_top42/Type = "TsBox"
+d:Ge/Septa_top42/HLX = 2. mm
+d:Ge/Septa_top42/HLY = 0.430 mm
+d:Ge/Septa_top42/HLZ = 7.5 mm
+s:Ge/Septa_top42/Material = "Al_Mylar"
+d:Ge/Septa_top42/TransY = Ge/CWO_42/TransY - 2 mm
+d:Ge/Septa_top42/TransX = -8.0 mm
+
+s:Ge/CWO_43/Parent   = "SeptaGroup"
+s:Ge/CWO_43/Type = "TsBox"
+d:Ge/CWO_43/HLX = 1.570 mm
+d:Ge/CWO_43/HLY = 1.570 mm
+d:Ge/CWO_43/HLZ = 7.5 mm
+s:Ge/CWO_43/Material = "CWO"
+d:Ge/CWO_43/TransX = -8.0 mm
+d:Ge/CWO_43/TransY = 20.0 mm
+
+s:Ge/Septa_43/Parent   = "SeptaGroup"
+s:Ge/Septa_43/Type = "TsBox"
+d:Ge/Septa_43/HLX = 0.430 mm
+d:Ge/Septa_43/HLY = 1.570 mm
+d:Ge/Septa_43/HLZ = 7.5 mm
+s:Ge/Septa_43/Material = "Al_Mylar"
+d:Ge/Septa_43/TransX = Ge/CWO_43/TransX - 2 mm
+d:Ge/Septa_43/TransY = 20.0 mm
+
+s:Ge/Septa_top43/Parent   = "SeptaGroup"
+s:Ge/Septa_top43/Type = "TsBox"
+d:Ge/Septa_top43/HLX = 2. mm
+d:Ge/Septa_top43/HLY = 0.430 mm
+d:Ge/Septa_top43/HLZ = 7.5 mm
+s:Ge/Septa_top43/Material = "Al_Mylar"
+d:Ge/Septa_top43/TransY = Ge/CWO_43/TransY - 2 mm
+d:Ge/Septa_top43/TransX = -8.0 mm
+
+s:Ge/Septa_bottom43/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom43/Type = "TsBox"
+d:Ge/Septa_bottom43/HLX = 2. mm
+d:Ge/Septa_bottom43/HLY = 0.430 mm
+d:Ge/Septa_bottom43/HLZ = 7.5 mm
+s:Ge/Septa_bottom43/Material = "Al_Mylar"
+d:Ge/Septa_bottom43/TransY = Ge/CWO_43/TransY + 2 mm
+d:Ge/Septa_bottom43/TransX = -8.0 mm
+
+s:Ge/CWO_44/Parent   = "SeptaGroup"
+s:Ge/CWO_44/Type = "TsBox"
+d:Ge/CWO_44/HLX = 1.570 mm
+d:Ge/CWO_44/HLY = 1.570 mm
+d:Ge/CWO_44/HLZ = 7.5 mm
+s:Ge/CWO_44/Material = "CWO"
+d:Ge/CWO_44/TransX = -4.0 mm
+d:Ge/CWO_44/TransY = -20.0 mm
+
+s:Ge/Septa_44/Parent   = "SeptaGroup"
+s:Ge/Septa_44/Type = "TsBox"
+d:Ge/Septa_44/HLX = 0.430 mm
+d:Ge/Septa_44/HLY = 1.570 mm
+d:Ge/Septa_44/HLZ = 7.5 mm
+s:Ge/Septa_44/Material = "Al_Mylar"
+d:Ge/Septa_44/TransX = Ge/CWO_44/TransX - 2 mm
+d:Ge/Septa_44/TransY = -20.0 mm
+
+s:Ge/Septa_top44/Parent   = "SeptaGroup"
+s:Ge/Septa_top44/Type = "TsBox"
+d:Ge/Septa_top44/HLX = 2. mm
+d:Ge/Septa_top44/HLY = 0.430 mm
+d:Ge/Septa_top44/HLZ = 7.5 mm
+s:Ge/Septa_top44/Material = "Al_Mylar"
+d:Ge/Septa_top44/TransY = Ge/CWO_44/TransY - 2 mm
+d:Ge/Septa_top44/TransX = -4.0 mm
+
+s:Ge/CWO_45/Parent   = "SeptaGroup"
+s:Ge/CWO_45/Type = "TsBox"
+d:Ge/CWO_45/HLX = 1.570 mm
+d:Ge/CWO_45/HLY = 1.570 mm
+d:Ge/CWO_45/HLZ = 7.5 mm
+s:Ge/CWO_45/Material = "CWO"
+d:Ge/CWO_45/TransX = -4.0 mm
+d:Ge/CWO_45/TransY = -16.0 mm
+
+s:Ge/Septa_45/Parent   = "SeptaGroup"
+s:Ge/Septa_45/Type = "TsBox"
+d:Ge/Septa_45/HLX = 0.430 mm
+d:Ge/Septa_45/HLY = 1.570 mm
+d:Ge/Septa_45/HLZ = 7.5 mm
+s:Ge/Septa_45/Material = "Al_Mylar"
+d:Ge/Septa_45/TransX = Ge/CWO_45/TransX - 2 mm
+d:Ge/Septa_45/TransY = -16.0 mm
+
+s:Ge/Septa_top45/Parent   = "SeptaGroup"
+s:Ge/Septa_top45/Type = "TsBox"
+d:Ge/Septa_top45/HLX = 2. mm
+d:Ge/Septa_top45/HLY = 0.430 mm
+d:Ge/Septa_top45/HLZ = 7.5 mm
+s:Ge/Septa_top45/Material = "Al_Mylar"
+d:Ge/Septa_top45/TransY = Ge/CWO_45/TransY - 2 mm
+d:Ge/Septa_top45/TransX = -4.0 mm
+
+s:Ge/CWO_46/Parent   = "SeptaGroup"
+s:Ge/CWO_46/Type = "TsBox"
+d:Ge/CWO_46/HLX = 1.570 mm
+d:Ge/CWO_46/HLY = 1.570 mm
+d:Ge/CWO_46/HLZ = 7.5 mm
+s:Ge/CWO_46/Material = "CWO"
+d:Ge/CWO_46/TransX = -4.0 mm
+d:Ge/CWO_46/TransY = -12.0 mm
+
+s:Ge/Septa_46/Parent   = "SeptaGroup"
+s:Ge/Septa_46/Type = "TsBox"
+d:Ge/Septa_46/HLX = 0.430 mm
+d:Ge/Septa_46/HLY = 1.570 mm
+d:Ge/Septa_46/HLZ = 7.5 mm
+s:Ge/Septa_46/Material = "Al_Mylar"
+d:Ge/Septa_46/TransX = Ge/CWO_46/TransX - 2 mm
+d:Ge/Septa_46/TransY = -12.0 mm
+
+s:Ge/Septa_top46/Parent   = "SeptaGroup"
+s:Ge/Septa_top46/Type = "TsBox"
+d:Ge/Septa_top46/HLX = 2. mm
+d:Ge/Septa_top46/HLY = 0.430 mm
+d:Ge/Septa_top46/HLZ = 7.5 mm
+s:Ge/Septa_top46/Material = "Al_Mylar"
+d:Ge/Septa_top46/TransY = Ge/CWO_46/TransY - 2 mm
+d:Ge/Septa_top46/TransX = -4.0 mm
+
+s:Ge/CWO_47/Parent   = "SeptaGroup"
+s:Ge/CWO_47/Type = "TsBox"
+d:Ge/CWO_47/HLX = 1.570 mm
+d:Ge/CWO_47/HLY = 1.570 mm
+d:Ge/CWO_47/HLZ = 7.5 mm
+s:Ge/CWO_47/Material = "CWO"
+d:Ge/CWO_47/TransX = -4.0 mm
+d:Ge/CWO_47/TransY = -8.0 mm
+
+s:Ge/Septa_47/Parent   = "SeptaGroup"
+s:Ge/Septa_47/Type = "TsBox"
+d:Ge/Septa_47/HLX = 0.430 mm
+d:Ge/Septa_47/HLY = 1.570 mm
+d:Ge/Septa_47/HLZ = 7.5 mm
+s:Ge/Septa_47/Material = "Al_Mylar"
+d:Ge/Septa_47/TransX = Ge/CWO_47/TransX - 2 mm
+d:Ge/Septa_47/TransY = -8.0 mm
+
+s:Ge/Septa_top47/Parent   = "SeptaGroup"
+s:Ge/Septa_top47/Type = "TsBox"
+d:Ge/Septa_top47/HLX = 2. mm
+d:Ge/Septa_top47/HLY = 0.430 mm
+d:Ge/Septa_top47/HLZ = 7.5 mm
+s:Ge/Septa_top47/Material = "Al_Mylar"
+d:Ge/Septa_top47/TransY = Ge/CWO_47/TransY - 2 mm
+d:Ge/Septa_top47/TransX = -4.0 mm
+
+s:Ge/CWO_48/Parent   = "SeptaGroup"
+s:Ge/CWO_48/Type = "TsBox"
+d:Ge/CWO_48/HLX = 1.570 mm
+d:Ge/CWO_48/HLY = 1.570 mm
+d:Ge/CWO_48/HLZ = 7.5 mm
+s:Ge/CWO_48/Material = "CWO"
+d:Ge/CWO_48/TransX = -4.0 mm
+d:Ge/CWO_48/TransY = -4.0 mm
+
+s:Ge/Septa_48/Parent   = "SeptaGroup"
+s:Ge/Septa_48/Type = "TsBox"
+d:Ge/Septa_48/HLX = 0.430 mm
+d:Ge/Septa_48/HLY = 1.570 mm
+d:Ge/Septa_48/HLZ = 7.5 mm
+s:Ge/Septa_48/Material = "Al_Mylar"
+d:Ge/Septa_48/TransX = Ge/CWO_48/TransX - 2 mm
+d:Ge/Septa_48/TransY = -4.0 mm
+
+s:Ge/Septa_top48/Parent   = "SeptaGroup"
+s:Ge/Septa_top48/Type = "TsBox"
+d:Ge/Septa_top48/HLX = 2. mm
+d:Ge/Septa_top48/HLY = 0.430 mm
+d:Ge/Septa_top48/HLZ = 7.5 mm
+s:Ge/Septa_top48/Material = "Al_Mylar"
+d:Ge/Septa_top48/TransY = Ge/CWO_48/TransY - 2 mm
+d:Ge/Septa_top48/TransX = -4.0 mm
+
+s:Ge/CWO_49/Parent   = "SeptaGroup"
+s:Ge/CWO_49/Type = "TsBox"
+d:Ge/CWO_49/HLX = 1.570 mm
+d:Ge/CWO_49/HLY = 1.570 mm
+d:Ge/CWO_49/HLZ = 7.5 mm
+s:Ge/CWO_49/Material = "CWO"
+d:Ge/CWO_49/TransX = -4.0 mm
+d:Ge/CWO_49/TransY = 0.0 mm
+
+s:Ge/Septa_49/Parent   = "SeptaGroup"
+s:Ge/Septa_49/Type = "TsBox"
+d:Ge/Septa_49/HLX = 0.430 mm
+d:Ge/Septa_49/HLY = 1.570 mm
+d:Ge/Septa_49/HLZ = 7.5 mm
+s:Ge/Septa_49/Material = "Al_Mylar"
+d:Ge/Septa_49/TransX = Ge/CWO_49/TransX - 2 mm
+d:Ge/Septa_49/TransY = 0.0 mm
+
+s:Ge/Septa_top49/Parent   = "SeptaGroup"
+s:Ge/Septa_top49/Type = "TsBox"
+d:Ge/Septa_top49/HLX = 2. mm
+d:Ge/Septa_top49/HLY = 0.430 mm
+d:Ge/Septa_top49/HLZ = 7.5 mm
+s:Ge/Septa_top49/Material = "Al_Mylar"
+d:Ge/Septa_top49/TransY = Ge/CWO_49/TransY - 2 mm
+d:Ge/Septa_top49/TransX = -4.0 mm
+
+s:Ge/CWO_50/Parent   = "SeptaGroup"
+s:Ge/CWO_50/Type = "TsBox"
+d:Ge/CWO_50/HLX = 1.570 mm
+d:Ge/CWO_50/HLY = 1.570 mm
+d:Ge/CWO_50/HLZ = 7.5 mm
+s:Ge/CWO_50/Material = "CWO"
+d:Ge/CWO_50/TransX = -4.0 mm
+d:Ge/CWO_50/TransY = 4.0 mm
+
+s:Ge/Septa_50/Parent   = "SeptaGroup"
+s:Ge/Septa_50/Type = "TsBox"
+d:Ge/Septa_50/HLX = 0.430 mm
+d:Ge/Septa_50/HLY = 1.570 mm
+d:Ge/Septa_50/HLZ = 7.5 mm
+s:Ge/Septa_50/Material = "Al_Mylar"
+d:Ge/Septa_50/TransX = Ge/CWO_50/TransX - 2 mm
+d:Ge/Septa_50/TransY = 4.0 mm
+
+s:Ge/Septa_top50/Parent   = "SeptaGroup"
+s:Ge/Septa_top50/Type = "TsBox"
+d:Ge/Septa_top50/HLX = 2. mm
+d:Ge/Septa_top50/HLY = 0.430 mm
+d:Ge/Septa_top50/HLZ = 7.5 mm
+s:Ge/Septa_top50/Material = "Al_Mylar"
+d:Ge/Septa_top50/TransY = Ge/CWO_50/TransY - 2 mm
+d:Ge/Septa_top50/TransX = -4.0 mm
+
+s:Ge/CWO_51/Parent   = "SeptaGroup"
+s:Ge/CWO_51/Type = "TsBox"
+d:Ge/CWO_51/HLX = 1.570 mm
+d:Ge/CWO_51/HLY = 1.570 mm
+d:Ge/CWO_51/HLZ = 7.5 mm
+s:Ge/CWO_51/Material = "CWO"
+d:Ge/CWO_51/TransX = -4.0 mm
+d:Ge/CWO_51/TransY = 8.0 mm
+
+s:Ge/Septa_51/Parent   = "SeptaGroup"
+s:Ge/Septa_51/Type = "TsBox"
+d:Ge/Septa_51/HLX = 0.430 mm
+d:Ge/Septa_51/HLY = 1.570 mm
+d:Ge/Septa_51/HLZ = 7.5 mm
+s:Ge/Septa_51/Material = "Al_Mylar"
+d:Ge/Septa_51/TransX = Ge/CWO_51/TransX - 2 mm
+d:Ge/Septa_51/TransY = 8.0 mm
+
+s:Ge/Septa_top51/Parent   = "SeptaGroup"
+s:Ge/Septa_top51/Type = "TsBox"
+d:Ge/Septa_top51/HLX = 2. mm
+d:Ge/Septa_top51/HLY = 0.430 mm
+d:Ge/Septa_top51/HLZ = 7.5 mm
+s:Ge/Septa_top51/Material = "Al_Mylar"
+d:Ge/Septa_top51/TransY = Ge/CWO_51/TransY - 2 mm
+d:Ge/Septa_top51/TransX = -4.0 mm
+
+s:Ge/CWO_52/Parent   = "SeptaGroup"
+s:Ge/CWO_52/Type = "TsBox"
+d:Ge/CWO_52/HLX = 1.570 mm
+d:Ge/CWO_52/HLY = 1.570 mm
+d:Ge/CWO_52/HLZ = 7.5 mm
+s:Ge/CWO_52/Material = "CWO"
+d:Ge/CWO_52/TransX = -4.0 mm
+d:Ge/CWO_52/TransY = 12.0 mm
+
+s:Ge/Septa_52/Parent   = "SeptaGroup"
+s:Ge/Septa_52/Type = "TsBox"
+d:Ge/Septa_52/HLX = 0.430 mm
+d:Ge/Septa_52/HLY = 1.570 mm
+d:Ge/Septa_52/HLZ = 7.5 mm
+s:Ge/Septa_52/Material = "Al_Mylar"
+d:Ge/Septa_52/TransX = Ge/CWO_52/TransX - 2 mm
+d:Ge/Septa_52/TransY = 12.0 mm
+
+s:Ge/Septa_top52/Parent   = "SeptaGroup"
+s:Ge/Septa_top52/Type = "TsBox"
+d:Ge/Septa_top52/HLX = 2. mm
+d:Ge/Septa_top52/HLY = 0.430 mm
+d:Ge/Septa_top52/HLZ = 7.5 mm
+s:Ge/Septa_top52/Material = "Al_Mylar"
+d:Ge/Septa_top52/TransY = Ge/CWO_52/TransY - 2 mm
+d:Ge/Septa_top52/TransX = -4.0 mm
+
+s:Ge/CWO_53/Parent   = "SeptaGroup"
+s:Ge/CWO_53/Type = "TsBox"
+d:Ge/CWO_53/HLX = 1.570 mm
+d:Ge/CWO_53/HLY = 1.570 mm
+d:Ge/CWO_53/HLZ = 7.5 mm
+s:Ge/CWO_53/Material = "CWO"
+d:Ge/CWO_53/TransX = -4.0 mm
+d:Ge/CWO_53/TransY = 16.0 mm
+
+s:Ge/Septa_53/Parent   = "SeptaGroup"
+s:Ge/Septa_53/Type = "TsBox"
+d:Ge/Septa_53/HLX = 0.430 mm
+d:Ge/Septa_53/HLY = 1.570 mm
+d:Ge/Septa_53/HLZ = 7.5 mm
+s:Ge/Septa_53/Material = "Al_Mylar"
+d:Ge/Septa_53/TransX = Ge/CWO_53/TransX - 2 mm
+d:Ge/Septa_53/TransY = 16.0 mm
+
+s:Ge/Septa_top53/Parent   = "SeptaGroup"
+s:Ge/Septa_top53/Type = "TsBox"
+d:Ge/Septa_top53/HLX = 2. mm
+d:Ge/Septa_top53/HLY = 0.430 mm
+d:Ge/Septa_top53/HLZ = 7.5 mm
+s:Ge/Septa_top53/Material = "Al_Mylar"
+d:Ge/Septa_top53/TransY = Ge/CWO_53/TransY - 2 mm
+d:Ge/Septa_top53/TransX = -4.0 mm
+
+s:Ge/CWO_54/Parent   = "SeptaGroup"
+s:Ge/CWO_54/Type = "TsBox"
+d:Ge/CWO_54/HLX = 1.570 mm
+d:Ge/CWO_54/HLY = 1.570 mm
+d:Ge/CWO_54/HLZ = 7.5 mm
+s:Ge/CWO_54/Material = "CWO"
+d:Ge/CWO_54/TransX = -4.0 mm
+d:Ge/CWO_54/TransY = 20.0 mm
+
+s:Ge/Septa_54/Parent   = "SeptaGroup"
+s:Ge/Septa_54/Type = "TsBox"
+d:Ge/Septa_54/HLX = 0.430 mm
+d:Ge/Septa_54/HLY = 1.570 mm
+d:Ge/Septa_54/HLZ = 7.5 mm
+s:Ge/Septa_54/Material = "Al_Mylar"
+d:Ge/Septa_54/TransX = Ge/CWO_54/TransX - 2 mm
+d:Ge/Septa_54/TransY = 20.0 mm
+
+s:Ge/Septa_top54/Parent   = "SeptaGroup"
+s:Ge/Septa_top54/Type = "TsBox"
+d:Ge/Septa_top54/HLX = 2. mm
+d:Ge/Septa_top54/HLY = 0.430 mm
+d:Ge/Septa_top54/HLZ = 7.5 mm
+s:Ge/Septa_top54/Material = "Al_Mylar"
+d:Ge/Septa_top54/TransY = Ge/CWO_54/TransY - 2 mm
+d:Ge/Septa_top54/TransX = -4.0 mm
+
+s:Ge/Septa_bottom54/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom54/Type = "TsBox"
+d:Ge/Septa_bottom54/HLX = 2. mm
+d:Ge/Septa_bottom54/HLY = 0.430 mm
+d:Ge/Septa_bottom54/HLZ = 7.5 mm
+s:Ge/Septa_bottom54/Material = "Al_Mylar"
+d:Ge/Septa_bottom54/TransY = Ge/CWO_54/TransY + 2 mm
+d:Ge/Septa_bottom54/TransX = -4.0 mm
+
+s:Ge/CWO_55/Parent   = "SeptaGroup"
+s:Ge/CWO_55/Type = "TsBox"
+d:Ge/CWO_55/HLX = 1.570 mm
+d:Ge/CWO_55/HLY = 1.570 mm
+d:Ge/CWO_55/HLZ = 7.5 mm
+s:Ge/CWO_55/Material = "CWO"
+d:Ge/CWO_55/TransX = 0.0 mm
+d:Ge/CWO_55/TransY = -20.0 mm
+
+s:Ge/Septa_55/Parent   = "SeptaGroup"
+s:Ge/Septa_55/Type = "TsBox"
+d:Ge/Septa_55/HLX = 0.430 mm
+d:Ge/Septa_55/HLY = 1.570 mm
+d:Ge/Septa_55/HLZ = 7.5 mm
+s:Ge/Septa_55/Material = "Al_Mylar"
+d:Ge/Septa_55/TransX = Ge/CWO_55/TransX - 2 mm
+d:Ge/Septa_55/TransY = -20.0 mm
+
+s:Ge/Septa_top55/Parent   = "SeptaGroup"
+s:Ge/Septa_top55/Type = "TsBox"
+d:Ge/Septa_top55/HLX = 2. mm
+d:Ge/Septa_top55/HLY = 0.430 mm
+d:Ge/Septa_top55/HLZ = 7.5 mm
+s:Ge/Septa_top55/Material = "Al_Mylar"
+d:Ge/Septa_top55/TransY = Ge/CWO_55/TransY - 2 mm
+d:Ge/Septa_top55/TransX = 0.0 mm
+
+s:Ge/CWO_56/Parent   = "SeptaGroup"
+s:Ge/CWO_56/Type = "TsBox"
+d:Ge/CWO_56/HLX = 1.570 mm
+d:Ge/CWO_56/HLY = 1.570 mm
+d:Ge/CWO_56/HLZ = 7.5 mm
+s:Ge/CWO_56/Material = "CWO"
+d:Ge/CWO_56/TransX = 0.0 mm
+d:Ge/CWO_56/TransY = -16.0 mm
+
+s:Ge/Septa_56/Parent   = "SeptaGroup"
+s:Ge/Septa_56/Type = "TsBox"
+d:Ge/Septa_56/HLX = 0.430 mm
+d:Ge/Septa_56/HLY = 1.570 mm
+d:Ge/Septa_56/HLZ = 7.5 mm
+s:Ge/Septa_56/Material = "Al_Mylar"
+d:Ge/Septa_56/TransX = Ge/CWO_56/TransX - 2 mm
+d:Ge/Septa_56/TransY = -16.0 mm
+
+s:Ge/Septa_top56/Parent   = "SeptaGroup"
+s:Ge/Septa_top56/Type = "TsBox"
+d:Ge/Septa_top56/HLX = 2. mm
+d:Ge/Septa_top56/HLY = 0.430 mm
+d:Ge/Septa_top56/HLZ = 7.5 mm
+s:Ge/Septa_top56/Material = "Al_Mylar"
+d:Ge/Septa_top56/TransY = Ge/CWO_56/TransY - 2 mm
+d:Ge/Septa_top56/TransX = 0.0 mm
+
+s:Ge/CWO_57/Parent   = "SeptaGroup"
+s:Ge/CWO_57/Type = "TsBox"
+d:Ge/CWO_57/HLX = 1.570 mm
+d:Ge/CWO_57/HLY = 1.570 mm
+d:Ge/CWO_57/HLZ = 7.5 mm
+s:Ge/CWO_57/Material = "CWO"
+d:Ge/CWO_57/TransX = 0.0 mm
+d:Ge/CWO_57/TransY = -12.0 mm
+
+s:Ge/Septa_57/Parent   = "SeptaGroup"
+s:Ge/Septa_57/Type = "TsBox"
+d:Ge/Septa_57/HLX = 0.430 mm
+d:Ge/Septa_57/HLY = 1.570 mm
+d:Ge/Septa_57/HLZ = 7.5 mm
+s:Ge/Septa_57/Material = "Al_Mylar"
+d:Ge/Septa_57/TransX = Ge/CWO_57/TransX - 2 mm
+d:Ge/Septa_57/TransY = -12.0 mm
+
+s:Ge/Septa_top57/Parent   = "SeptaGroup"
+s:Ge/Septa_top57/Type = "TsBox"
+d:Ge/Septa_top57/HLX = 2. mm
+d:Ge/Septa_top57/HLY = 0.430 mm
+d:Ge/Septa_top57/HLZ = 7.5 mm
+s:Ge/Septa_top57/Material = "Al_Mylar"
+d:Ge/Septa_top57/TransY = Ge/CWO_57/TransY - 2 mm
+d:Ge/Septa_top57/TransX = 0.0 mm
+
+s:Ge/CWO_58/Parent   = "SeptaGroup"
+s:Ge/CWO_58/Type = "TsBox"
+d:Ge/CWO_58/HLX = 1.570 mm
+d:Ge/CWO_58/HLY = 1.570 mm
+d:Ge/CWO_58/HLZ = 7.5 mm
+s:Ge/CWO_58/Material = "CWO"
+d:Ge/CWO_58/TransX = 0.0 mm
+d:Ge/CWO_58/TransY = -8.0 mm
+
+s:Ge/Septa_58/Parent   = "SeptaGroup"
+s:Ge/Septa_58/Type = "TsBox"
+d:Ge/Septa_58/HLX = 0.430 mm
+d:Ge/Septa_58/HLY = 1.570 mm
+d:Ge/Septa_58/HLZ = 7.5 mm
+s:Ge/Septa_58/Material = "Al_Mylar"
+d:Ge/Septa_58/TransX = Ge/CWO_58/TransX - 2 mm
+d:Ge/Septa_58/TransY = -8.0 mm
+
+s:Ge/Septa_top58/Parent   = "SeptaGroup"
+s:Ge/Septa_top58/Type = "TsBox"
+d:Ge/Septa_top58/HLX = 2. mm
+d:Ge/Septa_top58/HLY = 0.430 mm
+d:Ge/Septa_top58/HLZ = 7.5 mm
+s:Ge/Septa_top58/Material = "Al_Mylar"
+d:Ge/Septa_top58/TransY = Ge/CWO_58/TransY - 2 mm
+d:Ge/Septa_top58/TransX = 0.0 mm
+
+s:Ge/CWO_59/Parent   = "SeptaGroup"
+s:Ge/CWO_59/Type = "TsBox"
+d:Ge/CWO_59/HLX = 1.570 mm
+d:Ge/CWO_59/HLY = 1.570 mm
+d:Ge/CWO_59/HLZ = 7.5 mm
+s:Ge/CWO_59/Material = "CWO"
+d:Ge/CWO_59/TransX = 0.0 mm
+d:Ge/CWO_59/TransY = -4.0 mm
+
+s:Ge/Septa_59/Parent   = "SeptaGroup"
+s:Ge/Septa_59/Type = "TsBox"
+d:Ge/Septa_59/HLX = 0.430 mm
+d:Ge/Septa_59/HLY = 1.570 mm
+d:Ge/Septa_59/HLZ = 7.5 mm
+s:Ge/Septa_59/Material = "Al_Mylar"
+d:Ge/Septa_59/TransX = Ge/CWO_59/TransX - 2 mm
+d:Ge/Septa_59/TransY = -4.0 mm
+
+s:Ge/Septa_top59/Parent   = "SeptaGroup"
+s:Ge/Septa_top59/Type = "TsBox"
+d:Ge/Septa_top59/HLX = 2. mm
+d:Ge/Septa_top59/HLY = 0.430 mm
+d:Ge/Septa_top59/HLZ = 7.5 mm
+s:Ge/Septa_top59/Material = "Al_Mylar"
+d:Ge/Septa_top59/TransY = Ge/CWO_59/TransY - 2 mm
+d:Ge/Septa_top59/TransX = 0.0 mm
+
+s:Ge/CWO_60/Parent   = "SeptaGroup"
+s:Ge/CWO_60/Type = "TsBox"
+d:Ge/CWO_60/HLX = 1.570 mm
+d:Ge/CWO_60/HLY = 1.570 mm
+d:Ge/CWO_60/HLZ = 7.5 mm
+s:Ge/CWO_60/Material = "CWO"
+d:Ge/CWO_60/TransX = 0.0 mm
+d:Ge/CWO_60/TransY = 0.0 mm
+
+s:Ge/Septa_60/Parent   = "SeptaGroup"
+s:Ge/Septa_60/Type = "TsBox"
+d:Ge/Septa_60/HLX = 0.430 mm
+d:Ge/Septa_60/HLY = 1.570 mm
+d:Ge/Septa_60/HLZ = 7.5 mm
+s:Ge/Septa_60/Material = "Al_Mylar"
+d:Ge/Septa_60/TransX = Ge/CWO_60/TransX - 2 mm
+d:Ge/Septa_60/TransY = 0.0 mm
+
+s:Ge/Septa_top60/Parent   = "SeptaGroup"
+s:Ge/Septa_top60/Type = "TsBox"
+d:Ge/Septa_top60/HLX = 2. mm
+d:Ge/Septa_top60/HLY = 0.430 mm
+d:Ge/Septa_top60/HLZ = 7.5 mm
+s:Ge/Septa_top60/Material = "Al_Mylar"
+d:Ge/Septa_top60/TransY = Ge/CWO_60/TransY - 2 mm
+d:Ge/Septa_top60/TransX = 0.0 mm
+
+s:Ge/CWO_61/Parent   = "SeptaGroup"
+s:Ge/CWO_61/Type = "TsBox"
+d:Ge/CWO_61/HLX = 1.570 mm
+d:Ge/CWO_61/HLY = 1.570 mm
+d:Ge/CWO_61/HLZ = 7.5 mm
+s:Ge/CWO_61/Material = "CWO"
+d:Ge/CWO_61/TransX = 0.0 mm
+d:Ge/CWO_61/TransY = 4.0 mm
+
+s:Ge/Septa_61/Parent   = "SeptaGroup"
+s:Ge/Septa_61/Type = "TsBox"
+d:Ge/Septa_61/HLX = 0.430 mm
+d:Ge/Septa_61/HLY = 1.570 mm
+d:Ge/Septa_61/HLZ = 7.5 mm
+s:Ge/Septa_61/Material = "Al_Mylar"
+d:Ge/Septa_61/TransX = Ge/CWO_61/TransX - 2 mm
+d:Ge/Septa_61/TransY = 4.0 mm
+
+s:Ge/Septa_top61/Parent   = "SeptaGroup"
+s:Ge/Septa_top61/Type = "TsBox"
+d:Ge/Septa_top61/HLX = 2. mm
+d:Ge/Septa_top61/HLY = 0.430 mm
+d:Ge/Septa_top61/HLZ = 7.5 mm
+s:Ge/Septa_top61/Material = "Al_Mylar"
+d:Ge/Septa_top61/TransY = Ge/CWO_61/TransY - 2 mm
+d:Ge/Septa_top61/TransX = 0.0 mm
+
+s:Ge/CWO_62/Parent   = "SeptaGroup"
+s:Ge/CWO_62/Type = "TsBox"
+d:Ge/CWO_62/HLX = 1.570 mm
+d:Ge/CWO_62/HLY = 1.570 mm
+d:Ge/CWO_62/HLZ = 7.5 mm
+s:Ge/CWO_62/Material = "CWO"
+d:Ge/CWO_62/TransX = 0.0 mm
+d:Ge/CWO_62/TransY = 8.0 mm
+
+s:Ge/Septa_62/Parent   = "SeptaGroup"
+s:Ge/Septa_62/Type = "TsBox"
+d:Ge/Septa_62/HLX = 0.430 mm
+d:Ge/Septa_62/HLY = 1.570 mm
+d:Ge/Septa_62/HLZ = 7.5 mm
+s:Ge/Septa_62/Material = "Al_Mylar"
+d:Ge/Septa_62/TransX = Ge/CWO_62/TransX - 2 mm
+d:Ge/Septa_62/TransY = 8.0 mm
+
+s:Ge/Septa_top62/Parent   = "SeptaGroup"
+s:Ge/Septa_top62/Type = "TsBox"
+d:Ge/Septa_top62/HLX = 2. mm
+d:Ge/Septa_top62/HLY = 0.430 mm
+d:Ge/Septa_top62/HLZ = 7.5 mm
+s:Ge/Septa_top62/Material = "Al_Mylar"
+d:Ge/Septa_top62/TransY = Ge/CWO_62/TransY - 2 mm
+d:Ge/Septa_top62/TransX = 0.0 mm
+
+s:Ge/CWO_63/Parent   = "SeptaGroup"
+s:Ge/CWO_63/Type = "TsBox"
+d:Ge/CWO_63/HLX = 1.570 mm
+d:Ge/CWO_63/HLY = 1.570 mm
+d:Ge/CWO_63/HLZ = 7.5 mm
+s:Ge/CWO_63/Material = "CWO"
+d:Ge/CWO_63/TransX = 0.0 mm
+d:Ge/CWO_63/TransY = 12.0 mm
+
+s:Ge/Septa_63/Parent   = "SeptaGroup"
+s:Ge/Septa_63/Type = "TsBox"
+d:Ge/Septa_63/HLX = 0.430 mm
+d:Ge/Septa_63/HLY = 1.570 mm
+d:Ge/Septa_63/HLZ = 7.5 mm
+s:Ge/Septa_63/Material = "Al_Mylar"
+d:Ge/Septa_63/TransX = Ge/CWO_63/TransX - 2 mm
+d:Ge/Septa_63/TransY = 12.0 mm
+
+s:Ge/Septa_top63/Parent   = "SeptaGroup"
+s:Ge/Septa_top63/Type = "TsBox"
+d:Ge/Septa_top63/HLX = 2. mm
+d:Ge/Septa_top63/HLY = 0.430 mm
+d:Ge/Septa_top63/HLZ = 7.5 mm
+s:Ge/Septa_top63/Material = "Al_Mylar"
+d:Ge/Septa_top63/TransY = Ge/CWO_63/TransY - 2 mm
+d:Ge/Septa_top63/TransX = 0.0 mm
+
+s:Ge/CWO_64/Parent   = "SeptaGroup"
+s:Ge/CWO_64/Type = "TsBox"
+d:Ge/CWO_64/HLX = 1.570 mm
+d:Ge/CWO_64/HLY = 1.570 mm
+d:Ge/CWO_64/HLZ = 7.5 mm
+s:Ge/CWO_64/Material = "CWO"
+d:Ge/CWO_64/TransX = 0.0 mm
+d:Ge/CWO_64/TransY = 16.0 mm
+
+s:Ge/Septa_64/Parent   = "SeptaGroup"
+s:Ge/Septa_64/Type = "TsBox"
+d:Ge/Septa_64/HLX = 0.430 mm
+d:Ge/Septa_64/HLY = 1.570 mm
+d:Ge/Septa_64/HLZ = 7.5 mm
+s:Ge/Septa_64/Material = "Al_Mylar"
+d:Ge/Septa_64/TransX = Ge/CWO_64/TransX - 2 mm
+d:Ge/Septa_64/TransY = 16.0 mm
+
+s:Ge/Septa_top64/Parent   = "SeptaGroup"
+s:Ge/Septa_top64/Type = "TsBox"
+d:Ge/Septa_top64/HLX = 2. mm
+d:Ge/Septa_top64/HLY = 0.430 mm
+d:Ge/Septa_top64/HLZ = 7.5 mm
+s:Ge/Septa_top64/Material = "Al_Mylar"
+d:Ge/Septa_top64/TransY = Ge/CWO_64/TransY - 2 mm
+d:Ge/Septa_top64/TransX = 0.0 mm
+
+s:Ge/CWO_65/Parent   = "SeptaGroup"
+s:Ge/CWO_65/Type = "TsBox"
+d:Ge/CWO_65/HLX = 1.570 mm
+d:Ge/CWO_65/HLY = 1.570 mm
+d:Ge/CWO_65/HLZ = 7.5 mm
+s:Ge/CWO_65/Material = "CWO"
+d:Ge/CWO_65/TransX = 0.0 mm
+d:Ge/CWO_65/TransY = 20.0 mm
+
+s:Ge/Septa_65/Parent   = "SeptaGroup"
+s:Ge/Septa_65/Type = "TsBox"
+d:Ge/Septa_65/HLX = 0.430 mm
+d:Ge/Septa_65/HLY = 1.570 mm
+d:Ge/Septa_65/HLZ = 7.5 mm
+s:Ge/Septa_65/Material = "Al_Mylar"
+d:Ge/Septa_65/TransX = Ge/CWO_65/TransX - 2 mm
+d:Ge/Septa_65/TransY = 20.0 mm
+
+s:Ge/Septa_top65/Parent   = "SeptaGroup"
+s:Ge/Septa_top65/Type = "TsBox"
+d:Ge/Septa_top65/HLX = 2. mm
+d:Ge/Septa_top65/HLY = 0.430 mm
+d:Ge/Septa_top65/HLZ = 7.5 mm
+s:Ge/Septa_top65/Material = "Al_Mylar"
+d:Ge/Septa_top65/TransY = Ge/CWO_65/TransY - 2 mm
+d:Ge/Septa_top65/TransX = 0.0 mm
+
+s:Ge/Septa_bottom65/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom65/Type = "TsBox"
+d:Ge/Septa_bottom65/HLX = 2. mm
+d:Ge/Septa_bottom65/HLY = 0.430 mm
+d:Ge/Septa_bottom65/HLZ = 7.5 mm
+s:Ge/Septa_bottom65/Material = "Al_Mylar"
+d:Ge/Septa_bottom65/TransY = Ge/CWO_65/TransY + 2 mm
+d:Ge/Septa_bottom65/TransX = 0.0 mm
+
+s:Ge/CWO_66/Parent   = "SeptaGroup"
+s:Ge/CWO_66/Type = "TsBox"
+d:Ge/CWO_66/HLX = 1.570 mm
+d:Ge/CWO_66/HLY = 1.570 mm
+d:Ge/CWO_66/HLZ = 7.5 mm
+s:Ge/CWO_66/Material = "CWO"
+d:Ge/CWO_66/TransX = 4.0 mm
+d:Ge/CWO_66/TransY = -20.0 mm
+
+s:Ge/Septa_66/Parent   = "SeptaGroup"
+s:Ge/Septa_66/Type = "TsBox"
+d:Ge/Septa_66/HLX = 0.430 mm
+d:Ge/Septa_66/HLY = 1.570 mm
+d:Ge/Septa_66/HLZ = 7.5 mm
+s:Ge/Septa_66/Material = "Al_Mylar"
+d:Ge/Septa_66/TransX = Ge/CWO_66/TransX - 2 mm
+d:Ge/Septa_66/TransY = -20.0 mm
+
+s:Ge/Septa_top66/Parent   = "SeptaGroup"
+s:Ge/Septa_top66/Type = "TsBox"
+d:Ge/Septa_top66/HLX = 2. mm
+d:Ge/Septa_top66/HLY = 0.430 mm
+d:Ge/Septa_top66/HLZ = 7.5 mm
+s:Ge/Septa_top66/Material = "Al_Mylar"
+d:Ge/Septa_top66/TransY = Ge/CWO_66/TransY - 2 mm
+d:Ge/Septa_top66/TransX = 4.0 mm
+
+s:Ge/CWO_67/Parent   = "SeptaGroup"
+s:Ge/CWO_67/Type = "TsBox"
+d:Ge/CWO_67/HLX = 1.570 mm
+d:Ge/CWO_67/HLY = 1.570 mm
+d:Ge/CWO_67/HLZ = 7.5 mm
+s:Ge/CWO_67/Material = "CWO"
+d:Ge/CWO_67/TransX = 4.0 mm
+d:Ge/CWO_67/TransY = -16.0 mm
+
+s:Ge/Septa_67/Parent   = "SeptaGroup"
+s:Ge/Septa_67/Type = "TsBox"
+d:Ge/Septa_67/HLX = 0.430 mm
+d:Ge/Septa_67/HLY = 1.570 mm
+d:Ge/Septa_67/HLZ = 7.5 mm
+s:Ge/Septa_67/Material = "Al_Mylar"
+d:Ge/Septa_67/TransX = Ge/CWO_67/TransX - 2 mm
+d:Ge/Septa_67/TransY = -16.0 mm
+
+s:Ge/Septa_top67/Parent   = "SeptaGroup"
+s:Ge/Septa_top67/Type = "TsBox"
+d:Ge/Septa_top67/HLX = 2. mm
+d:Ge/Septa_top67/HLY = 0.430 mm
+d:Ge/Septa_top67/HLZ = 7.5 mm
+s:Ge/Septa_top67/Material = "Al_Mylar"
+d:Ge/Septa_top67/TransY = Ge/CWO_67/TransY - 2 mm
+d:Ge/Septa_top67/TransX = 4.0 mm
+
+s:Ge/CWO_68/Parent   = "SeptaGroup"
+s:Ge/CWO_68/Type = "TsBox"
+d:Ge/CWO_68/HLX = 1.570 mm
+d:Ge/CWO_68/HLY = 1.570 mm
+d:Ge/CWO_68/HLZ = 7.5 mm
+s:Ge/CWO_68/Material = "CWO"
+d:Ge/CWO_68/TransX = 4.0 mm
+d:Ge/CWO_68/TransY = -12.0 mm
+
+s:Ge/Septa_68/Parent   = "SeptaGroup"
+s:Ge/Septa_68/Type = "TsBox"
+d:Ge/Septa_68/HLX = 0.430 mm
+d:Ge/Septa_68/HLY = 1.570 mm
+d:Ge/Septa_68/HLZ = 7.5 mm
+s:Ge/Septa_68/Material = "Al_Mylar"
+d:Ge/Septa_68/TransX = Ge/CWO_68/TransX - 2 mm
+d:Ge/Septa_68/TransY = -12.0 mm
+
+s:Ge/Septa_top68/Parent   = "SeptaGroup"
+s:Ge/Septa_top68/Type = "TsBox"
+d:Ge/Septa_top68/HLX = 2. mm
+d:Ge/Septa_top68/HLY = 0.430 mm
+d:Ge/Septa_top68/HLZ = 7.5 mm
+s:Ge/Septa_top68/Material = "Al_Mylar"
+d:Ge/Septa_top68/TransY = Ge/CWO_68/TransY - 2 mm
+d:Ge/Septa_top68/TransX = 4.0 mm
+
+s:Ge/CWO_69/Parent   = "SeptaGroup"
+s:Ge/CWO_69/Type = "TsBox"
+d:Ge/CWO_69/HLX = 1.570 mm
+d:Ge/CWO_69/HLY = 1.570 mm
+d:Ge/CWO_69/HLZ = 7.5 mm
+s:Ge/CWO_69/Material = "CWO"
+d:Ge/CWO_69/TransX = 4.0 mm
+d:Ge/CWO_69/TransY = -8.0 mm
+
+s:Ge/Septa_69/Parent   = "SeptaGroup"
+s:Ge/Septa_69/Type = "TsBox"
+d:Ge/Septa_69/HLX = 0.430 mm
+d:Ge/Septa_69/HLY = 1.570 mm
+d:Ge/Septa_69/HLZ = 7.5 mm
+s:Ge/Septa_69/Material = "Al_Mylar"
+d:Ge/Septa_69/TransX = Ge/CWO_69/TransX - 2 mm
+d:Ge/Septa_69/TransY = -8.0 mm
+
+s:Ge/Septa_top69/Parent   = "SeptaGroup"
+s:Ge/Septa_top69/Type = "TsBox"
+d:Ge/Septa_top69/HLX = 2. mm
+d:Ge/Septa_top69/HLY = 0.430 mm
+d:Ge/Septa_top69/HLZ = 7.5 mm
+s:Ge/Septa_top69/Material = "Al_Mylar"
+d:Ge/Septa_top69/TransY = Ge/CWO_69/TransY - 2 mm
+d:Ge/Septa_top69/TransX = 4.0 mm
+
+s:Ge/CWO_70/Parent   = "SeptaGroup"
+s:Ge/CWO_70/Type = "TsBox"
+d:Ge/CWO_70/HLX = 1.570 mm
+d:Ge/CWO_70/HLY = 1.570 mm
+d:Ge/CWO_70/HLZ = 7.5 mm
+s:Ge/CWO_70/Material = "CWO"
+d:Ge/CWO_70/TransX = 4.0 mm
+d:Ge/CWO_70/TransY = -4.0 mm
+
+s:Ge/Septa_70/Parent   = "SeptaGroup"
+s:Ge/Septa_70/Type = "TsBox"
+d:Ge/Septa_70/HLX = 0.430 mm
+d:Ge/Septa_70/HLY = 1.570 mm
+d:Ge/Septa_70/HLZ = 7.5 mm
+s:Ge/Septa_70/Material = "Al_Mylar"
+d:Ge/Septa_70/TransX = Ge/CWO_70/TransX - 2 mm
+d:Ge/Septa_70/TransY = -4.0 mm
+
+s:Ge/Septa_top70/Parent   = "SeptaGroup"
+s:Ge/Septa_top70/Type = "TsBox"
+d:Ge/Septa_top70/HLX = 2. mm
+d:Ge/Septa_top70/HLY = 0.430 mm
+d:Ge/Septa_top70/HLZ = 7.5 mm
+s:Ge/Septa_top70/Material = "Al_Mylar"
+d:Ge/Septa_top70/TransY = Ge/CWO_70/TransY - 2 mm
+d:Ge/Septa_top70/TransX = 4.0 mm
+
+s:Ge/CWO_71/Parent   = "SeptaGroup"
+s:Ge/CWO_71/Type = "TsBox"
+d:Ge/CWO_71/HLX = 1.570 mm
+d:Ge/CWO_71/HLY = 1.570 mm
+d:Ge/CWO_71/HLZ = 7.5 mm
+s:Ge/CWO_71/Material = "CWO"
+d:Ge/CWO_71/TransX = 4.0 mm
+d:Ge/CWO_71/TransY = 0.0 mm
+
+s:Ge/Septa_71/Parent   = "SeptaGroup"
+s:Ge/Septa_71/Type = "TsBox"
+d:Ge/Septa_71/HLX = 0.430 mm
+d:Ge/Septa_71/HLY = 1.570 mm
+d:Ge/Septa_71/HLZ = 7.5 mm
+s:Ge/Septa_71/Material = "Al_Mylar"
+d:Ge/Septa_71/TransX = Ge/CWO_71/TransX - 2 mm
+d:Ge/Septa_71/TransY = 0.0 mm
+
+s:Ge/Septa_top71/Parent   = "SeptaGroup"
+s:Ge/Septa_top71/Type = "TsBox"
+d:Ge/Septa_top71/HLX = 2. mm
+d:Ge/Septa_top71/HLY = 0.430 mm
+d:Ge/Septa_top71/HLZ = 7.5 mm
+s:Ge/Septa_top71/Material = "Al_Mylar"
+d:Ge/Septa_top71/TransY = Ge/CWO_71/TransY - 2 mm
+d:Ge/Septa_top71/TransX = 4.0 mm
+
+s:Ge/CWO_72/Parent   = "SeptaGroup"
+s:Ge/CWO_72/Type = "TsBox"
+d:Ge/CWO_72/HLX = 1.570 mm
+d:Ge/CWO_72/HLY = 1.570 mm
+d:Ge/CWO_72/HLZ = 7.5 mm
+s:Ge/CWO_72/Material = "CWO"
+d:Ge/CWO_72/TransX = 4.0 mm
+d:Ge/CWO_72/TransY = 4.0 mm
+
+s:Ge/Septa_72/Parent   = "SeptaGroup"
+s:Ge/Septa_72/Type = "TsBox"
+d:Ge/Septa_72/HLX = 0.430 mm
+d:Ge/Septa_72/HLY = 1.570 mm
+d:Ge/Septa_72/HLZ = 7.5 mm
+s:Ge/Septa_72/Material = "Al_Mylar"
+d:Ge/Septa_72/TransX = Ge/CWO_72/TransX - 2 mm
+d:Ge/Septa_72/TransY = 4.0 mm
+
+s:Ge/Septa_top72/Parent   = "SeptaGroup"
+s:Ge/Septa_top72/Type = "TsBox"
+d:Ge/Septa_top72/HLX = 2. mm
+d:Ge/Septa_top72/HLY = 0.430 mm
+d:Ge/Septa_top72/HLZ = 7.5 mm
+s:Ge/Septa_top72/Material = "Al_Mylar"
+d:Ge/Septa_top72/TransY = Ge/CWO_72/TransY - 2 mm
+d:Ge/Septa_top72/TransX = 4.0 mm
+
+s:Ge/CWO_73/Parent   = "SeptaGroup"
+s:Ge/CWO_73/Type = "TsBox"
+d:Ge/CWO_73/HLX = 1.570 mm
+d:Ge/CWO_73/HLY = 1.570 mm
+d:Ge/CWO_73/HLZ = 7.5 mm
+s:Ge/CWO_73/Material = "CWO"
+d:Ge/CWO_73/TransX = 4.0 mm
+d:Ge/CWO_73/TransY = 8.0 mm
+
+s:Ge/Septa_73/Parent   = "SeptaGroup"
+s:Ge/Septa_73/Type = "TsBox"
+d:Ge/Septa_73/HLX = 0.430 mm
+d:Ge/Septa_73/HLY = 1.570 mm
+d:Ge/Septa_73/HLZ = 7.5 mm
+s:Ge/Septa_73/Material = "Al_Mylar"
+d:Ge/Septa_73/TransX = Ge/CWO_73/TransX - 2 mm
+d:Ge/Septa_73/TransY = 8.0 mm
+
+s:Ge/Septa_top73/Parent   = "SeptaGroup"
+s:Ge/Septa_top73/Type = "TsBox"
+d:Ge/Septa_top73/HLX = 2. mm
+d:Ge/Septa_top73/HLY = 0.430 mm
+d:Ge/Septa_top73/HLZ = 7.5 mm
+s:Ge/Septa_top73/Material = "Al_Mylar"
+d:Ge/Septa_top73/TransY = Ge/CWO_73/TransY - 2 mm
+d:Ge/Septa_top73/TransX = 4.0 mm
+
+s:Ge/CWO_74/Parent   = "SeptaGroup"
+s:Ge/CWO_74/Type = "TsBox"
+d:Ge/CWO_74/HLX = 1.570 mm
+d:Ge/CWO_74/HLY = 1.570 mm
+d:Ge/CWO_74/HLZ = 7.5 mm
+s:Ge/CWO_74/Material = "CWO"
+d:Ge/CWO_74/TransX = 4.0 mm
+d:Ge/CWO_74/TransY = 12.0 mm
+
+s:Ge/Septa_74/Parent   = "SeptaGroup"
+s:Ge/Septa_74/Type = "TsBox"
+d:Ge/Septa_74/HLX = 0.430 mm
+d:Ge/Septa_74/HLY = 1.570 mm
+d:Ge/Septa_74/HLZ = 7.5 mm
+s:Ge/Septa_74/Material = "Al_Mylar"
+d:Ge/Septa_74/TransX = Ge/CWO_74/TransX - 2 mm
+d:Ge/Septa_74/TransY = 12.0 mm
+
+s:Ge/Septa_top74/Parent   = "SeptaGroup"
+s:Ge/Septa_top74/Type = "TsBox"
+d:Ge/Septa_top74/HLX = 2. mm
+d:Ge/Septa_top74/HLY = 0.430 mm
+d:Ge/Septa_top74/HLZ = 7.5 mm
+s:Ge/Septa_top74/Material = "Al_Mylar"
+d:Ge/Septa_top74/TransY = Ge/CWO_74/TransY - 2 mm
+d:Ge/Septa_top74/TransX = 4.0 mm
+
+s:Ge/CWO_75/Parent   = "SeptaGroup"
+s:Ge/CWO_75/Type = "TsBox"
+d:Ge/CWO_75/HLX = 1.570 mm
+d:Ge/CWO_75/HLY = 1.570 mm
+d:Ge/CWO_75/HLZ = 7.5 mm
+s:Ge/CWO_75/Material = "CWO"
+d:Ge/CWO_75/TransX = 4.0 mm
+d:Ge/CWO_75/TransY = 16.0 mm
+
+s:Ge/Septa_75/Parent   = "SeptaGroup"
+s:Ge/Septa_75/Type = "TsBox"
+d:Ge/Septa_75/HLX = 0.430 mm
+d:Ge/Septa_75/HLY = 1.570 mm
+d:Ge/Septa_75/HLZ = 7.5 mm
+s:Ge/Septa_75/Material = "Al_Mylar"
+d:Ge/Septa_75/TransX = Ge/CWO_75/TransX - 2 mm
+d:Ge/Septa_75/TransY = 16.0 mm
+
+s:Ge/Septa_top75/Parent   = "SeptaGroup"
+s:Ge/Septa_top75/Type = "TsBox"
+d:Ge/Septa_top75/HLX = 2. mm
+d:Ge/Septa_top75/HLY = 0.430 mm
+d:Ge/Septa_top75/HLZ = 7.5 mm
+s:Ge/Septa_top75/Material = "Al_Mylar"
+d:Ge/Septa_top75/TransY = Ge/CWO_75/TransY - 2 mm
+d:Ge/Septa_top75/TransX = 4.0 mm
+
+s:Ge/CWO_76/Parent   = "SeptaGroup"
+s:Ge/CWO_76/Type = "TsBox"
+d:Ge/CWO_76/HLX = 1.570 mm
+d:Ge/CWO_76/HLY = 1.570 mm
+d:Ge/CWO_76/HLZ = 7.5 mm
+s:Ge/CWO_76/Material = "CWO"
+d:Ge/CWO_76/TransX = 4.0 mm
+d:Ge/CWO_76/TransY = 20.0 mm
+
+s:Ge/Septa_76/Parent   = "SeptaGroup"
+s:Ge/Septa_76/Type = "TsBox"
+d:Ge/Septa_76/HLX = 0.430 mm
+d:Ge/Septa_76/HLY = 1.570 mm
+d:Ge/Septa_76/HLZ = 7.5 mm
+s:Ge/Septa_76/Material = "Al_Mylar"
+d:Ge/Septa_76/TransX = Ge/CWO_76/TransX - 2 mm
+d:Ge/Septa_76/TransY = 20.0 mm
+
+s:Ge/Septa_top76/Parent   = "SeptaGroup"
+s:Ge/Septa_top76/Type = "TsBox"
+d:Ge/Septa_top76/HLX = 2. mm
+d:Ge/Septa_top76/HLY = 0.430 mm
+d:Ge/Septa_top76/HLZ = 7.5 mm
+s:Ge/Septa_top76/Material = "Al_Mylar"
+d:Ge/Septa_top76/TransY = Ge/CWO_76/TransY - 2 mm
+d:Ge/Septa_top76/TransX = 4.0 mm
+
+s:Ge/Septa_bottom76/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom76/Type = "TsBox"
+d:Ge/Septa_bottom76/HLX = 2. mm
+d:Ge/Septa_bottom76/HLY = 0.430 mm
+d:Ge/Septa_bottom76/HLZ = 7.5 mm
+s:Ge/Septa_bottom76/Material = "Al_Mylar"
+d:Ge/Septa_bottom76/TransY = Ge/CWO_76/TransY + 2 mm
+d:Ge/Septa_bottom76/TransX = 4.0 mm
+
+s:Ge/CWO_77/Parent   = "SeptaGroup"
+s:Ge/CWO_77/Type = "TsBox"
+d:Ge/CWO_77/HLX = 1.570 mm
+d:Ge/CWO_77/HLY = 1.570 mm
+d:Ge/CWO_77/HLZ = 7.5 mm
+s:Ge/CWO_77/Material = "CWO"
+d:Ge/CWO_77/TransX = 8.0 mm
+d:Ge/CWO_77/TransY = -20.0 mm
+
+s:Ge/Septa_77/Parent   = "SeptaGroup"
+s:Ge/Septa_77/Type = "TsBox"
+d:Ge/Septa_77/HLX = 0.430 mm
+d:Ge/Septa_77/HLY = 1.570 mm
+d:Ge/Septa_77/HLZ = 7.5 mm
+s:Ge/Septa_77/Material = "Al_Mylar"
+d:Ge/Septa_77/TransX = Ge/CWO_77/TransX - 2 mm
+d:Ge/Septa_77/TransY = -20.0 mm
+
+s:Ge/Septa_top77/Parent   = "SeptaGroup"
+s:Ge/Septa_top77/Type = "TsBox"
+d:Ge/Septa_top77/HLX = 2. mm
+d:Ge/Septa_top77/HLY = 0.430 mm
+d:Ge/Septa_top77/HLZ = 7.5 mm
+s:Ge/Septa_top77/Material = "Al_Mylar"
+d:Ge/Septa_top77/TransY = Ge/CWO_77/TransY - 2 mm
+d:Ge/Septa_top77/TransX = 8.0 mm
+
+s:Ge/CWO_78/Parent   = "SeptaGroup"
+s:Ge/CWO_78/Type = "TsBox"
+d:Ge/CWO_78/HLX = 1.570 mm
+d:Ge/CWO_78/HLY = 1.570 mm
+d:Ge/CWO_78/HLZ = 7.5 mm
+s:Ge/CWO_78/Material = "CWO"
+d:Ge/CWO_78/TransX = 8.0 mm
+d:Ge/CWO_78/TransY = -16.0 mm
+
+s:Ge/Septa_78/Parent   = "SeptaGroup"
+s:Ge/Septa_78/Type = "TsBox"
+d:Ge/Septa_78/HLX = 0.430 mm
+d:Ge/Septa_78/HLY = 1.570 mm
+d:Ge/Septa_78/HLZ = 7.5 mm
+s:Ge/Septa_78/Material = "Al_Mylar"
+d:Ge/Septa_78/TransX = Ge/CWO_78/TransX - 2 mm
+d:Ge/Septa_78/TransY = -16.0 mm
+
+s:Ge/Septa_top78/Parent   = "SeptaGroup"
+s:Ge/Septa_top78/Type = "TsBox"
+d:Ge/Septa_top78/HLX = 2. mm
+d:Ge/Septa_top78/HLY = 0.430 mm
+d:Ge/Septa_top78/HLZ = 7.5 mm
+s:Ge/Septa_top78/Material = "Al_Mylar"
+d:Ge/Septa_top78/TransY = Ge/CWO_78/TransY - 2 mm
+d:Ge/Septa_top78/TransX = 8.0 mm
+
+s:Ge/CWO_79/Parent   = "SeptaGroup"
+s:Ge/CWO_79/Type = "TsBox"
+d:Ge/CWO_79/HLX = 1.570 mm
+d:Ge/CWO_79/HLY = 1.570 mm
+d:Ge/CWO_79/HLZ = 7.5 mm
+s:Ge/CWO_79/Material = "CWO"
+d:Ge/CWO_79/TransX = 8.0 mm
+d:Ge/CWO_79/TransY = -12.0 mm
+
+s:Ge/Septa_79/Parent   = "SeptaGroup"
+s:Ge/Septa_79/Type = "TsBox"
+d:Ge/Septa_79/HLX = 0.430 mm
+d:Ge/Septa_79/HLY = 1.570 mm
+d:Ge/Septa_79/HLZ = 7.5 mm
+s:Ge/Septa_79/Material = "Al_Mylar"
+d:Ge/Septa_79/TransX = Ge/CWO_79/TransX - 2 mm
+d:Ge/Septa_79/TransY = -12.0 mm
+
+s:Ge/Septa_top79/Parent   = "SeptaGroup"
+s:Ge/Septa_top79/Type = "TsBox"
+d:Ge/Septa_top79/HLX = 2. mm
+d:Ge/Septa_top79/HLY = 0.430 mm
+d:Ge/Septa_top79/HLZ = 7.5 mm
+s:Ge/Septa_top79/Material = "Al_Mylar"
+d:Ge/Septa_top79/TransY = Ge/CWO_79/TransY - 2 mm
+d:Ge/Septa_top79/TransX = 8.0 mm
+
+s:Ge/CWO_80/Parent   = "SeptaGroup"
+s:Ge/CWO_80/Type = "TsBox"
+d:Ge/CWO_80/HLX = 1.570 mm
+d:Ge/CWO_80/HLY = 1.570 mm
+d:Ge/CWO_80/HLZ = 7.5 mm
+s:Ge/CWO_80/Material = "CWO"
+d:Ge/CWO_80/TransX = 8.0 mm
+d:Ge/CWO_80/TransY = -8.0 mm
+
+s:Ge/Septa_80/Parent   = "SeptaGroup"
+s:Ge/Septa_80/Type = "TsBox"
+d:Ge/Septa_80/HLX = 0.430 mm
+d:Ge/Septa_80/HLY = 1.570 mm
+d:Ge/Septa_80/HLZ = 7.5 mm
+s:Ge/Septa_80/Material = "Al_Mylar"
+d:Ge/Septa_80/TransX = Ge/CWO_80/TransX - 2 mm
+d:Ge/Septa_80/TransY = -8.0 mm
+
+s:Ge/Septa_top80/Parent   = "SeptaGroup"
+s:Ge/Septa_top80/Type = "TsBox"
+d:Ge/Septa_top80/HLX = 2. mm
+d:Ge/Septa_top80/HLY = 0.430 mm
+d:Ge/Septa_top80/HLZ = 7.5 mm
+s:Ge/Septa_top80/Material = "Al_Mylar"
+d:Ge/Septa_top80/TransY = Ge/CWO_80/TransY - 2 mm
+d:Ge/Septa_top80/TransX = 8.0 mm
+
+s:Ge/CWO_81/Parent   = "SeptaGroup"
+s:Ge/CWO_81/Type = "TsBox"
+d:Ge/CWO_81/HLX = 1.570 mm
+d:Ge/CWO_81/HLY = 1.570 mm
+d:Ge/CWO_81/HLZ = 7.5 mm
+s:Ge/CWO_81/Material = "CWO"
+d:Ge/CWO_81/TransX = 8.0 mm
+d:Ge/CWO_81/TransY = -4.0 mm
+
+s:Ge/Septa_81/Parent   = "SeptaGroup"
+s:Ge/Septa_81/Type = "TsBox"
+d:Ge/Septa_81/HLX = 0.430 mm
+d:Ge/Septa_81/HLY = 1.570 mm
+d:Ge/Septa_81/HLZ = 7.5 mm
+s:Ge/Septa_81/Material = "Al_Mylar"
+d:Ge/Septa_81/TransX = Ge/CWO_81/TransX - 2 mm
+d:Ge/Septa_81/TransY = -4.0 mm
+
+s:Ge/Septa_top81/Parent   = "SeptaGroup"
+s:Ge/Septa_top81/Type = "TsBox"
+d:Ge/Septa_top81/HLX = 2. mm
+d:Ge/Septa_top81/HLY = 0.430 mm
+d:Ge/Septa_top81/HLZ = 7.5 mm
+s:Ge/Septa_top81/Material = "Al_Mylar"
+d:Ge/Septa_top81/TransY = Ge/CWO_81/TransY - 2 mm
+d:Ge/Septa_top81/TransX = 8.0 mm
+
+s:Ge/CWO_82/Parent   = "SeptaGroup"
+s:Ge/CWO_82/Type = "TsBox"
+d:Ge/CWO_82/HLX = 1.570 mm
+d:Ge/CWO_82/HLY = 1.570 mm
+d:Ge/CWO_82/HLZ = 7.5 mm
+s:Ge/CWO_82/Material = "CWO"
+d:Ge/CWO_82/TransX = 8.0 mm
+d:Ge/CWO_82/TransY = 0.0 mm
+
+s:Ge/Septa_82/Parent   = "SeptaGroup"
+s:Ge/Septa_82/Type = "TsBox"
+d:Ge/Septa_82/HLX = 0.430 mm
+d:Ge/Septa_82/HLY = 1.570 mm
+d:Ge/Septa_82/HLZ = 7.5 mm
+s:Ge/Septa_82/Material = "Al_Mylar"
+d:Ge/Septa_82/TransX = Ge/CWO_82/TransX - 2 mm
+d:Ge/Septa_82/TransY = 0.0 mm
+
+s:Ge/Septa_top82/Parent   = "SeptaGroup"
+s:Ge/Septa_top82/Type = "TsBox"
+d:Ge/Septa_top82/HLX = 2. mm
+d:Ge/Septa_top82/HLY = 0.430 mm
+d:Ge/Septa_top82/HLZ = 7.5 mm
+s:Ge/Septa_top82/Material = "Al_Mylar"
+d:Ge/Septa_top82/TransY = Ge/CWO_82/TransY - 2 mm
+d:Ge/Septa_top82/TransX = 8.0 mm
+
+s:Ge/CWO_83/Parent   = "SeptaGroup"
+s:Ge/CWO_83/Type = "TsBox"
+d:Ge/CWO_83/HLX = 1.570 mm
+d:Ge/CWO_83/HLY = 1.570 mm
+d:Ge/CWO_83/HLZ = 7.5 mm
+s:Ge/CWO_83/Material = "CWO"
+d:Ge/CWO_83/TransX = 8.0 mm
+d:Ge/CWO_83/TransY = 4.0 mm
+
+s:Ge/Septa_83/Parent   = "SeptaGroup"
+s:Ge/Septa_83/Type = "TsBox"
+d:Ge/Septa_83/HLX = 0.430 mm
+d:Ge/Septa_83/HLY = 1.570 mm
+d:Ge/Septa_83/HLZ = 7.5 mm
+s:Ge/Septa_83/Material = "Al_Mylar"
+d:Ge/Septa_83/TransX = Ge/CWO_83/TransX - 2 mm
+d:Ge/Septa_83/TransY = 4.0 mm
+
+s:Ge/Septa_top83/Parent   = "SeptaGroup"
+s:Ge/Septa_top83/Type = "TsBox"
+d:Ge/Septa_top83/HLX = 2. mm
+d:Ge/Septa_top83/HLY = 0.430 mm
+d:Ge/Septa_top83/HLZ = 7.5 mm
+s:Ge/Septa_top83/Material = "Al_Mylar"
+d:Ge/Septa_top83/TransY = Ge/CWO_83/TransY - 2 mm
+d:Ge/Septa_top83/TransX = 8.0 mm
+
+s:Ge/CWO_84/Parent   = "SeptaGroup"
+s:Ge/CWO_84/Type = "TsBox"
+d:Ge/CWO_84/HLX = 1.570 mm
+d:Ge/CWO_84/HLY = 1.570 mm
+d:Ge/CWO_84/HLZ = 7.5 mm
+s:Ge/CWO_84/Material = "CWO"
+d:Ge/CWO_84/TransX = 8.0 mm
+d:Ge/CWO_84/TransY = 8.0 mm
+
+s:Ge/Septa_84/Parent   = "SeptaGroup"
+s:Ge/Septa_84/Type = "TsBox"
+d:Ge/Septa_84/HLX = 0.430 mm
+d:Ge/Septa_84/HLY = 1.570 mm
+d:Ge/Septa_84/HLZ = 7.5 mm
+s:Ge/Septa_84/Material = "Al_Mylar"
+d:Ge/Septa_84/TransX = Ge/CWO_84/TransX - 2 mm
+d:Ge/Septa_84/TransY = 8.0 mm
+
+s:Ge/Septa_top84/Parent   = "SeptaGroup"
+s:Ge/Septa_top84/Type = "TsBox"
+d:Ge/Septa_top84/HLX = 2. mm
+d:Ge/Septa_top84/HLY = 0.430 mm
+d:Ge/Septa_top84/HLZ = 7.5 mm
+s:Ge/Septa_top84/Material = "Al_Mylar"
+d:Ge/Septa_top84/TransY = Ge/CWO_84/TransY - 2 mm
+d:Ge/Septa_top84/TransX = 8.0 mm
+
+s:Ge/CWO_85/Parent   = "SeptaGroup"
+s:Ge/CWO_85/Type = "TsBox"
+d:Ge/CWO_85/HLX = 1.570 mm
+d:Ge/CWO_85/HLY = 1.570 mm
+d:Ge/CWO_85/HLZ = 7.5 mm
+s:Ge/CWO_85/Material = "CWO"
+d:Ge/CWO_85/TransX = 8.0 mm
+d:Ge/CWO_85/TransY = 12.0 mm
+
+s:Ge/Septa_85/Parent   = "SeptaGroup"
+s:Ge/Septa_85/Type = "TsBox"
+d:Ge/Septa_85/HLX = 0.430 mm
+d:Ge/Septa_85/HLY = 1.570 mm
+d:Ge/Septa_85/HLZ = 7.5 mm
+s:Ge/Septa_85/Material = "Al_Mylar"
+d:Ge/Septa_85/TransX = Ge/CWO_85/TransX - 2 mm
+d:Ge/Septa_85/TransY = 12.0 mm
+
+s:Ge/Septa_top85/Parent   = "SeptaGroup"
+s:Ge/Septa_top85/Type = "TsBox"
+d:Ge/Septa_top85/HLX = 2. mm
+d:Ge/Septa_top85/HLY = 0.430 mm
+d:Ge/Septa_top85/HLZ = 7.5 mm
+s:Ge/Septa_top85/Material = "Al_Mylar"
+d:Ge/Septa_top85/TransY = Ge/CWO_85/TransY - 2 mm
+d:Ge/Septa_top85/TransX = 8.0 mm
+
+s:Ge/CWO_86/Parent   = "SeptaGroup"
+s:Ge/CWO_86/Type = "TsBox"
+d:Ge/CWO_86/HLX = 1.570 mm
+d:Ge/CWO_86/HLY = 1.570 mm
+d:Ge/CWO_86/HLZ = 7.5 mm
+s:Ge/CWO_86/Material = "CWO"
+d:Ge/CWO_86/TransX = 8.0 mm
+d:Ge/CWO_86/TransY = 16.0 mm
+
+s:Ge/Septa_86/Parent   = "SeptaGroup"
+s:Ge/Septa_86/Type = "TsBox"
+d:Ge/Septa_86/HLX = 0.430 mm
+d:Ge/Septa_86/HLY = 1.570 mm
+d:Ge/Septa_86/HLZ = 7.5 mm
+s:Ge/Septa_86/Material = "Al_Mylar"
+d:Ge/Septa_86/TransX = Ge/CWO_86/TransX - 2 mm
+d:Ge/Septa_86/TransY = 16.0 mm
+
+s:Ge/Septa_top86/Parent   = "SeptaGroup"
+s:Ge/Septa_top86/Type = "TsBox"
+d:Ge/Septa_top86/HLX = 2. mm
+d:Ge/Septa_top86/HLY = 0.430 mm
+d:Ge/Septa_top86/HLZ = 7.5 mm
+s:Ge/Septa_top86/Material = "Al_Mylar"
+d:Ge/Septa_top86/TransY = Ge/CWO_86/TransY - 2 mm
+d:Ge/Septa_top86/TransX = 8.0 mm
+
+s:Ge/CWO_87/Parent   = "SeptaGroup"
+s:Ge/CWO_87/Type = "TsBox"
+d:Ge/CWO_87/HLX = 1.570 mm
+d:Ge/CWO_87/HLY = 1.570 mm
+d:Ge/CWO_87/HLZ = 7.5 mm
+s:Ge/CWO_87/Material = "CWO"
+d:Ge/CWO_87/TransX = 8.0 mm
+d:Ge/CWO_87/TransY = 20.0 mm
+
+s:Ge/Septa_87/Parent   = "SeptaGroup"
+s:Ge/Septa_87/Type = "TsBox"
+d:Ge/Septa_87/HLX = 0.430 mm
+d:Ge/Septa_87/HLY = 1.570 mm
+d:Ge/Septa_87/HLZ = 7.5 mm
+s:Ge/Septa_87/Material = "Al_Mylar"
+d:Ge/Septa_87/TransX = Ge/CWO_87/TransX - 2 mm
+d:Ge/Septa_87/TransY = 20.0 mm
+
+s:Ge/Septa_top87/Parent   = "SeptaGroup"
+s:Ge/Septa_top87/Type = "TsBox"
+d:Ge/Septa_top87/HLX = 2. mm
+d:Ge/Septa_top87/HLY = 0.430 mm
+d:Ge/Septa_top87/HLZ = 7.5 mm
+s:Ge/Septa_top87/Material = "Al_Mylar"
+d:Ge/Septa_top87/TransY = Ge/CWO_87/TransY - 2 mm
+d:Ge/Septa_top87/TransX = 8.0 mm
+
+s:Ge/Septa_bottom87/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom87/Type = "TsBox"
+d:Ge/Septa_bottom87/HLX = 2. mm
+d:Ge/Septa_bottom87/HLY = 0.430 mm
+d:Ge/Septa_bottom87/HLZ = 7.5 mm
+s:Ge/Septa_bottom87/Material = "Al_Mylar"
+d:Ge/Septa_bottom87/TransY = Ge/CWO_87/TransY + 2 mm
+d:Ge/Septa_bottom87/TransX = 8.0 mm
+
+s:Ge/CWO_88/Parent   = "SeptaGroup"
+s:Ge/CWO_88/Type = "TsBox"
+d:Ge/CWO_88/HLX = 1.570 mm
+d:Ge/CWO_88/HLY = 1.570 mm
+d:Ge/CWO_88/HLZ = 7.5 mm
+s:Ge/CWO_88/Material = "CWO"
+d:Ge/CWO_88/TransX = 12.0 mm
+d:Ge/CWO_88/TransY = -20.0 mm
+
+s:Ge/Septa_88/Parent   = "SeptaGroup"
+s:Ge/Septa_88/Type = "TsBox"
+d:Ge/Septa_88/HLX = 0.430 mm
+d:Ge/Septa_88/HLY = 1.570 mm
+d:Ge/Septa_88/HLZ = 7.5 mm
+s:Ge/Septa_88/Material = "Al_Mylar"
+d:Ge/Septa_88/TransX = Ge/CWO_88/TransX - 2 mm
+d:Ge/Septa_88/TransY = -20.0 mm
+
+s:Ge/Septa_top88/Parent   = "SeptaGroup"
+s:Ge/Septa_top88/Type = "TsBox"
+d:Ge/Septa_top88/HLX = 2. mm
+d:Ge/Septa_top88/HLY = 0.430 mm
+d:Ge/Septa_top88/HLZ = 7.5 mm
+s:Ge/Septa_top88/Material = "Al_Mylar"
+d:Ge/Septa_top88/TransY = Ge/CWO_88/TransY - 2 mm
+d:Ge/Septa_top88/TransX = 12.0 mm
+
+s:Ge/CWO_89/Parent   = "SeptaGroup"
+s:Ge/CWO_89/Type = "TsBox"
+d:Ge/CWO_89/HLX = 1.570 mm
+d:Ge/CWO_89/HLY = 1.570 mm
+d:Ge/CWO_89/HLZ = 7.5 mm
+s:Ge/CWO_89/Material = "CWO"
+d:Ge/CWO_89/TransX = 12.0 mm
+d:Ge/CWO_89/TransY = -16.0 mm
+
+s:Ge/Septa_89/Parent   = "SeptaGroup"
+s:Ge/Septa_89/Type = "TsBox"
+d:Ge/Septa_89/HLX = 0.430 mm
+d:Ge/Septa_89/HLY = 1.570 mm
+d:Ge/Septa_89/HLZ = 7.5 mm
+s:Ge/Septa_89/Material = "Al_Mylar"
+d:Ge/Septa_89/TransX = Ge/CWO_89/TransX - 2 mm
+d:Ge/Septa_89/TransY = -16.0 mm
+
+s:Ge/Septa_top89/Parent   = "SeptaGroup"
+s:Ge/Septa_top89/Type = "TsBox"
+d:Ge/Septa_top89/HLX = 2. mm
+d:Ge/Septa_top89/HLY = 0.430 mm
+d:Ge/Septa_top89/HLZ = 7.5 mm
+s:Ge/Septa_top89/Material = "Al_Mylar"
+d:Ge/Septa_top89/TransY = Ge/CWO_89/TransY - 2 mm
+d:Ge/Septa_top89/TransX = 12.0 mm
+
+s:Ge/CWO_90/Parent   = "SeptaGroup"
+s:Ge/CWO_90/Type = "TsBox"
+d:Ge/CWO_90/HLX = 1.570 mm
+d:Ge/CWO_90/HLY = 1.570 mm
+d:Ge/CWO_90/HLZ = 7.5 mm
+s:Ge/CWO_90/Material = "CWO"
+d:Ge/CWO_90/TransX = 12.0 mm
+d:Ge/CWO_90/TransY = -12.0 mm
+
+s:Ge/Septa_90/Parent   = "SeptaGroup"
+s:Ge/Septa_90/Type = "TsBox"
+d:Ge/Septa_90/HLX = 0.430 mm
+d:Ge/Septa_90/HLY = 1.570 mm
+d:Ge/Septa_90/HLZ = 7.5 mm
+s:Ge/Septa_90/Material = "Al_Mylar"
+d:Ge/Septa_90/TransX = Ge/CWO_90/TransX - 2 mm
+d:Ge/Septa_90/TransY = -12.0 mm
+
+s:Ge/Septa_top90/Parent   = "SeptaGroup"
+s:Ge/Septa_top90/Type = "TsBox"
+d:Ge/Septa_top90/HLX = 2. mm
+d:Ge/Septa_top90/HLY = 0.430 mm
+d:Ge/Septa_top90/HLZ = 7.5 mm
+s:Ge/Septa_top90/Material = "Al_Mylar"
+d:Ge/Septa_top90/TransY = Ge/CWO_90/TransY - 2 mm
+d:Ge/Septa_top90/TransX = 12.0 mm
+
+s:Ge/CWO_91/Parent   = "SeptaGroup"
+s:Ge/CWO_91/Type = "TsBox"
+d:Ge/CWO_91/HLX = 1.570 mm
+d:Ge/CWO_91/HLY = 1.570 mm
+d:Ge/CWO_91/HLZ = 7.5 mm
+s:Ge/CWO_91/Material = "CWO"
+d:Ge/CWO_91/TransX = 12.0 mm
+d:Ge/CWO_91/TransY = -8.0 mm
+
+s:Ge/Septa_91/Parent   = "SeptaGroup"
+s:Ge/Septa_91/Type = "TsBox"
+d:Ge/Septa_91/HLX = 0.430 mm
+d:Ge/Septa_91/HLY = 1.570 mm
+d:Ge/Septa_91/HLZ = 7.5 mm
+s:Ge/Septa_91/Material = "Al_Mylar"
+d:Ge/Septa_91/TransX = Ge/CWO_91/TransX - 2 mm
+d:Ge/Septa_91/TransY = -8.0 mm
+
+s:Ge/Septa_top91/Parent   = "SeptaGroup"
+s:Ge/Septa_top91/Type = "TsBox"
+d:Ge/Septa_top91/HLX = 2. mm
+d:Ge/Septa_top91/HLY = 0.430 mm
+d:Ge/Septa_top91/HLZ = 7.5 mm
+s:Ge/Septa_top91/Material = "Al_Mylar"
+d:Ge/Septa_top91/TransY = Ge/CWO_91/TransY - 2 mm
+d:Ge/Septa_top91/TransX = 12.0 mm
+
+s:Ge/CWO_92/Parent   = "SeptaGroup"
+s:Ge/CWO_92/Type = "TsBox"
+d:Ge/CWO_92/HLX = 1.570 mm
+d:Ge/CWO_92/HLY = 1.570 mm
+d:Ge/CWO_92/HLZ = 7.5 mm
+s:Ge/CWO_92/Material = "CWO"
+d:Ge/CWO_92/TransX = 12.0 mm
+d:Ge/CWO_92/TransY = -4.0 mm
+
+s:Ge/Septa_92/Parent   = "SeptaGroup"
+s:Ge/Septa_92/Type = "TsBox"
+d:Ge/Septa_92/HLX = 0.430 mm
+d:Ge/Septa_92/HLY = 1.570 mm
+d:Ge/Septa_92/HLZ = 7.5 mm
+s:Ge/Septa_92/Material = "Al_Mylar"
+d:Ge/Septa_92/TransX = Ge/CWO_92/TransX - 2 mm
+d:Ge/Septa_92/TransY = -4.0 mm
+
+s:Ge/Septa_top92/Parent   = "SeptaGroup"
+s:Ge/Septa_top92/Type = "TsBox"
+d:Ge/Septa_top92/HLX = 2. mm
+d:Ge/Septa_top92/HLY = 0.430 mm
+d:Ge/Septa_top92/HLZ = 7.5 mm
+s:Ge/Septa_top92/Material = "Al_Mylar"
+d:Ge/Septa_top92/TransY = Ge/CWO_92/TransY - 2 mm
+d:Ge/Septa_top92/TransX = 12.0 mm
+
+s:Ge/CWO_93/Parent   = "SeptaGroup"
+s:Ge/CWO_93/Type = "TsBox"
+d:Ge/CWO_93/HLX = 1.570 mm
+d:Ge/CWO_93/HLY = 1.570 mm
+d:Ge/CWO_93/HLZ = 7.5 mm
+s:Ge/CWO_93/Material = "CWO"
+d:Ge/CWO_93/TransX = 12.0 mm
+d:Ge/CWO_93/TransY = 0.0 mm
+
+s:Ge/Septa_93/Parent   = "SeptaGroup"
+s:Ge/Septa_93/Type = "TsBox"
+d:Ge/Septa_93/HLX = 0.430 mm
+d:Ge/Septa_93/HLY = 1.570 mm
+d:Ge/Septa_93/HLZ = 7.5 mm
+s:Ge/Septa_93/Material = "Al_Mylar"
+d:Ge/Septa_93/TransX = Ge/CWO_93/TransX - 2 mm
+d:Ge/Septa_93/TransY = 0.0 mm
+
+s:Ge/Septa_top93/Parent   = "SeptaGroup"
+s:Ge/Septa_top93/Type = "TsBox"
+d:Ge/Septa_top93/HLX = 2. mm
+d:Ge/Septa_top93/HLY = 0.430 mm
+d:Ge/Septa_top93/HLZ = 7.5 mm
+s:Ge/Septa_top93/Material = "Al_Mylar"
+d:Ge/Septa_top93/TransY = Ge/CWO_93/TransY - 2 mm
+d:Ge/Septa_top93/TransX = 12.0 mm
+
+s:Ge/CWO_94/Parent   = "SeptaGroup"
+s:Ge/CWO_94/Type = "TsBox"
+d:Ge/CWO_94/HLX = 1.570 mm
+d:Ge/CWO_94/HLY = 1.570 mm
+d:Ge/CWO_94/HLZ = 7.5 mm
+s:Ge/CWO_94/Material = "CWO"
+d:Ge/CWO_94/TransX = 12.0 mm
+d:Ge/CWO_94/TransY = 4.0 mm
+
+s:Ge/Septa_94/Parent   = "SeptaGroup"
+s:Ge/Septa_94/Type = "TsBox"
+d:Ge/Septa_94/HLX = 0.430 mm
+d:Ge/Septa_94/HLY = 1.570 mm
+d:Ge/Septa_94/HLZ = 7.5 mm
+s:Ge/Septa_94/Material = "Al_Mylar"
+d:Ge/Septa_94/TransX = Ge/CWO_94/TransX - 2 mm
+d:Ge/Septa_94/TransY = 4.0 mm
+
+s:Ge/Septa_top94/Parent   = "SeptaGroup"
+s:Ge/Septa_top94/Type = "TsBox"
+d:Ge/Septa_top94/HLX = 2. mm
+d:Ge/Septa_top94/HLY = 0.430 mm
+d:Ge/Septa_top94/HLZ = 7.5 mm
+s:Ge/Septa_top94/Material = "Al_Mylar"
+d:Ge/Septa_top94/TransY = Ge/CWO_94/TransY - 2 mm
+d:Ge/Septa_top94/TransX = 12.0 mm
+
+s:Ge/CWO_95/Parent   = "SeptaGroup"
+s:Ge/CWO_95/Type = "TsBox"
+d:Ge/CWO_95/HLX = 1.570 mm
+d:Ge/CWO_95/HLY = 1.570 mm
+d:Ge/CWO_95/HLZ = 7.5 mm
+s:Ge/CWO_95/Material = "CWO"
+d:Ge/CWO_95/TransX = 12.0 mm
+d:Ge/CWO_95/TransY = 8.0 mm
+
+s:Ge/Septa_95/Parent   = "SeptaGroup"
+s:Ge/Septa_95/Type = "TsBox"
+d:Ge/Septa_95/HLX = 0.430 mm
+d:Ge/Septa_95/HLY = 1.570 mm
+d:Ge/Septa_95/HLZ = 7.5 mm
+s:Ge/Septa_95/Material = "Al_Mylar"
+d:Ge/Septa_95/TransX = Ge/CWO_95/TransX - 2 mm
+d:Ge/Septa_95/TransY = 8.0 mm
+
+s:Ge/Septa_top95/Parent   = "SeptaGroup"
+s:Ge/Septa_top95/Type = "TsBox"
+d:Ge/Septa_top95/HLX = 2. mm
+d:Ge/Septa_top95/HLY = 0.430 mm
+d:Ge/Septa_top95/HLZ = 7.5 mm
+s:Ge/Septa_top95/Material = "Al_Mylar"
+d:Ge/Septa_top95/TransY = Ge/CWO_95/TransY - 2 mm
+d:Ge/Septa_top95/TransX = 12.0 mm
+
+s:Ge/CWO_96/Parent   = "SeptaGroup"
+s:Ge/CWO_96/Type = "TsBox"
+d:Ge/CWO_96/HLX = 1.570 mm
+d:Ge/CWO_96/HLY = 1.570 mm
+d:Ge/CWO_96/HLZ = 7.5 mm
+s:Ge/CWO_96/Material = "CWO"
+d:Ge/CWO_96/TransX = 12.0 mm
+d:Ge/CWO_96/TransY = 12.0 mm
+
+s:Ge/Septa_96/Parent   = "SeptaGroup"
+s:Ge/Septa_96/Type = "TsBox"
+d:Ge/Septa_96/HLX = 0.430 mm
+d:Ge/Septa_96/HLY = 1.570 mm
+d:Ge/Septa_96/HLZ = 7.5 mm
+s:Ge/Septa_96/Material = "Al_Mylar"
+d:Ge/Septa_96/TransX = Ge/CWO_96/TransX - 2 mm
+d:Ge/Septa_96/TransY = 12.0 mm
+
+s:Ge/Septa_top96/Parent   = "SeptaGroup"
+s:Ge/Septa_top96/Type = "TsBox"
+d:Ge/Septa_top96/HLX = 2. mm
+d:Ge/Septa_top96/HLY = 0.430 mm
+d:Ge/Septa_top96/HLZ = 7.5 mm
+s:Ge/Septa_top96/Material = "Al_Mylar"
+d:Ge/Septa_top96/TransY = Ge/CWO_96/TransY - 2 mm
+d:Ge/Septa_top96/TransX = 12.0 mm
+
+s:Ge/CWO_97/Parent   = "SeptaGroup"
+s:Ge/CWO_97/Type = "TsBox"
+d:Ge/CWO_97/HLX = 1.570 mm
+d:Ge/CWO_97/HLY = 1.570 mm
+d:Ge/CWO_97/HLZ = 7.5 mm
+s:Ge/CWO_97/Material = "CWO"
+d:Ge/CWO_97/TransX = 12.0 mm
+d:Ge/CWO_97/TransY = 16.0 mm
+
+s:Ge/Septa_97/Parent   = "SeptaGroup"
+s:Ge/Septa_97/Type = "TsBox"
+d:Ge/Septa_97/HLX = 0.430 mm
+d:Ge/Septa_97/HLY = 1.570 mm
+d:Ge/Septa_97/HLZ = 7.5 mm
+s:Ge/Septa_97/Material = "Al_Mylar"
+d:Ge/Septa_97/TransX = Ge/CWO_97/TransX - 2 mm
+d:Ge/Septa_97/TransY = 16.0 mm
+
+s:Ge/Septa_top97/Parent   = "SeptaGroup"
+s:Ge/Septa_top97/Type = "TsBox"
+d:Ge/Septa_top97/HLX = 2. mm
+d:Ge/Septa_top97/HLY = 0.430 mm
+d:Ge/Septa_top97/HLZ = 7.5 mm
+s:Ge/Septa_top97/Material = "Al_Mylar"
+d:Ge/Septa_top97/TransY = Ge/CWO_97/TransY - 2 mm
+d:Ge/Septa_top97/TransX = 12.0 mm
+
+s:Ge/CWO_98/Parent   = "SeptaGroup"
+s:Ge/CWO_98/Type = "TsBox"
+d:Ge/CWO_98/HLX = 1.570 mm
+d:Ge/CWO_98/HLY = 1.570 mm
+d:Ge/CWO_98/HLZ = 7.5 mm
+s:Ge/CWO_98/Material = "CWO"
+d:Ge/CWO_98/TransX = 12.0 mm
+d:Ge/CWO_98/TransY = 20.0 mm
+
+s:Ge/Septa_98/Parent   = "SeptaGroup"
+s:Ge/Septa_98/Type = "TsBox"
+d:Ge/Septa_98/HLX = 0.430 mm
+d:Ge/Septa_98/HLY = 1.570 mm
+d:Ge/Septa_98/HLZ = 7.5 mm
+s:Ge/Septa_98/Material = "Al_Mylar"
+d:Ge/Septa_98/TransX = Ge/CWO_98/TransX - 2 mm
+d:Ge/Septa_98/TransY = 20.0 mm
+
+s:Ge/Septa_top98/Parent   = "SeptaGroup"
+s:Ge/Septa_top98/Type = "TsBox"
+d:Ge/Septa_top98/HLX = 2. mm
+d:Ge/Septa_top98/HLY = 0.430 mm
+d:Ge/Septa_top98/HLZ = 7.5 mm
+s:Ge/Septa_top98/Material = "Al_Mylar"
+d:Ge/Septa_top98/TransY = Ge/CWO_98/TransY - 2 mm
+d:Ge/Septa_top98/TransX = 12.0 mm
+
+s:Ge/Septa_bottom98/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom98/Type = "TsBox"
+d:Ge/Septa_bottom98/HLX = 2. mm
+d:Ge/Septa_bottom98/HLY = 0.430 mm
+d:Ge/Septa_bottom98/HLZ = 7.5 mm
+s:Ge/Septa_bottom98/Material = "Al_Mylar"
+d:Ge/Septa_bottom98/TransY = Ge/CWO_98/TransY + 2 mm
+d:Ge/Septa_bottom98/TransX = 12.0 mm
+
+s:Ge/CWO_99/Parent   = "SeptaGroup"
+s:Ge/CWO_99/Type = "TsBox"
+d:Ge/CWO_99/HLX = 1.570 mm
+d:Ge/CWO_99/HLY = 1.570 mm
+d:Ge/CWO_99/HLZ = 7.5 mm
+s:Ge/CWO_99/Material = "CWO"
+d:Ge/CWO_99/TransX = 16.0 mm
+d:Ge/CWO_99/TransY = -20.0 mm
+
+s:Ge/Septa_99/Parent   = "SeptaGroup"
+s:Ge/Septa_99/Type = "TsBox"
+d:Ge/Septa_99/HLX = 0.430 mm
+d:Ge/Septa_99/HLY = 1.570 mm
+d:Ge/Septa_99/HLZ = 7.5 mm
+s:Ge/Septa_99/Material = "Al_Mylar"
+d:Ge/Septa_99/TransX = Ge/CWO_99/TransX - 2 mm
+d:Ge/Septa_99/TransY = -20.0 mm
+
+s:Ge/Septa_top99/Parent   = "SeptaGroup"
+s:Ge/Septa_top99/Type = "TsBox"
+d:Ge/Septa_top99/HLX = 2. mm
+d:Ge/Septa_top99/HLY = 0.430 mm
+d:Ge/Septa_top99/HLZ = 7.5 mm
+s:Ge/Septa_top99/Material = "Al_Mylar"
+d:Ge/Septa_top99/TransY = Ge/CWO_99/TransY - 2 mm
+d:Ge/Septa_top99/TransX = 16.0 mm
+
+s:Ge/CWO_100/Parent   = "SeptaGroup"
+s:Ge/CWO_100/Type = "TsBox"
+d:Ge/CWO_100/HLX = 1.570 mm
+d:Ge/CWO_100/HLY = 1.570 mm
+d:Ge/CWO_100/HLZ = 7.5 mm
+s:Ge/CWO_100/Material = "CWO"
+d:Ge/CWO_100/TransX = 16.0 mm
+d:Ge/CWO_100/TransY = -16.0 mm
+
+s:Ge/Septa_100/Parent   = "SeptaGroup"
+s:Ge/Septa_100/Type = "TsBox"
+d:Ge/Septa_100/HLX = 0.430 mm
+d:Ge/Septa_100/HLY = 1.570 mm
+d:Ge/Septa_100/HLZ = 7.5 mm
+s:Ge/Septa_100/Material = "Al_Mylar"
+d:Ge/Septa_100/TransX = Ge/CWO_100/TransX - 2 mm
+d:Ge/Septa_100/TransY = -16.0 mm
+
+s:Ge/Septa_top100/Parent   = "SeptaGroup"
+s:Ge/Septa_top100/Type = "TsBox"
+d:Ge/Septa_top100/HLX = 2. mm
+d:Ge/Septa_top100/HLY = 0.430 mm
+d:Ge/Septa_top100/HLZ = 7.5 mm
+s:Ge/Septa_top100/Material = "Al_Mylar"
+d:Ge/Septa_top100/TransY = Ge/CWO_100/TransY - 2 mm
+d:Ge/Septa_top100/TransX = 16.0 mm
+
+s:Ge/CWO_101/Parent   = "SeptaGroup"
+s:Ge/CWO_101/Type = "TsBox"
+d:Ge/CWO_101/HLX = 1.570 mm
+d:Ge/CWO_101/HLY = 1.570 mm
+d:Ge/CWO_101/HLZ = 7.5 mm
+s:Ge/CWO_101/Material = "CWO"
+d:Ge/CWO_101/TransX = 16.0 mm
+d:Ge/CWO_101/TransY = -12.0 mm
+
+s:Ge/Septa_101/Parent   = "SeptaGroup"
+s:Ge/Septa_101/Type = "TsBox"
+d:Ge/Septa_101/HLX = 0.430 mm
+d:Ge/Septa_101/HLY = 1.570 mm
+d:Ge/Septa_101/HLZ = 7.5 mm
+s:Ge/Septa_101/Material = "Al_Mylar"
+d:Ge/Septa_101/TransX = Ge/CWO_101/TransX - 2 mm
+d:Ge/Septa_101/TransY = -12.0 mm
+
+s:Ge/Septa_top101/Parent   = "SeptaGroup"
+s:Ge/Septa_top101/Type = "TsBox"
+d:Ge/Septa_top101/HLX = 2. mm
+d:Ge/Septa_top101/HLY = 0.430 mm
+d:Ge/Septa_top101/HLZ = 7.5 mm
+s:Ge/Septa_top101/Material = "Al_Mylar"
+d:Ge/Septa_top101/TransY = Ge/CWO_101/TransY - 2 mm
+d:Ge/Septa_top101/TransX = 16.0 mm
+
+s:Ge/CWO_102/Parent   = "SeptaGroup"
+s:Ge/CWO_102/Type = "TsBox"
+d:Ge/CWO_102/HLX = 1.570 mm
+d:Ge/CWO_102/HLY = 1.570 mm
+d:Ge/CWO_102/HLZ = 7.5 mm
+s:Ge/CWO_102/Material = "CWO"
+d:Ge/CWO_102/TransX = 16.0 mm
+d:Ge/CWO_102/TransY = -8.0 mm
+
+s:Ge/Septa_102/Parent   = "SeptaGroup"
+s:Ge/Septa_102/Type = "TsBox"
+d:Ge/Septa_102/HLX = 0.430 mm
+d:Ge/Septa_102/HLY = 1.570 mm
+d:Ge/Septa_102/HLZ = 7.5 mm
+s:Ge/Septa_102/Material = "Al_Mylar"
+d:Ge/Septa_102/TransX = Ge/CWO_102/TransX - 2 mm
+d:Ge/Septa_102/TransY = -8.0 mm
+
+s:Ge/Septa_top102/Parent   = "SeptaGroup"
+s:Ge/Septa_top102/Type = "TsBox"
+d:Ge/Septa_top102/HLX = 2. mm
+d:Ge/Septa_top102/HLY = 0.430 mm
+d:Ge/Septa_top102/HLZ = 7.5 mm
+s:Ge/Septa_top102/Material = "Al_Mylar"
+d:Ge/Septa_top102/TransY = Ge/CWO_102/TransY - 2 mm
+d:Ge/Septa_top102/TransX = 16.0 mm
+
+s:Ge/CWO_103/Parent   = "SeptaGroup"
+s:Ge/CWO_103/Type = "TsBox"
+d:Ge/CWO_103/HLX = 1.570 mm
+d:Ge/CWO_103/HLY = 1.570 mm
+d:Ge/CWO_103/HLZ = 7.5 mm
+s:Ge/CWO_103/Material = "CWO"
+d:Ge/CWO_103/TransX = 16.0 mm
+d:Ge/CWO_103/TransY = -4.0 mm
+
+s:Ge/Septa_103/Parent   = "SeptaGroup"
+s:Ge/Septa_103/Type = "TsBox"
+d:Ge/Septa_103/HLX = 0.430 mm
+d:Ge/Septa_103/HLY = 1.570 mm
+d:Ge/Septa_103/HLZ = 7.5 mm
+s:Ge/Septa_103/Material = "Al_Mylar"
+d:Ge/Septa_103/TransX = Ge/CWO_103/TransX - 2 mm
+d:Ge/Septa_103/TransY = -4.0 mm
+
+s:Ge/Septa_top103/Parent   = "SeptaGroup"
+s:Ge/Septa_top103/Type = "TsBox"
+d:Ge/Septa_top103/HLX = 2. mm
+d:Ge/Septa_top103/HLY = 0.430 mm
+d:Ge/Septa_top103/HLZ = 7.5 mm
+s:Ge/Septa_top103/Material = "Al_Mylar"
+d:Ge/Septa_top103/TransY = Ge/CWO_103/TransY - 2 mm
+d:Ge/Septa_top103/TransX = 16.0 mm
+
+s:Ge/CWO_104/Parent   = "SeptaGroup"
+s:Ge/CWO_104/Type = "TsBox"
+d:Ge/CWO_104/HLX = 1.570 mm
+d:Ge/CWO_104/HLY = 1.570 mm
+d:Ge/CWO_104/HLZ = 7.5 mm
+s:Ge/CWO_104/Material = "CWO"
+d:Ge/CWO_104/TransX = 16.0 mm
+d:Ge/CWO_104/TransY = 0.0 mm
+
+s:Ge/Septa_104/Parent   = "SeptaGroup"
+s:Ge/Septa_104/Type = "TsBox"
+d:Ge/Septa_104/HLX = 0.430 mm
+d:Ge/Septa_104/HLY = 1.570 mm
+d:Ge/Septa_104/HLZ = 7.5 mm
+s:Ge/Septa_104/Material = "Al_Mylar"
+d:Ge/Septa_104/TransX = Ge/CWO_104/TransX - 2 mm
+d:Ge/Septa_104/TransY = 0.0 mm
+
+s:Ge/Septa_top104/Parent   = "SeptaGroup"
+s:Ge/Septa_top104/Type = "TsBox"
+d:Ge/Septa_top104/HLX = 2. mm
+d:Ge/Septa_top104/HLY = 0.430 mm
+d:Ge/Septa_top104/HLZ = 7.5 mm
+s:Ge/Septa_top104/Material = "Al_Mylar"
+d:Ge/Septa_top104/TransY = Ge/CWO_104/TransY - 2 mm
+d:Ge/Septa_top104/TransX = 16.0 mm
+
+s:Ge/CWO_105/Parent   = "SeptaGroup"
+s:Ge/CWO_105/Type = "TsBox"
+d:Ge/CWO_105/HLX = 1.570 mm
+d:Ge/CWO_105/HLY = 1.570 mm
+d:Ge/CWO_105/HLZ = 7.5 mm
+s:Ge/CWO_105/Material = "CWO"
+d:Ge/CWO_105/TransX = 16.0 mm
+d:Ge/CWO_105/TransY = 4.0 mm
+
+s:Ge/Septa_105/Parent   = "SeptaGroup"
+s:Ge/Septa_105/Type = "TsBox"
+d:Ge/Septa_105/HLX = 0.430 mm
+d:Ge/Septa_105/HLY = 1.570 mm
+d:Ge/Septa_105/HLZ = 7.5 mm
+s:Ge/Septa_105/Material = "Al_Mylar"
+d:Ge/Septa_105/TransX = Ge/CWO_105/TransX - 2 mm
+d:Ge/Septa_105/TransY = 4.0 mm
+
+s:Ge/Septa_top105/Parent   = "SeptaGroup"
+s:Ge/Septa_top105/Type = "TsBox"
+d:Ge/Septa_top105/HLX = 2. mm
+d:Ge/Septa_top105/HLY = 0.430 mm
+d:Ge/Septa_top105/HLZ = 7.5 mm
+s:Ge/Septa_top105/Material = "Al_Mylar"
+d:Ge/Septa_top105/TransY = Ge/CWO_105/TransY - 2 mm
+d:Ge/Septa_top105/TransX = 16.0 mm
+
+s:Ge/CWO_106/Parent   = "SeptaGroup"
+s:Ge/CWO_106/Type = "TsBox"
+d:Ge/CWO_106/HLX = 1.570 mm
+d:Ge/CWO_106/HLY = 1.570 mm
+d:Ge/CWO_106/HLZ = 7.5 mm
+s:Ge/CWO_106/Material = "CWO"
+d:Ge/CWO_106/TransX = 16.0 mm
+d:Ge/CWO_106/TransY = 8.0 mm
+
+s:Ge/Septa_106/Parent   = "SeptaGroup"
+s:Ge/Septa_106/Type = "TsBox"
+d:Ge/Septa_106/HLX = 0.430 mm
+d:Ge/Septa_106/HLY = 1.570 mm
+d:Ge/Septa_106/HLZ = 7.5 mm
+s:Ge/Septa_106/Material = "Al_Mylar"
+d:Ge/Septa_106/TransX = Ge/CWO_106/TransX - 2 mm
+d:Ge/Septa_106/TransY = 8.0 mm
+
+s:Ge/Septa_top106/Parent   = "SeptaGroup"
+s:Ge/Septa_top106/Type = "TsBox"
+d:Ge/Septa_top106/HLX = 2. mm
+d:Ge/Septa_top106/HLY = 0.430 mm
+d:Ge/Septa_top106/HLZ = 7.5 mm
+s:Ge/Septa_top106/Material = "Al_Mylar"
+d:Ge/Septa_top106/TransY = Ge/CWO_106/TransY - 2 mm
+d:Ge/Septa_top106/TransX = 16.0 mm
+
+s:Ge/CWO_107/Parent   = "SeptaGroup"
+s:Ge/CWO_107/Type = "TsBox"
+d:Ge/CWO_107/HLX = 1.570 mm
+d:Ge/CWO_107/HLY = 1.570 mm
+d:Ge/CWO_107/HLZ = 7.5 mm
+s:Ge/CWO_107/Material = "CWO"
+d:Ge/CWO_107/TransX = 16.0 mm
+d:Ge/CWO_107/TransY = 12.0 mm
+
+s:Ge/Septa_107/Parent   = "SeptaGroup"
+s:Ge/Septa_107/Type = "TsBox"
+d:Ge/Septa_107/HLX = 0.430 mm
+d:Ge/Septa_107/HLY = 1.570 mm
+d:Ge/Septa_107/HLZ = 7.5 mm
+s:Ge/Septa_107/Material = "Al_Mylar"
+d:Ge/Septa_107/TransX = Ge/CWO_107/TransX - 2 mm
+d:Ge/Septa_107/TransY = 12.0 mm
+
+s:Ge/Septa_top107/Parent   = "SeptaGroup"
+s:Ge/Septa_top107/Type = "TsBox"
+d:Ge/Septa_top107/HLX = 2. mm
+d:Ge/Septa_top107/HLY = 0.430 mm
+d:Ge/Septa_top107/HLZ = 7.5 mm
+s:Ge/Septa_top107/Material = "Al_Mylar"
+d:Ge/Septa_top107/TransY = Ge/CWO_107/TransY - 2 mm
+d:Ge/Septa_top107/TransX = 16.0 mm
+
+s:Ge/CWO_108/Parent   = "SeptaGroup"
+s:Ge/CWO_108/Type = "TsBox"
+d:Ge/CWO_108/HLX = 1.570 mm
+d:Ge/CWO_108/HLY = 1.570 mm
+d:Ge/CWO_108/HLZ = 7.5 mm
+s:Ge/CWO_108/Material = "CWO"
+d:Ge/CWO_108/TransX = 16.0 mm
+d:Ge/CWO_108/TransY = 16.0 mm
+
+s:Ge/Septa_108/Parent   = "SeptaGroup"
+s:Ge/Septa_108/Type = "TsBox"
+d:Ge/Septa_108/HLX = 0.430 mm
+d:Ge/Septa_108/HLY = 1.570 mm
+d:Ge/Septa_108/HLZ = 7.5 mm
+s:Ge/Septa_108/Material = "Al_Mylar"
+d:Ge/Septa_108/TransX = Ge/CWO_108/TransX - 2 mm
+d:Ge/Septa_108/TransY = 16.0 mm
+
+s:Ge/Septa_top108/Parent   = "SeptaGroup"
+s:Ge/Septa_top108/Type = "TsBox"
+d:Ge/Septa_top108/HLX = 2. mm
+d:Ge/Septa_top108/HLY = 0.430 mm
+d:Ge/Septa_top108/HLZ = 7.5 mm
+s:Ge/Septa_top108/Material = "Al_Mylar"
+d:Ge/Septa_top108/TransY = Ge/CWO_108/TransY - 2 mm
+d:Ge/Septa_top108/TransX = 16.0 mm
+
+s:Ge/CWO_109/Parent   = "SeptaGroup"
+s:Ge/CWO_109/Type = "TsBox"
+d:Ge/CWO_109/HLX = 1.570 mm
+d:Ge/CWO_109/HLY = 1.570 mm
+d:Ge/CWO_109/HLZ = 7.5 mm
+s:Ge/CWO_109/Material = "CWO"
+d:Ge/CWO_109/TransX = 16.0 mm
+d:Ge/CWO_109/TransY = 20.0 mm
+
+s:Ge/Septa_109/Parent   = "SeptaGroup"
+s:Ge/Septa_109/Type = "TsBox"
+d:Ge/Septa_109/HLX = 0.430 mm
+d:Ge/Septa_109/HLY = 1.570 mm
+d:Ge/Septa_109/HLZ = 7.5 mm
+s:Ge/Septa_109/Material = "Al_Mylar"
+d:Ge/Septa_109/TransX = Ge/CWO_109/TransX - 2 mm
+d:Ge/Septa_109/TransY = 20.0 mm
+
+s:Ge/Septa_top109/Parent   = "SeptaGroup"
+s:Ge/Septa_top109/Type = "TsBox"
+d:Ge/Septa_top109/HLX = 2. mm
+d:Ge/Septa_top109/HLY = 0.430 mm
+d:Ge/Septa_top109/HLZ = 7.5 mm
+s:Ge/Septa_top109/Material = "Al_Mylar"
+d:Ge/Septa_top109/TransY = Ge/CWO_109/TransY - 2 mm
+d:Ge/Septa_top109/TransX = 16.0 mm
+
+s:Ge/Septa_bottom109/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom109/Type = "TsBox"
+d:Ge/Septa_bottom109/HLX = 2. mm
+d:Ge/Septa_bottom109/HLY = 0.430 mm
+d:Ge/Septa_bottom109/HLZ = 7.5 mm
+s:Ge/Septa_bottom109/Material = "Al_Mylar"
+d:Ge/Septa_bottom109/TransY = Ge/CWO_109/TransY + 2 mm
+d:Ge/Septa_bottom109/TransX = 16.0 mm
+
+s:Ge/CWO_110/Parent   = "SeptaGroup"
+s:Ge/CWO_110/Type = "TsBox"
+d:Ge/CWO_110/HLX = 1.570 mm
+d:Ge/CWO_110/HLY = 1.570 mm
+d:Ge/CWO_110/HLZ = 7.5 mm
+s:Ge/CWO_110/Material = "CWO"
+d:Ge/CWO_110/TransX = 20.0 mm
+d:Ge/CWO_110/TransY = -20.0 mm
+
+s:Ge/Septa_110/Parent   = "SeptaGroup"
+s:Ge/Septa_110/Type = "TsBox"
+d:Ge/Septa_110/HLX = 0.430 mm
+d:Ge/Septa_110/HLY = 1.570 mm
+d:Ge/Septa_110/HLZ = 7.5 mm
+s:Ge/Septa_110/Material = "Al_Mylar"
+d:Ge/Septa_110/TransX = Ge/CWO_110/TransX - 2 mm
+d:Ge/Septa_110/TransY = -20.0 mm
+
+s:Ge/Septa_top110/Parent   = "SeptaGroup"
+s:Ge/Septa_top110/Type = "TsBox"
+d:Ge/Septa_top110/HLX = 2. mm
+d:Ge/Septa_top110/HLY = 0.430 mm
+d:Ge/Septa_top110/HLZ = 7.5 mm
+s:Ge/Septa_top110/Material = "Al_Mylar"
+d:Ge/Septa_top110/TransY = Ge/CWO_110/TransY - 2 mm
+d:Ge/Septa_top110/TransX = 20.0 mm
+
+s:Ge/Septa_left110/Parent   = "SeptaGroup"
+s:Ge/Septa_left110/Type = "TsBox"
+d:Ge/Septa_left110/HLX = 0.430 mm
+d:Ge/Septa_left110/HLY = 1.570 mm
+d:Ge/Septa_left110/HLZ = 7.5 mm
+s:Ge/Septa_left110/Material = "Al_Mylar"
+d:Ge/Septa_left110/TransX = Ge/CWO_110/TransX + 2 mm
+d:Ge/Septa_left110/TransY = -20.0 mm
+
+s:Ge/CWO_111/Parent   = "SeptaGroup"
+s:Ge/CWO_111/Type = "TsBox"
+d:Ge/CWO_111/HLX = 1.570 mm
+d:Ge/CWO_111/HLY = 1.570 mm
+d:Ge/CWO_111/HLZ = 7.5 mm
+s:Ge/CWO_111/Material = "CWO"
+d:Ge/CWO_111/TransX = 20.0 mm
+d:Ge/CWO_111/TransY = -16.0 mm
+
+s:Ge/Septa_111/Parent   = "SeptaGroup"
+s:Ge/Septa_111/Type = "TsBox"
+d:Ge/Septa_111/HLX = 0.430 mm
+d:Ge/Septa_111/HLY = 1.570 mm
+d:Ge/Septa_111/HLZ = 7.5 mm
+s:Ge/Septa_111/Material = "Al_Mylar"
+d:Ge/Septa_111/TransX = Ge/CWO_111/TransX - 2 mm
+d:Ge/Septa_111/TransY = -16.0 mm
+
+s:Ge/Septa_top111/Parent   = "SeptaGroup"
+s:Ge/Septa_top111/Type = "TsBox"
+d:Ge/Septa_top111/HLX = 2. mm
+d:Ge/Septa_top111/HLY = 0.430 mm
+d:Ge/Septa_top111/HLZ = 7.5 mm
+s:Ge/Septa_top111/Material = "Al_Mylar"
+d:Ge/Septa_top111/TransY = Ge/CWO_111/TransY - 2 mm
+d:Ge/Septa_top111/TransX = 20.0 mm
+
+s:Ge/Septa_left111/Parent   = "SeptaGroup"
+s:Ge/Septa_left111/Type = "TsBox"
+d:Ge/Septa_left111/HLX = 0.430 mm
+d:Ge/Septa_left111/HLY = 1.570 mm
+d:Ge/Septa_left111/HLZ = 7.5 mm
+s:Ge/Septa_left111/Material = "Al_Mylar"
+d:Ge/Septa_left111/TransX = Ge/CWO_111/TransX + 2 mm
+d:Ge/Septa_left111/TransY = -16.0 mm
+
+s:Ge/CWO_112/Parent   = "SeptaGroup"
+s:Ge/CWO_112/Type = "TsBox"
+d:Ge/CWO_112/HLX = 1.570 mm
+d:Ge/CWO_112/HLY = 1.570 mm
+d:Ge/CWO_112/HLZ = 7.5 mm
+s:Ge/CWO_112/Material = "CWO"
+d:Ge/CWO_112/TransX = 20.0 mm
+d:Ge/CWO_112/TransY = -12.0 mm
+
+s:Ge/Septa_112/Parent   = "SeptaGroup"
+s:Ge/Septa_112/Type = "TsBox"
+d:Ge/Septa_112/HLX = 0.430 mm
+d:Ge/Septa_112/HLY = 1.570 mm
+d:Ge/Septa_112/HLZ = 7.5 mm
+s:Ge/Septa_112/Material = "Al_Mylar"
+d:Ge/Septa_112/TransX = Ge/CWO_112/TransX - 2 mm
+d:Ge/Septa_112/TransY = -12.0 mm
+
+s:Ge/Septa_top112/Parent   = "SeptaGroup"
+s:Ge/Septa_top112/Type = "TsBox"
+d:Ge/Septa_top112/HLX = 2. mm
+d:Ge/Septa_top112/HLY = 0.430 mm
+d:Ge/Septa_top112/HLZ = 7.5 mm
+s:Ge/Septa_top112/Material = "Al_Mylar"
+d:Ge/Septa_top112/TransY = Ge/CWO_112/TransY - 2 mm
+d:Ge/Septa_top112/TransX = 20.0 mm
+
+s:Ge/Septa_left112/Parent   = "SeptaGroup"
+s:Ge/Septa_left112/Type = "TsBox"
+d:Ge/Septa_left112/HLX = 0.430 mm
+d:Ge/Septa_left112/HLY = 1.570 mm
+d:Ge/Septa_left112/HLZ = 7.5 mm
+s:Ge/Septa_left112/Material = "Al_Mylar"
+d:Ge/Septa_left112/TransX = Ge/CWO_112/TransX + 2 mm
+d:Ge/Septa_left112/TransY = -12.0 mm
+
+s:Ge/CWO_113/Parent   = "SeptaGroup"
+s:Ge/CWO_113/Type = "TsBox"
+d:Ge/CWO_113/HLX = 1.570 mm
+d:Ge/CWO_113/HLY = 1.570 mm
+d:Ge/CWO_113/HLZ = 7.5 mm
+s:Ge/CWO_113/Material = "CWO"
+d:Ge/CWO_113/TransX = 20.0 mm
+d:Ge/CWO_113/TransY = -8.0 mm
+
+s:Ge/Septa_113/Parent   = "SeptaGroup"
+s:Ge/Septa_113/Type = "TsBox"
+d:Ge/Septa_113/HLX = 0.430 mm
+d:Ge/Septa_113/HLY = 1.570 mm
+d:Ge/Septa_113/HLZ = 7.5 mm
+s:Ge/Septa_113/Material = "Al_Mylar"
+d:Ge/Septa_113/TransX = Ge/CWO_113/TransX - 2 mm
+d:Ge/Septa_113/TransY = -8.0 mm
+
+s:Ge/Septa_top113/Parent   = "SeptaGroup"
+s:Ge/Septa_top113/Type = "TsBox"
+d:Ge/Septa_top113/HLX = 2. mm
+d:Ge/Septa_top113/HLY = 0.430 mm
+d:Ge/Septa_top113/HLZ = 7.5 mm
+s:Ge/Septa_top113/Material = "Al_Mylar"
+d:Ge/Septa_top113/TransY = Ge/CWO_113/TransY - 2 mm
+d:Ge/Septa_top113/TransX = 20.0 mm
+
+s:Ge/Septa_left113/Parent   = "SeptaGroup"
+s:Ge/Septa_left113/Type = "TsBox"
+d:Ge/Septa_left113/HLX = 0.430 mm
+d:Ge/Septa_left113/HLY = 1.570 mm
+d:Ge/Septa_left113/HLZ = 7.5 mm
+s:Ge/Septa_left113/Material = "Al_Mylar"
+d:Ge/Septa_left113/TransX = Ge/CWO_113/TransX + 2 mm
+d:Ge/Septa_left113/TransY = -8.0 mm
+
+s:Ge/CWO_114/Parent   = "SeptaGroup"
+s:Ge/CWO_114/Type = "TsBox"
+d:Ge/CWO_114/HLX = 1.570 mm
+d:Ge/CWO_114/HLY = 1.570 mm
+d:Ge/CWO_114/HLZ = 7.5 mm
+s:Ge/CWO_114/Material = "CWO"
+d:Ge/CWO_114/TransX = 20.0 mm
+d:Ge/CWO_114/TransY = -4.0 mm
+
+s:Ge/Septa_114/Parent   = "SeptaGroup"
+s:Ge/Septa_114/Type = "TsBox"
+d:Ge/Septa_114/HLX = 0.430 mm
+d:Ge/Septa_114/HLY = 1.570 mm
+d:Ge/Septa_114/HLZ = 7.5 mm
+s:Ge/Septa_114/Material = "Al_Mylar"
+d:Ge/Septa_114/TransX = Ge/CWO_114/TransX - 2 mm
+d:Ge/Septa_114/TransY = -4.0 mm
+
+s:Ge/Septa_top114/Parent   = "SeptaGroup"
+s:Ge/Septa_top114/Type = "TsBox"
+d:Ge/Septa_top114/HLX = 2. mm
+d:Ge/Septa_top114/HLY = 0.430 mm
+d:Ge/Septa_top114/HLZ = 7.5 mm
+s:Ge/Septa_top114/Material = "Al_Mylar"
+d:Ge/Septa_top114/TransY = Ge/CWO_114/TransY - 2 mm
+d:Ge/Septa_top114/TransX = 20.0 mm
+
+s:Ge/Septa_left114/Parent   = "SeptaGroup"
+s:Ge/Septa_left114/Type = "TsBox"
+d:Ge/Septa_left114/HLX = 0.430 mm
+d:Ge/Septa_left114/HLY = 1.570 mm
+d:Ge/Septa_left114/HLZ = 7.5 mm
+s:Ge/Septa_left114/Material = "Al_Mylar"
+d:Ge/Septa_left114/TransX = Ge/CWO_114/TransX + 2 mm
+d:Ge/Septa_left114/TransY = -4.0 mm
+
+s:Ge/CWO_115/Parent   = "SeptaGroup"
+s:Ge/CWO_115/Type = "TsBox"
+d:Ge/CWO_115/HLX = 1.570 mm
+d:Ge/CWO_115/HLY = 1.570 mm
+d:Ge/CWO_115/HLZ = 7.5 mm
+s:Ge/CWO_115/Material = "CWO"
+d:Ge/CWO_115/TransX = 20.0 mm
+d:Ge/CWO_115/TransY = 0.0 mm
+
+s:Ge/Septa_115/Parent   = "SeptaGroup"
+s:Ge/Septa_115/Type = "TsBox"
+d:Ge/Septa_115/HLX = 0.430 mm
+d:Ge/Septa_115/HLY = 1.570 mm
+d:Ge/Septa_115/HLZ = 7.5 mm
+s:Ge/Septa_115/Material = "Al_Mylar"
+d:Ge/Septa_115/TransX = Ge/CWO_115/TransX - 2 mm
+d:Ge/Septa_115/TransY = 0.0 mm
+
+s:Ge/Septa_top115/Parent   = "SeptaGroup"
+s:Ge/Septa_top115/Type = "TsBox"
+d:Ge/Septa_top115/HLX = 2. mm
+d:Ge/Septa_top115/HLY = 0.430 mm
+d:Ge/Septa_top115/HLZ = 7.5 mm
+s:Ge/Septa_top115/Material = "Al_Mylar"
+d:Ge/Septa_top115/TransY = Ge/CWO_115/TransY - 2 mm
+d:Ge/Septa_top115/TransX = 20.0 mm
+
+s:Ge/Septa_left115/Parent   = "SeptaGroup"
+s:Ge/Septa_left115/Type = "TsBox"
+d:Ge/Septa_left115/HLX = 0.430 mm
+d:Ge/Septa_left115/HLY = 1.570 mm
+d:Ge/Septa_left115/HLZ = 7.5 mm
+s:Ge/Septa_left115/Material = "Al_Mylar"
+d:Ge/Septa_left115/TransX = Ge/CWO_115/TransX + 2 mm
+d:Ge/Septa_left115/TransY = 0.0 mm
+
+s:Ge/CWO_116/Parent   = "SeptaGroup"
+s:Ge/CWO_116/Type = "TsBox"
+d:Ge/CWO_116/HLX = 1.570 mm
+d:Ge/CWO_116/HLY = 1.570 mm
+d:Ge/CWO_116/HLZ = 7.5 mm
+s:Ge/CWO_116/Material = "CWO"
+d:Ge/CWO_116/TransX = 20.0 mm
+d:Ge/CWO_116/TransY = 4.0 mm
+
+s:Ge/Septa_116/Parent   = "SeptaGroup"
+s:Ge/Septa_116/Type = "TsBox"
+d:Ge/Septa_116/HLX = 0.430 mm
+d:Ge/Septa_116/HLY = 1.570 mm
+d:Ge/Septa_116/HLZ = 7.5 mm
+s:Ge/Septa_116/Material = "Al_Mylar"
+d:Ge/Septa_116/TransX = Ge/CWO_116/TransX - 2 mm
+d:Ge/Septa_116/TransY = 4.0 mm
+
+s:Ge/Septa_top116/Parent   = "SeptaGroup"
+s:Ge/Septa_top116/Type = "TsBox"
+d:Ge/Septa_top116/HLX = 2. mm
+d:Ge/Septa_top116/HLY = 0.430 mm
+d:Ge/Septa_top116/HLZ = 7.5 mm
+s:Ge/Septa_top116/Material = "Al_Mylar"
+d:Ge/Septa_top116/TransY = Ge/CWO_116/TransY - 2 mm
+d:Ge/Septa_top116/TransX = 20.0 mm
+
+s:Ge/Septa_left116/Parent   = "SeptaGroup"
+s:Ge/Septa_left116/Type = "TsBox"
+d:Ge/Septa_left116/HLX = 0.430 mm
+d:Ge/Septa_left116/HLY = 1.570 mm
+d:Ge/Septa_left116/HLZ = 7.5 mm
+s:Ge/Septa_left116/Material = "Al_Mylar"
+d:Ge/Septa_left116/TransX = Ge/CWO_116/TransX + 2 mm
+d:Ge/Septa_left116/TransY = 4.0 mm
+
+s:Ge/CWO_117/Parent   = "SeptaGroup"
+s:Ge/CWO_117/Type = "TsBox"
+d:Ge/CWO_117/HLX = 1.570 mm
+d:Ge/CWO_117/HLY = 1.570 mm
+d:Ge/CWO_117/HLZ = 7.5 mm
+s:Ge/CWO_117/Material = "CWO"
+d:Ge/CWO_117/TransX = 20.0 mm
+d:Ge/CWO_117/TransY = 8.0 mm
+
+s:Ge/Septa_117/Parent   = "SeptaGroup"
+s:Ge/Septa_117/Type = "TsBox"
+d:Ge/Septa_117/HLX = 0.430 mm
+d:Ge/Septa_117/HLY = 1.570 mm
+d:Ge/Septa_117/HLZ = 7.5 mm
+s:Ge/Septa_117/Material = "Al_Mylar"
+d:Ge/Septa_117/TransX = Ge/CWO_117/TransX - 2 mm
+d:Ge/Septa_117/TransY = 8.0 mm
+
+s:Ge/Septa_top117/Parent   = "SeptaGroup"
+s:Ge/Septa_top117/Type = "TsBox"
+d:Ge/Septa_top117/HLX = 2. mm
+d:Ge/Septa_top117/HLY = 0.430 mm
+d:Ge/Septa_top117/HLZ = 7.5 mm
+s:Ge/Septa_top117/Material = "Al_Mylar"
+d:Ge/Septa_top117/TransY = Ge/CWO_117/TransY - 2 mm
+d:Ge/Septa_top117/TransX = 20.0 mm
+
+s:Ge/Septa_left117/Parent   = "SeptaGroup"
+s:Ge/Septa_left117/Type = "TsBox"
+d:Ge/Septa_left117/HLX = 0.430 mm
+d:Ge/Septa_left117/HLY = 1.570 mm
+d:Ge/Septa_left117/HLZ = 7.5 mm
+s:Ge/Septa_left117/Material = "Al_Mylar"
+d:Ge/Septa_left117/TransX = Ge/CWO_117/TransX + 2 mm
+d:Ge/Septa_left117/TransY = 8.0 mm
+
+s:Ge/CWO_118/Parent   = "SeptaGroup"
+s:Ge/CWO_118/Type = "TsBox"
+d:Ge/CWO_118/HLX = 1.570 mm
+d:Ge/CWO_118/HLY = 1.570 mm
+d:Ge/CWO_118/HLZ = 7.5 mm
+s:Ge/CWO_118/Material = "CWO"
+d:Ge/CWO_118/TransX = 20.0 mm
+d:Ge/CWO_118/TransY = 12.0 mm
+
+s:Ge/Septa_118/Parent   = "SeptaGroup"
+s:Ge/Septa_118/Type = "TsBox"
+d:Ge/Septa_118/HLX = 0.430 mm
+d:Ge/Septa_118/HLY = 1.570 mm
+d:Ge/Septa_118/HLZ = 7.5 mm
+s:Ge/Septa_118/Material = "Al_Mylar"
+d:Ge/Septa_118/TransX = Ge/CWO_118/TransX - 2 mm
+d:Ge/Septa_118/TransY = 12.0 mm
+
+s:Ge/Septa_top118/Parent   = "SeptaGroup"
+s:Ge/Septa_top118/Type = "TsBox"
+d:Ge/Septa_top118/HLX = 2. mm
+d:Ge/Septa_top118/HLY = 0.430 mm
+d:Ge/Septa_top118/HLZ = 7.5 mm
+s:Ge/Septa_top118/Material = "Al_Mylar"
+d:Ge/Septa_top118/TransY = Ge/CWO_118/TransY - 2 mm
+d:Ge/Septa_top118/TransX = 20.0 mm
+
+s:Ge/Septa_left118/Parent   = "SeptaGroup"
+s:Ge/Septa_left118/Type = "TsBox"
+d:Ge/Septa_left118/HLX = 0.430 mm
+d:Ge/Septa_left118/HLY = 1.570 mm
+d:Ge/Septa_left118/HLZ = 7.5 mm
+s:Ge/Septa_left118/Material = "Al_Mylar"
+d:Ge/Septa_left118/TransX = Ge/CWO_118/TransX + 2 mm
+d:Ge/Septa_left118/TransY = 12.0 mm
+
+s:Ge/CWO_119/Parent   = "SeptaGroup"
+s:Ge/CWO_119/Type = "TsBox"
+d:Ge/CWO_119/HLX = 1.570 mm
+d:Ge/CWO_119/HLY = 1.570 mm
+d:Ge/CWO_119/HLZ = 7.5 mm
+s:Ge/CWO_119/Material = "CWO"
+d:Ge/CWO_119/TransX = 20.0 mm
+d:Ge/CWO_119/TransY = 16.0 mm
+
+s:Ge/Septa_119/Parent   = "SeptaGroup"
+s:Ge/Septa_119/Type = "TsBox"
+d:Ge/Septa_119/HLX = 0.430 mm
+d:Ge/Septa_119/HLY = 1.570 mm
+d:Ge/Septa_119/HLZ = 7.5 mm
+s:Ge/Septa_119/Material = "Al_Mylar"
+d:Ge/Septa_119/TransX = Ge/CWO_119/TransX - 2 mm
+d:Ge/Septa_119/TransY = 16.0 mm
+
+s:Ge/Septa_top119/Parent   = "SeptaGroup"
+s:Ge/Septa_top119/Type = "TsBox"
+d:Ge/Septa_top119/HLX = 2. mm
+d:Ge/Septa_top119/HLY = 0.430 mm
+d:Ge/Septa_top119/HLZ = 7.5 mm
+s:Ge/Septa_top119/Material = "Al_Mylar"
+d:Ge/Septa_top119/TransY = Ge/CWO_119/TransY - 2 mm
+d:Ge/Septa_top119/TransX = 20.0 mm
+
+s:Ge/Septa_left119/Parent   = "SeptaGroup"
+s:Ge/Septa_left119/Type = "TsBox"
+d:Ge/Septa_left119/HLX = 0.430 mm
+d:Ge/Septa_left119/HLY = 1.570 mm
+d:Ge/Septa_left119/HLZ = 7.5 mm
+s:Ge/Septa_left119/Material = "Al_Mylar"
+d:Ge/Septa_left119/TransX = Ge/CWO_119/TransX + 2 mm
+d:Ge/Septa_left119/TransY = 16.0 mm
+
+s:Ge/CWO_120/Parent   = "SeptaGroup"
+s:Ge/CWO_120/Type = "TsBox"
+d:Ge/CWO_120/HLX = 1.570 mm
+d:Ge/CWO_120/HLY = 1.570 mm
+d:Ge/CWO_120/HLZ = 7.5 mm
+s:Ge/CWO_120/Material = "CWO"
+d:Ge/CWO_120/TransX = 20.0 mm
+d:Ge/CWO_120/TransY = 20.0 mm
+
+s:Ge/Septa_120/Parent   = "SeptaGroup"
+s:Ge/Septa_120/Type = "TsBox"
+d:Ge/Septa_120/HLX = 0.430 mm
+d:Ge/Septa_120/HLY = 1.570 mm
+d:Ge/Septa_120/HLZ = 7.5 mm
+s:Ge/Septa_120/Material = "Al_Mylar"
+d:Ge/Septa_120/TransX = Ge/CWO_120/TransX - 2 mm
+d:Ge/Septa_120/TransY = 20.0 mm
+
+s:Ge/Septa_top120/Parent   = "SeptaGroup"
+s:Ge/Septa_top120/Type = "TsBox"
+d:Ge/Septa_top120/HLX = 2. mm
+d:Ge/Septa_top120/HLY = 0.430 mm
+d:Ge/Septa_top120/HLZ = 7.5 mm
+s:Ge/Septa_top120/Material = "Al_Mylar"
+d:Ge/Septa_top120/TransY = Ge/CWO_120/TransY - 2 mm
+d:Ge/Septa_top120/TransX = 20.0 mm
+
+s:Ge/Septa_bottom120/Parent   = "SeptaGroup"
+s:Ge/Septa_bottom120/Type = "TsBox"
+d:Ge/Septa_bottom120/HLX = 2. mm
+d:Ge/Septa_bottom120/HLY = 0.430 mm
+d:Ge/Septa_bottom120/HLZ = 7.5 mm
+s:Ge/Septa_bottom120/Material = "Al_Mylar"
+d:Ge/Septa_bottom120/TransY = Ge/CWO_120/TransY + 2 mm
+d:Ge/Septa_bottom120/TransX = 20.0 mm
+
+s:Ge/Septa_left120/Parent   = "SeptaGroup"
+s:Ge/Septa_left120/Type = "TsBox"
+d:Ge/Septa_left120/HLX = 0.430 mm
+d:Ge/Septa_left120/HLY = 1.570 mm
+d:Ge/Septa_left120/HLZ = 7.5 mm
+s:Ge/Septa_left120/Material = "Al_Mylar"
+d:Ge/Septa_left120/TransX = Ge/CWO_120/TransX + 2 mm
+d:Ge/Septa_left120/TransY = 20.0 mm
+

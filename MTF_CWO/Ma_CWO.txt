@@ -1,0 +1,145 @@
+# ------------------------------------------------------------------ #
+#  Material Script for CdWO Scintillator pencil beam simulation
+#  XCITE Tango2
+#
+#  Run -> topas Ge_COW.txt
+#
+#  File Structure
+#  -- > Ge_COW.txt (File to run)
+#  -- > Crystal_Ge.txt (Contains all the crystal geometries)
+#  -- > Crystal_Ge_small.txt (Contains smaller crystal for test)
+#
+#  Output
+#  -- > PhotodiodeReadout.phsp (Contains optical photons hitting AMFPI)
+#
+#  CHANGE == parameter that you might want to change (None here)
+# ------------------------------------------------------------------ #
+
+
+# Materials
+dv:Ma/Air/RefractiveIndex/Energies = 3 2.0 3.5 7.14 eV
+uv:Ma/Air/RefractiveIndex/Values = 3 1.0 1.0 1.0
+
+#---------- Materials in the table of Star-Lack "Figure 4" --------------
+
+# Rohacell foam is just carbon as is compression "Foam"
+sv:Ma/Rohacell/Components = 1 "Carbon"
+uv:Ma/Rohacell/Fractions = 1  1
+d:Ma/Rohacell/Density = 0.051 g/cm3
+s:Ma/Rohacell/DefaultColor = "grey160"
+
+# Rohacell foam is just carbon as is compression foam
+sv:Ma/Carbon_Fiber/Components = 1 "Carbon"
+uv:Ma/Carbon_Fiber/Fractions = 1  1
+d:Ma/Carbon_Fiber/Density = 1.62 g/cm3
+s:Ma/Carbon_Fiber/DefaultColor = "grey160"
+
+# Optical Materials
+b:Ma/Epoxy_Optical/EnableOpticalProperties = "True"
+sv:Ma/Epoxy_Optical/Components = 4 "Carbon" "Hydrogen" "Oxygen" "Chlorine"
+uv:Ma/Epoxy_Optical/Fractions = 4  0.6420 .0642 .2036 .0902 
+d:Ma/Epoxy_Optical/Density = 1. g/cm3
+s:Ma/Epoxy_Optical/DefaultColor = "white"
+dv:Ma/Epoxy_Optical/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Epoxy_Optical/AbsLength/Values = 4 100 100 100 100 mm 
+dv:Ma/Epoxy_Optical/RefractiveIndex/Energies = 3 2.0 3.5 7.14 eV
+uv:Ma/Epoxy_Optical/RefractiveIndex/Values = 3 1.7 1.7 1.7
+
+b:Ma/Silicon_Dioxide/EnableOpticalProperties = "True"
+sv:Ma/Silicon_Dioxide/Components = 2 "Silicon" "Oxygen"
+uv:Ma/Silicon_Dioxide/Fractions = 2 0.4674 0.5326
+d:Ma/Silicon_Dioxide/Density = 2.64 g/cm3
+s:Ma/Silicon_Dioxide/DefaultColor = "lime"
+dv:Ma/Silicon_Dioxide/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Silicon_Dioxide/AbsLength/Values = 4 0.001 0.001 0.001 0.001 mm 
+dv:Ma/Silicon_Dioxide/RefractiveIndex/Energies = 3 2.0 3.5 7.14 eV
+uv:Ma/Silicon_Dioxide/RefractiveIndex/Values = 3 1.7 1.7 1.7
+
+b:Ma/CWO/EnableOpticalProperties = "True"
+sv:Ma/CWO/Components = 3 "Cadmium" "Tungsten" "Oxygen"
+uv:Ma/CWO/Fractions = 3 .312 .178 .510
+d:Ma/CWO/Density = 7.9 g/cm3
+s:Ma/CWO/DefaultColor= "yellow"
+u:Ma/CWO/ScintillationYield      = 600 #See star-lack actually 15000ish
+u:Ma/CWO/ResolutionScale         = 1.0
+d:Ma/CWO/FastTimeConstant        = 2.1 ns 
+u:Ma/CWO/YieldRatio              = 1.0
+dv:Ma/CWO/RefractiveIndex/Energies    = 4 2.11501 2.3509 2.85803 3.10177 eV
+uv:Ma/CWO/RefractiveIndex/Values    = 4 2.25 2.25 2.25 2.25
+dv:Ma/CWO/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/CWO/AbsLength/Values = 4 12.5 12.5 12.5 12.5 cm 
+dv:Ma/CWO/FastComponent/Energies = 1 2.61 eV
+uv:Ma/CWO/FastComponent/Values = 1 1
+
+b:Ma/Al_Mylar/EnableOpticalProperties = "True"
+sv:Ma/Al_Mylar/Components = 1 "Aluminum"
+uv:Ma/Al_Mylar/Fractions  = 1 1
+d:Ma/Al_Mylar/Density     = 2.7 g/cm3
+s:Ma/Al_Mylar/DefaultColor = "red"
+dv:Ma/Al_Mylar/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Al_Mylar/AbsLength/Values = 4 0.001 0.001 0.001 0.001 mm 
+dv:Ma/Al_Mylar/Reflectivity/Energies = 4 2.0 2.1 2.61 7.0 eV
+uv:Ma/Al_Mylar/Reflectivity/Values = 4 0.88 0.88 0.88 0.88
+dv:Ma/Al_Mylar/RefractiveIndex/Energies = 67
+2.08871  2.09688  2.1067  2.11901  2.13227  2.14775  2.16097  2.17225  2.18364  2.19859
+2.21026  2.22648  2.23891  2.25375  2.26738  2.27888  2.29049  2.30364  2.3179  2.33282
+2.34843  2.36028  2.37327  2.39096  2.40429  2.41311  2.42304  2.43043  2.43947  2.44483
+2.45021  2.4551  2.46054  2.46818  2.47584  2.48463  2.49182  2.50069  2.50792  2.51687
+2.52494  2.52869  2.53548  2.54  2.5476  2.55294  2.55983  2.56443  2.57218  2.57919
+2.58782  2.59887  2.60524  2.61001  2.61641  2.61961  2.62441  2.6317  2.63573  2.64143
+2.648  2.65211  2.6554  2.66204  2.66787  2.67712  2.68643   eV
+uv:Ma/Al_Mylar/RefractiveIndex/Values = 67
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6  1.6
+1.6  1.6  1.6  1.6  1.6  1.6  1.6
+
+b:Ma/Vikuiti/EnableOpticalProperties = "True"
+sv:Ma/Vikuiti/Components = 2 "Carbon" "Hydrogen"
+uv:Ma/Vikuiti/Fractions  = 2 0.5 0.5
+d:Ma/Vikuiti/Density     = 1.05 g/cm3
+s:Ma/Vikuiti/DefaultColor = "blue"
+dv:Ma/Vikuiti/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Vikuiti/AbsLength/Values = 4 0.01 0.01 0.01 0.01 mm 
+dv:Ma/Vikuiti/Reflectivity/Energies = 2 2.0 7.0 eV
+uv:Ma/Vikuiti/Reflectivity/Values = 2 0.98 0.98
+dv:Ma/Vikuiti/RefractiveIndex/Energies = 3 2.1 2.297 2.298 eV
+uv:Ma/Vikuiti/RefractiveIndex/Values = 3 1 1 1 
+
+b:Ma/Lead_Glass_Core/EnableOpticalProperties = "True"
+sv:Ma/Lead_Glass_Core/Components = 3 "Silicon" "Oxygen" "Lead"
+uv:Ma/Lead_Glass_Core/Fractions  = 3 0.3893 0.4437 0.167
+d:Ma/Lead_Glass_Core/Density     = 4.1 g/cm3
+s:Ma/Lead_Glass_Core/DefaultColor = "red"
+dv:Ma/Lead_Glass_Core/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Lead_Glass_Core/AbsLength/Values = 4 300 300 300 300 mm 
+dv:Ma/Lead_Glass_Core/RefractiveIndex/Energies = 4 2.1 2.297 2.298 2.298 eV
+uv:Ma/Lead_Glass_Core/RefractiveIndex/Values = 4 1.87 1.87 1.87 1.87
+
+b:Ma/Lead_Glass_Cladding/EnableOpticalProperties = "True"
+sv:Ma/Lead_Glass_Cladding/Components = 3 "Silicon" "Oxygen" "Lead"
+uv:Ma/Lead_Glass_Cladding/Fractions  = 3 0.3893 0.4437 0.167
+d:Ma/Lead_Glass_Cladding/Density     = 4.1 g/cm3
+dv:Ma/Lead_Glass_Cladding/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Lead_Glass_Cladding/AbsLength/Values = 4 300 300 300 300 mm 
+s:Ma/Lead_Glass_Cladding/DefaultColor = "red"
+dv:Ma/Lead_Glass_Cladding/RefractiveIndex/Energies = 4 2.1 2.297 2.298 2.7 eV
+uv:Ma/Lead_Glass_Cladding/RefractiveIndex/Values = 4 1.49 1.49 1.49 1.49
+
+b:Ma/Mylar_Custom/EnableOpticalProperties = "True"
+sv:Ma/Mylar_Custom/Components = 3 "Carbon" "Hydrogen" "Oxygen"
+uv:Ma/Mylar_Custom/Fractions = 3  0.625 .042 .333 
+d:Ma/Mylar_Custom/Density = 1.38 g/cm3
+s:Ma/Mylar_Custom/DefaultColor = "white"
+dv:Ma/Mylar_Custom/AbsLength/Energies = 4 2.11501 2.3509 2.85803 3.10177 eV
+dv:Ma/Mylar_Custom/AbsLength/Values = 4 100 100 100 100 mm 
+dv:Ma/Mylar_Custom/RefractiveIndex/Energies = 3 2.0 3.5 7.14 eV
+uv:Ma/Mylar_Custom/RefractiveIndex/Values = 3 1.7 1.7 1.7
+
+sv:Ma/Fiberglass/Components = 2 "Silicon" "Oxygen"
+uv:Ma/Fiberglass/Fractions = 2 0.4674 0.5326
+d:Ma/Fiberglass/Density = 1.85 g/cm3
+s:Ma/Fiberglass/DefaultColor = "lime"

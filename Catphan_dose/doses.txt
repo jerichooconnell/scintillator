@@ -1,0 +1,14 @@
+1.613708349168519e-07
+3.304057543118688e-07
+1.313530049174005e-07
+2.999242099122057e-07
+3.515523019359534e-07
+6.200432949299284e-07
+
+Dose_Al_spectrum_25topas.txt.csv  
+Dose_C_spectrum_25topas.txt.csv  
+Dose_W_spectrum_6topas.txt.csv
+Dose_Al_spectrum_6topas.txt.csv   
+Dose_C_spectrum_6topas.txt.csv
+Dose_Catphan_515.txt.csv          
+Dose_W_spectrum_25topas.txt.csv

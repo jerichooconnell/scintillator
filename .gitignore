@@ -1,0 +1,5 @@
+*.phsp
+*.header
+*.csv
+**/*.phsp
+*.npy

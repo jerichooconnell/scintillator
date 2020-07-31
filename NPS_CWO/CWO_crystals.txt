@@ -1,0 +1,74 @@
+i:Ts/SequenceVerbosity = 1
+b:Ts/UseQt = "True"
+# b:Gr/Enable = "False" 
+
+
+includeFile = Ma_COW.txt
+includeFile = myOutFile.txt
+
+# SEQUENCE
+# b:Ts/PauseBeforeQuit            = "True"
+b:Ts/ShowCPUTime                = "True"
+i:Ts/ShowHistoryCountAtInterval =10000
+i:Ts/NumberOfThreads = -1
+
+# GEOMETRY
+d:Ge/World/HLX      = 25 cm
+d:Ge/World/HLY      = 25 cm
+d:Ge/World/HLZ      = 25 cm
+s:Ge/World/Material = "Air"
+
+# VISUALIZATION
+s:Gr/view/Type        = "OpenGl"
+i:Gr/view/WindowSizeX = 600
+i:Gr/view/WindowSizeY = 600
+d:Gr/view/Theta       = 90. deg
+d:Gr/view/Phi         = 0. deg
+u:Gr/view/Zoom         = 10
+
+# PHYSICS LIST
+s:Ph/ListName         = "Optical"
+s:Ph/Optical/Type     = "Geant4_Modular"
+sv:Ph/Optical/Modules = 2 "g4em-penelope" "g4optical"
+sv:Ph/Optical/LayeredMassGeometryWorlds = 1 "Crystals"
+
+
+bc:Ge/Septa/Invisible = "False"
+dc:Ge/Septa/HLX = 200.704 mm
+dc:Ge/Septa/HLY = 150.528 mm
+dc:Ge/Septa/HLZ = 7.5 mm
+sc:Ge/Septa/Material = "Al_Mylar"
+dc:Ge/Septa/RotX = 0. deg
+dc:Ge/Septa/RotY = 0. deg
+dc:Ge/Septa/RotZ = 0. deg
+dc:Ge/Septa/TransX = 0. mm
+dc:Ge/Septa/TransY = 0. mm
+dc:Ge/Septa/TransZ = 0. mm
+sc:Ge/Septa/Color = "silver"
+s:Ge/Septa/Type = "TsBox"
+sc:Ge/Septa/DrawingStyle = "Solid"
+s:Ge/Septa/Parent = "World"
+
+
+
+
+
+# dc:Ge/CWO_1/HLX = 0.3925 mm
+# dc:Ge/CWO_1/HLY = 0.3925 mm
+# dc:Ge/CWO_1/HLZ = 7.5 mm
+# sc:Ge/CWO_1/Material = "CWO"
+# d:Ge/CWO_1/TransY = 0 mm
+# dc:Ge/CWO_1/TransX = 0 mm
+# s:Ge/CWO_1/Type = "TsBox"
+# sc:Ge/CWO_1/DrawingStyle = "Solid"
+# s:Ge/CWO_1/Parent = "World"
+
+# dc:Ge/CWO_1_Glue/HLX = 0.3925 mm
+# dc:Ge/CWO_1_Glue/HLY = 0.3925 mm
+# dc:Ge/CWO_1_Glue/HLZ = 7.5 mm
+# sc:Ge/CWO_1_Glue/Material = "CWO"
+# d:Ge/CWO_1_Glue/TransY = 0 mm
+# dc:Ge/CWO_1_Glue/TransX = 0 mm
+# s:Ge/CWO_1_Glue/Type = "TsBox"
+# sc:Ge/CWO_1_Glue/DrawingStyle = "Solid"
+# s:Ge/CWO_1_Glue/Parent = "World"

@@ -1,0 +1,17 @@
+[I 23:37:05.078 NotebookApp] The port 8888 is already in use, trying another port.
+[I 23:37:05.079 NotebookApp] The port 8889 is already in use, trying another port.
+[I 23:37:05.091 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 23:37:05.587 NotebookApp] JupyterLab extension loaded from /home/xcite/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 23:37:05.587 NotebookApp] JupyterLab application directory is /home/xcite/anaconda3/share/jupyter/lab
+[I 23:37:06.063 NotebookApp] Serving notebooks from local directory: /home/xcite/topas/Catphan_dose
+[I 23:37:06.063 NotebookApp] The Jupyter Notebook is running at:
+[I 23:37:06.063 NotebookApp] http://localhost:8890/?token=1dadf2916c89256cd2eddaaa5282ceb034ef3ad7966796fb
+[I 23:37:06.063 NotebookApp]  or http://127.0.0.1:8890/?token=1dadf2916c89256cd2eddaaa5282ceb034ef3ad7966796fb
+[I 23:37:06.063 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:37:06.092 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/xcite/.local/share/jupyter/runtime/nbserver-35284-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=1dadf2916c89256cd2eddaaa5282ceb034ef3ad7966796fb
+     or http://127.0.0.1:8890/?token=1dadf2916c89256cd2eddaaa5282ceb034ef3ad7966796fb

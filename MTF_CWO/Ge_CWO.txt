@@ -1,0 +1,237 @@
+# ------------------------------------------------------------------ #
+#  Main Script for CdWO Scintillator pencil beam simulation
+#  XCITE Tango2
+#
+#  Run -> topas Ge_COW.txt
+#
+#  File Structure
+#  -- > Ma_COW.txt (Contains optical materials)
+#  -- > Crystal_Ge.txt (Contains all the crystal geometries)
+#  -- > Crystal_Ge_small.txt (Contains smaller crystal for test)
+#
+#  Output
+#  -- > PhotodiodeReadout.phsp (Contains optical photons hitting AMFPI)
+#
+#  CHANGE == parameter that you might want to change 
+# ------------------------------------------------------------------ #
+
+# IMPORTS
+includeFile = Ma_CWO.txt
+includeFile = Crystal_Ge_small.txt
+# includeFile   = Crystal_Ge.txt         # CHANGE
+
+# GRAPHICS
+i:Ts/SequenceVerbosity          = 0
+b:Ts/UseQt                      = "True"                 # CHANGE
+# b:Gr/Enable                   = "False"                # CHANGE
+b:Ge/CheckForOverlaps           = "False"
+
+# SEQUENCE
+b:Ts/ShowCPUTime                = "True"
+i:Ts/ShowHistoryCountAtInterval = 1000
+i:Ts/NumberOfThreads            = 0
+
+# VISUALIZATION
+s:Gr/view/Type                  = "OpenGl"
+i:Gr/view/WindowSizeX           = 600
+i:Gr/view/WindowSizeY           = 600
+d:Gr/view/Theta                 = 90. deg
+d:Gr/view/Phi                   = 0. deg
+u:Gr/view/Zoom                  = 10
+s:Gr/view/ColorBy               = "Energy"
+dv:Gr/view/ColorByEnergyRanges  = 4 0.000001 0.2 100. 4000. keV # limits of energy ranges
+sv:Gr/view/ColorByEnergyColors  = 5 "blue" "green" "yellow" "red" "red"  # one for every energy interval that is defined by those ranges - one more value than number of ranges since includes less than first range value and greater than first range value
+
+# PHYSICS LIST (STAR-LACK USED)
+s:Ph/ListName                   = "Optical"
+s:Ph/Optical/Type               = "Geant4_Modular"
+sv:Ph/Optical/Modules           = 2 "g4em-penelope" "g4optical"
+
+# SOURCE (SIMPLE MONOENERGETIC)
+s:So/PencilBeam/Type                                       = "Beam"
+s:So/PencilBeam/Component                                  = "SourcePos"
+s:So/PencilBeam/BeamParticle                               = "gamma"
+s:So/PencilBeam/BeamPositionDistribution                   = "Flat"
+s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
+d:So/PencilBeam/BeamPositionCutoffX = 0.98 cm # X extent of position (if Flat or Gaussian)
+d:So/PencilBeam/BeamPositionCutoffY = 0.0001 cm
+d:So/PencilBeam/BeamPositionSpreadX = 0.98 cm # distribution (if Gaussian)
+d:So/PencilBeam/BeamPositionSpreadY = 0.0001 cm # distribution (if Gaussian)
+s:So/PencilBeam/BeamAngularDistribution                    = "None"
+i:So/PencilBeam/NumberOfHistoriesInRun                     = 20000    # CHANGE
+s:So/PencilBeam/BeamEnergySpectrumType = "Continuous"
+dv:So/PencilBeam/BeamEnergySpectrumValues = 200 0.015 0.045 0.075 0.105 0.135 0.165 0.195 0.225 0.255 0.285 0.315 0.345 0.375 0.405 0.435 0.465 0.495 0.525 0.555 0.585 0.615 0.645 0.675 0.705 0.735 0.765 0.795 0.825 0.855 0.885 0.915 0.945 0.975 1.005 1.035 1.065 1.095 1.125 1.155 1.185 1.215 1.245 1.275 1.305 1.335 1.365 1.395 1.425 1.455 1.485 1.515 1.545 1.575 1.605 1.635 1.665 1.695 1.725 1.755 1.785 1.815 1.845 1.875 1.905 1.935 1.965 1.995 2.025 2.055 2.085 2.115 2.145 2.175 2.205 2.235 2.265 2.295 2.325 2.355 2.385 2.415 2.445 2.475 2.505 2.535 2.565 2.595 2.625 2.655 2.685 2.715 2.745 2.775 2.805 2.835 2.865 2.895 2.925 2.955 2.985 3.015 3.045 3.075 3.105 3.135 3.165 3.195 3.225 3.255 3.285 3.315 3.345 3.375 3.405 3.435 3.465 3.495 3.525 3.555 3.585 3.615 3.645 3.675 3.705 3.735 3.765 3.795 3.825 3.855 3.885 3.915 3.945 3.975 4.005 4.035 4.065 4.095 4.125 4.155 4.185 4.215 4.245 4.275 4.305 4.335 4.365 4.395 4.425 4.455 4.485 4.515 4.545 4.575 4.605 4.635 4.665 4.695 4.725 4.755 4.785 4.815 4.845 4.875 4.905 4.935 4.965 4.995 5.025 5.055 5.085 5.115 5.145 5.175 5.205 5.235 5.265 5.295 5.325 5.355 5.385 5.415 5.445 5.475 5.505 5.535 5.565 5.595 5.625 5.655 5.685 5.715 5.745 5.775 5.805 5.835 5.865 5.895 5.925 5.955 5.985 MeV
+
+uv:So/PencilBeam/BeamEnergySpectrumWeights = 200 0.009329482265724241 0.08168943504840459 0.07940059937905922 0.06285985738122207 0.051316602508822834 0.04306470340452115 0.03710835702215279 0.03254747831493191 0.028977364864434273 0.02611086267252483 0.023677610372538436 0.021682645753916048 0.01997651439657569 0.01840136556470044 0.01712008778354818 0.016002370232912608 0.015023695670847687 0.014328648654309127 0.013314373713528048 0.01258574143404972 0.01191302861736611 0.011307654252876742 0.010744765246006182 0.010220163438886964 0.009759205705038607 0.009320246318415803 0.008889347394898543 0.008495728113244429 0.008163234010140697 0.007874736601488066 0.007538716045775659 0.007212267290001087 0.006959538186379312 0.006720075261618745 0.00645844606331793 0.006258613748826294 0.006025867876653683 0.0058292261621413245 0.005628218363446795 0.005446018311998539 0.005303952649763309 0.0051188978509651714 0.004965581125645117 0.0047897622741554175 0.004641987117220425 0.0045074781391466435 0.004405211013495041 0.0042498791723986 0.004146100709914709 0.004018812563372978 0.0039036151114895637 0.003793287522732416 0.0036990808601863596 0.0036226743869983806 0.003479433240560258 0.003396813493728422 0.0033422374414512944 0.003227207915882579 0.003154327895303276 0.003083295064185661 0.0030033621383890063 0.0029392142861740444 0.002847190665719072 0.002784050371392303 0.002717383624456858 0.0026787605720761214 0.0026102466356789887 0.0025415647729671574 0.0024821188575637632 0.0024129332159078354 0.00237565357404469 0.002341732458475521 0.0022754015641694735 0.002224016111871624 0.002172966512203173 0.002133671754563641 0.0020797674075453084 0.0020448387340879473 0.002002353376469137 0.001954158524150566 0.001908986345496574 0.0018592801563457131 0.001820489177650278 0.0017780038200314679 0.0017471053781268786 0.0017192296098868687 0.0016943765153114383 0.0016436795609038543 0.0016199683652683762 0.0015935199707033066 0.0015634947456351514 0.0015187927606623165 0.0015016642765630333 0.0014795147956542544 0.001450564299000172 0.0014021007645780826 0.0013799848689322435 0.001353418925946885 0.001326584300858008 0.00131603852829492 0.0012847034779721138 0.0012418486824609663 0.0012354842751338797 0.001187490934392947 0.001191302861736611 0.0011742919260576174 0.001154090390399345 0.0011232087411262256 0.0011116218254120047 0.0010882968603003339 0.0010503958910728025 0.0010357023385366528 0.001009472248180692 0.0009918735704002519 0.0009875074862180817 0.0009667853789842431 0.0009519910706592741 0.0009320582171045201 0.0009179356140383464 0.0008955174510260494 0.0008843167658356358 0.0008603536807281094 0.000838137029293451 0.0008251899104301693 0.0008196315494136372 0.000799144539020377 0.000789471983293723 0.0007702444202607042 0.0007692368623725111 0.0007422007257059957 0.0007313191005135099 0.0007064156280436698 0.0006997321607186554 0.0006941066291762438 0.0006710167609051514 0.0006598328683462076 0.0006622677999093409 0.0006281787580254736 0.0006220830328019051 0.0006058781434334659 0.0005978344729593907 0.0005778848267731667 0.00057741463309201 0.0005607731353053536 0.0005385900691336349 0.0005337034133758982 0.0005329645375912233 0.0005051223546141534 0.000504568197775647 0.0004862306442105322 0.00048602913263289356 0.0004673053485439713 0.000449622707606182 0.00044466888132256577 0.0004323095045607301 0.0004240643225090164 0.00041600385940347137 0.00040910208786934846 0.0003942406090184999 0.0003797821533229285 0.00037598701861073447 0.0003645680292112124 0.0003640810428985857 0.0003511843019297137 0.00033408940309337035 0.0003285814199712479 0.00031000876956555464 0.00029638994544347756 0.0002951472907147061 0.0002893034549631859 0.0002755670824208196 0.0002750297182137833 0.0002645175309136351 0.00024693564576466504 0.0002452563826176765 0.00022989112482273133 0.00022423200801737996 0.00020708673128662692 0.00019887513449785298 0.00019449225768421288 0.00018092381145654545 0.00016960557784584268 0.0001644015413533252 0.00015095400207224097 0.00014360218801472512 0.00013753501026465552 0.00012536706950157657 0.00012026714732417236 0.00010495730521307781  0.0001  0.0001  0.0001  0.0001  0.0001 0.0000718982536541526 0 0 0 0 0
+
+s:Ge/SourcePos/Parent = "World"
+s:Ge/SourcePos/Type = "TsBox"
+d:Ge/SourcePos/HLX = 1 mm
+d:Ge/SourcePos/HLY = 1 mm
+d:Ge/SourcePos/HLZ = 1 mm
+d:Ge/SourcePos/RotZ = -1.5 deg
+d:Ge/SourcePos/RotX = 0. deg
+d:Ge/SourcePos/RotY = 180. deg
+s:Ge/SourcePos/Color = "Red"
+s:Ge/SourcePos/DrawingStyle = "Solid"
+s:Ge/SourcePos/Material = "Air"
+
+# s:So/PencilBeam/Type                            = "PhaseSpace"
+# s:So/PencilBeam/PhaseSpaceFileName              = "EX6MVp"
+# i:So/PencilBeam/PhaseSpaceMultipleUse          = 0
+# b:So/PencilBeam/PhaseSpaceIncludeEmptyHistories = "False"
+# b:So/PencilBeam/LimitedAssumePhotonIsNewHistory = "True"
+# s:So/PencilBeam/Component = "SourcePos"
+# uc:So/PencilBeam/PhaseSpaceScaleXPosBy = 0.001 # adjust starting point on X axis by factor of 0.1
+# uc:So/PencilBeam/PhaseSpaceScaleYPosBy = 0.1  # adjust starting point on Y axis by factor of 0.1
+# i:So/PencilBeam/NumberOfHistoriesInRun                     = 100    # CHANGE
+# # b:So/PencilBeam/PhaseSpaceIgnoreXPos = "True" # start all particles at Component’s X axis
+# # b:So/PencilBeam/PhaseSpaceIgnoreYPos = "True" # start all particles at Component’s Y axis
+# b:So/PencilBeam/PhaseSpaceIgnoreZPos = "True" #
+# sv:So/PencilBeam/OnlyIncludeParticlesNamed = 1 "gamma"
+# d:So/PencilBeam/OnlyIncludeParticlesWithInitialMomentumBelow = 0.1 MeV
+
+# SCORER (OPTICAL)
+# s:Sc/Readout/Quantity                                   = "OpticalPhotonCount"
+# s:Sc/Readout/Component                                  = "Photodiode_Readout"
+# # s:Sc/Readout/OutputFile                                 = "PhotodiodeSurface"
+# s:Sc/Readout/OutputType                                 = "ASCII"
+# s:Sc/Readout/IfOutputFileAlreadyExists                  = "Overwrite"
+# # s:Sc/Readout/SplitByTimeFeature = "beam_energy"
+# b:Sc/Readout/IncludeParentID = "True"
+
+# SCORER
+s:Sc/Readout/Quantity                  = "PhaseSpace"
+s:Sc/Readout/Surface                   = "Photodiode_Readout/ZPlusSurface"
+s:Sc/Readout/OutputType                = "ASCII"
+# s:Sc/Readout/OutputFile                = "PHSP"
+s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
+b:Sc/Readout/IncludeParentID = "True"
+# b:Sc/Readout/IncludeRunID = "True"
+b:Sc/Readout/IncludeEventID = "True"
+# b:Sc/Readout/IncludeTrackID = "True"
+# b:Sc/Readout/IncludeEventID = "True"
+
+
+s:Su/SurfaceDetector/Type                               = "dielectric_metal"
+s:Su/SurfaceDetector/Finish                             = "polished"
+s:Su/SurfaceDetector/Model                              = "unified"
+dv:Su/SurfaceDetector/Efficiency/Energies               = 2 1.6 7.2 eV
+uv:Su/SurfaceDetector/Efficiency/Values                 = 2 1.0 1.0
+dv:Su/SurfaceDetector/Reflectivity/Energies             = 2 1.6 4.2 eV
+uv:Su/SurfaceDetector/Reflectivity/Values               = 2 0.0 0.0
+
+
+# GEOMETRY
+d:Ge/World/HLX                                          = 5 cm
+d:Ge/World/HLY                                          = 5 cm
+d:Ge/World/HLZ                                          = 10 cm
+s:Ge/World/Material                                     = "Air"
+
+d:Ge/Carbon_Cover/HLX                                  = 9.8 mm
+d:Ge/Carbon_Cover/HLY                                  = 9.8 mm
+d:Ge/Carbon_Cover/HLZ                                  = 1.25 mm
+s:Ge/Carbon_Cover/Material                             = "Carbon_Fiber"
+d:Ge/Carbon_Cover/RotX                                 = 0. deg
+d:Ge/Carbon_Cover/RotY                                 = 0. deg
+d:Ge/Carbon_Cover/RotZ                                 = 0. deg
+d:Ge/Carbon_Cover/TransX                               = 0. mm
+d:Ge/Carbon_Cover/TransZ                               = 0. mm
+s:Ge/Carbon_Cover/Color                                = "silver"
+s:Ge/Carbon_Cover/Type                                  = "TsBox"
+s:Ge/Carbon_Cover/DrawingStyle                         = "WireFrame"
+s:Ge/Carbon_Cover/Parent                                = "World"
+
+d:Ge/Rohacell_Foam/HLX                                 = Ge/Carbon_Cover/HLX mm
+d:Ge/Rohacell_Foam/HLY                                 = Ge/Carbon_Cover/HLY mm
+d:Ge/Rohacell_Foam/HLZ                                 = 16.55 mm
+s:Ge/Rohacell_Foam/Material                            = "Rohacell"
+d:Ge/Rohacell_Foam/TransZ1                              = Ge/Carbon_Cover/TransZ - Ge/Carbon_Cover/HLZ mm
+d:Ge/Rohacell_Foam/TransZ                              = Ge/Rohacell_Foam/TransZ1 - Ge/Rohacell_Foam/HLZ mm
+s:Ge/Rohacell_Foam/Type                                 = "TsBox"
+s:Ge/Rohacell_Foam/DrawingStyle                        = "WireFrame"
+s:Ge/Rohacell_Foam/Parent                               = "World"
+
+d:Ge/Vikuiti_Reflector/HLX                             = Ge/Carbon_Cover/HLX mm
+d:Ge/Vikuiti_Reflector/HLY                             = Ge/Carbon_Cover/HLY mm
+d:Ge/Vikuiti_Reflector/HLZ                             = 0.0325 mm
+s:Ge/Vikuiti_Reflector/Material                        = "Vikuiti"
+d:Ge/Vikuiti_Reflector/TransZ1                          = Ge/Rohacell_Foam/TransZ - Ge/Rohacell_Foam/HLZ mm
+d:Ge/Vikuiti_Reflector/TransZ                          = Ge/Vikuiti_Reflector/TransZ1 - Ge/Vikuiti_Reflector/HLZ mm
+s:Ge/Vikuiti_Reflector/Type                             = "TsBox"
+s:Ge/Vikuiti_Reflector/DrawingStyle                    = "WireFrame"
+s:Ge/Vikuiti_Reflector/Parent                           = "World"
+
+s:Ge/SeptaGroup/Type                                    = "Group"
+s:Ge/SeptaGroup/Parent                                  = "World"
+d:Ge/SeptaGroup/TransX                                  = 0. m
+d:Ge/SeptaGroup/TransY                                  = 0. m
+d:Ge/SeptaGroup/TransZ1                                 = Ge/Vikuiti_Reflector/TransZ - Ge/Vikuiti_Reflector/HLZ mm
+d:Ge/SeptaGroup/TransZ                                  = Ge/SeptaGroup/TransZ1 - 7.5 mm
+d:Ge/SeptaGroup/RotX                                    = 0. deg
+
+d:Ge/Epoxy_Optical/HLX                                 = Ge/Carbon_Cover/HLX mm
+d:Ge/Epoxy_Optical/HLY                                 = Ge/Carbon_Cover/HLY mm
+d:Ge/Epoxy_Optical/HLZ                                 = 0.005 mm
+s:Ge/Epoxy_Optical/Material                            = "Epoxy_Optical"
+d:Ge/Epoxy_Optical/TransZ1                              = Ge/SeptaGroup/TransZ - Ge/CWO_1/HLZ mm
+d:Ge/Epoxy_Optical/TransZ                              = Ge/Epoxy_Optical/TransZ1 - Ge/Epoxy_Optical/HLZ mm
+s:Ge/Epoxy_Optical/Type                                 = "TsBox"
+s:Ge/Epoxy_Optical/DrawingStyle                        = "WireFrame"
+s:Ge/Epoxy_Optical/Parent                               = "World"
+
+d:Ge/Mylar/HLX                                         = Ge/Carbon_Cover/HLX mm
+d:Ge/Mylar/HLY                                         = Ge/Carbon_Cover/HLY mm
+d:Ge/Mylar/HLZ                                         = 0.0325 mm
+s:Ge/Mylar/Material                                    = "Mylar_Custom"
+d:Ge/Mylar/TransZ1                                      = Ge/Epoxy_Optical/TransZ - Ge/Epoxy_Optical/HLZ mm
+d:Ge/Mylar/TransZ                                      = Ge/Mylar/TransZ1 - Ge/Mylar/HLZ mm
+s:Ge/Mylar/Type                                         = "TsBox"
+s:Ge/Mylar/DrawingStyle                                = "WireFrame"
+s:Ge/Mylar/Parent                                       = "World"
+
+d:Ge/Photodiode_Readout/HLX                            = Ge/Carbon_Cover/HLX mm
+d:Ge/Photodiode_Readout/HLY                            = Ge/Carbon_Cover/HLY mm
+d:Ge/Photodiode_Readout/HLZ                            = 0.5 mm
+s:Ge/Photodiode_Readout/Material                       = "Silicon_Dioxide"
+d:Ge/Photodiode_Readout/TransZ1                         = Ge/Mylar/TransZ - Ge/Mylar/HLZ mm
+d:Ge/Photodiode_Readout/TransZ                         = Ge/Photodiode_Readout/TransZ1 - Ge/Photodiode_Readout/HLZ mm
+s:Ge/Photodiode_Readout/Type                            = "TsBox"
+s:Ge/Photodiode_Readout/DrawingStyle                   = "WireFrame"
+s:Ge/Photodiode_Readout/Parent                          = "World"
+s:Ge/Photodiode_Readout/OpticalBehavior                 = "SurfaceDetector"
+
+
+d:Ge/Fiberglass_Backing/HLX                            = Ge/Carbon_Cover/HLX mm
+d:Ge/Fiberglass_Backing/HLY                            = Ge/Carbon_Cover/HLY mm
+d:Ge/Fiberglass_Backing/HLZ                            = 0.3 mm
+s:Ge/Fiberglass_Backing/Material                       = "Fiberglass"
+d:Ge/Fiberglass_Backing/TransZ1                         = Ge/Photodiode_Readout/TransZ - Ge/Photodiode_Readout/HLZ mm
+d:Ge/Fiberglass_Backing/TransZ                         = Ge/Fiberglass_Backing/TransZ1 - Ge/Fiberglass_Backing/HLZ mm
+s:Ge/Fiberglass_Backing/Type                            = "TsBox"
+s:Ge/Fiberglass_Backing/DrawingStyle                   = "WireFrame"
+s:Ge/Fiberglass_Backing/Parent                          = "World"
+
+d:Ge/Rohacell_Foam_2/HLX                               = Ge/Carbon_Cover/HLX mm
+d:Ge/Rohacell_Foam_2/HLY                               = Ge/Carbon_Cover/HLY mm
+d:Ge/Rohacell_Foam_2/HLZ                               = 12.5 mm
+s:Ge/Rohacell_Foam_2/Material                          = "Rohacell"
+d:Ge/Rohacell_Foam_2/TransZ1                            = Ge/Fiberglass_Backing/TransZ - Ge/Fiberglass_Backing/HLZ mm
+d:Ge/Rohacell_Foam_2/TransZ                            = Ge/Rohacell_Foam_2/TransZ1 - Ge/Rohacell_Foam_2/HLZ mm
+s:Ge/Rohacell_Foam_2/Type                               = "TsBox"
+s:Ge/Rohacell_Foam_2/DrawingStyle                      = "WireFrame"
+s:Ge/Rohacell_Foam_2/Parent                             = "World"
+
+d:Ge/Fiberglass_Backing_2/HLX                          = Ge/Carbon_Cover/HLX mm
+d:Ge/Fiberglass_Backing_2/HLY                          = Ge/Carbon_Cover/HLY mm
+d:Ge/Fiberglass_Backing_2/HLZ                          = 3 mm
+s:Ge/Fiberglass_Backing_2/Material                     = "Fiberglass"
+d:Ge/Fiberglass_Backing_2/TransZ1                       = Ge/Rohacell_Foam_2/TransZ - Ge/Rohacell_Foam_2/HLZ mm
+d:Ge/Fiberglass_Backing_2/TransZ                       = Ge/Fiberglass_Backing_2/TransZ1 - Ge/Fiberglass_Backing_2/HLZ mm
+s:Ge/Fiberglass_Backing_2/Type                          = "TsBox"
+s:Ge/Fiberglass_Backing_2/DrawingStyle                 = "WireFrame"
+s:Ge/Fiberglass_Backing_2/Parent                        = "World"
+
+# # These must be last lines two lines for bash script to replace!!
+# d:So/PencilBeam/BeamEnergy = 6000 keV
+s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface"
