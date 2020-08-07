@@ -671,11 +671,11 @@ d:Ge/Insert45/RotY = 90. deg
 d:Ge/Insert45/RotZ = 0. deg
 s:Sc/Readout_Adipose/OutputFile = "Readout_1"
 d:Ge/InsertGroup/RotX= 1 deg
-# b:Ts/UseQt                             = "True"
-b:Gr/Enable                          = "False"                # CHANGE
+b:Ts/UseQt                             = "True"
+# b:Gr/Enable                          = "False"                # CHANGE
 
 # b:Ts/PauseBeforeQuit                 = "True"
-i:Ts/NumberOfThreads                   = 20 
+i:Ts/NumberOfThreads                   = 20
 
 sv:Ph/Default/LayeredMassGeometryWorlds = 1 "Inserts"
 
@@ -701,8 +701,8 @@ dc:So/Example/BeamPositionCutoffY      = 0.07 cm
 dc:So/Example/BeamPositionSpreadX      = 0.1 cm
 dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
-dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
-dc:So/Example/BeamAngularCutoffY       = 0.04 rad # Cheating a bit
+dc:So/Example/BeamAngularCutoffX       = 0.04 rad
+dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
 i:So/Example/NumberOfHistoriesInRun    = 500000000
 
 sv:Ma/CWO/Components = 3 "Cadmium" "Tungsten" "Oxygen"
@@ -735,7 +735,7 @@ dc:Ge/MyBox/RotZ                       = 0. deg
 s:Sc/Readout_Adipose/Quantity                  = "EnergyDeposit"
 s:Sc/Readout_Adipose/Component                   = "MyBox"
 i:Sc/Readout_Adipose/YBins                     = 512
-i:Sc/Readout_Adipose/ZBins                     = 64 # Just changed this
+i:Sc/Readout_Adipose/ZBins                     = 124 # Just changed this
 i:Sc/Readout_Adipose/XBins                     = 1 # Just changed this
 # i:Sc/Readout_Adipose/EBins                     = 50 # defaults to 1, that is, un-binned
 # d:Sc/Readout_Adipose/EBinMin                   = .001 MeV # defaults to zero
