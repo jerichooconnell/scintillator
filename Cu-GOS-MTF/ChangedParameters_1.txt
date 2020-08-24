@@ -1,0 +1,4 @@
+# To restore TOPAS to state GUI had on Fri Jun 19 15:29:20 2020
+
+includeFile = Ge_CuGOS.txt
+

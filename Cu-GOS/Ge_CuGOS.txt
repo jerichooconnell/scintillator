@@ -16,8 +16,8 @@
 includeFile                             = Ma_CuGOS.txt
 
 i:Ts/SequenceVerbosity                  = 1
-b:Ts/UseQt                              = "True"
-# b:Gr/Enable                           = "False"
+# b:Ts/UseQt                              = "True"
+b:Gr/Enable                           = "False"
 
 
 # SEQUENCE
@@ -31,22 +31,31 @@ i:Gr/view/WindowSizeX                   = 600
 i:Gr/view/WindowSizeY                   = 600
 d:Gr/view/Theta                         = 90. deg
 d:Gr/view/Phi                           = 0. deg
-u:Gr/view/Zoom                          = 10
+u:Gr/view/Zoom                          = 30
+s:Gr/view/CenterOn = "GOS_Glue"
+
 
 # PHYSICS LIST
 s:Ph/ListName                           = "Optical"
 s:Ph/Optical/Type                       = "Geant4_Modular"
-sv:Ph/Optical/Modules                   = 2 "g4em-penelope" "g4optical"
+sv:Ph/Optical/Modules                   = 2 "g4optical" "g4em-lowep" #"g4em-penelope" 
+d:Ph/Optical/CutForAllParticles         = 0.005 mm 
 
 # SOURCE (SIMPLE MONOENERGETIC)
 s:So/PencilBeam/Type                                       = "Beam"
 s:So/PencilBeam/Component                                  = "BeamPosition"
 s:So/PencilBeam/BeamParticle                               = "gamma"
-u:So/PencilBeam/BeamEnergySpread                           = 0.5
-s:So/PencilBeam/BeamPositionDistribution                   = "None"
-s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
+u:So/PencilBeam/BeamEnergySpread                           = 0.01
+d:So/PencilBeam/BeamPositionSpreadX                        = 0.3 mm
+d:So/PencilBeam/BeamPositionSpreadY                        = 0.3 mm
+d:So/PencilBeam/BeamPositionCutoffX                        = 0.6 mm
+d:So/PencilBeam/BeamPositionCutoffY                        = 0.6 mm
+s:So/PencilBeam/BeamPositionDistribution                   = "Gaussian"
+s:So/PencilBeam/BeamPositionCutoffShape                    = "Ellipse"
+# s:So/PencilBeam/BeamPositionDistribution                   = "None"
+# s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
 s:So/PencilBeam/BeamAngularDistribution                    = "None"
-i:So/PencilBeam/NumberOfHistoriesInRun                     = 1000000      # CHANGE
+i:So/PencilBeam/NumberOfHistoriesInRun                     = 100000#0      # CHANGE
 
 
 # GEOMETRY
@@ -123,14 +132,35 @@ s:Ge/Cu_Build_Up/Parent                 = "World"
 
 dc:Ge/White_Plastic/HLX                 = Ge/Plastic_Housing/HLX mm
 dc:Ge/White_Plastic/HLY                 = Ge/Plastic_Housing/HLY mm
-dc:Ge/White_Plastic/HLZ                 = 0.5 mm
-sc:Ge/White_Plastic/Material            = "Cu_Build_Up"
+dc:Ge/White_Plastic/HLZ                 = 0.09 mm
+sc:Ge/White_Plastic/Material            = "White_Plastic"
 d:Ge/White_Plastic/TransZ1              = Ge/Cu_Build_Up/TransZ - Ge/Cu_Build_Up/HLZ mm
 dc:Ge/White_Plastic/TransZ              = Ge/White_Plastic/TransZ1 - Ge/White_Plastic/HLZ mm
 s:Ge/White_Plastic/Type                 = "TsBox"
 sc:Ge/White_Plastic/DrawingStyle        = "Solid"
 s:Ge/White_Plastic/Parent               = "World"
 
+s:Ge/GOS_Glue/OpticalBehaviorTo/White_Plastic = "MySurface1"
+# s:Ge/White_Plastic/OpticalBehaviorTo/GOS_Glue = "MySurface2"
+
+dv:Su/MySurface1/Reflectivity/Energies = 3 1.0 4.0 7.0 eV
+uv:Su/MySurface1/Reflectivity/Values = 3 0.88 0.88 0.88
+dv:Su/MySurface1/Efficiency/Energies   = 2 1.6 7.2 eV
+uv:Su/MySurface1/Efficiency/Values     = 2 1.0 1.0
+s:Su/MySurface1/Type = "dielectric_metal"
+s:Su/MySurface1/Model = "Glisur"
+s:Su/MySurface1/Finish = "Polished"
+
+# dv:Su/MySurface2/Reflectivity/Energies = 3 1.0 4.0 7.0 eV
+# uv:Su/MySurface2/Reflectivity/Values = 3 0.88 0.88 0.88 
+# dv:Su/MySurface2/Efficiency/Energies   = 2 1.6 7.2 eV
+# uv:Su/MySurface2/Efficiency/Values     = 2 1.0 1.0
+# s:Su/MySurface2/Type = "dielectric_dielectric"
+# s:Su/MySurface2/Model = "Glisur"
+# s:Su/MySurface2/Finish = "Polished"
+
+
+# GOS glue means a mixture of GOS and glue and is the scintillator
 dc:Ge/GOS_Glue/HLX                      = Ge/Plastic_Housing/HLX mm
 dc:Ge/GOS_Glue/HLY                      = Ge/Plastic_Housing/HLY mm
 dc:Ge/GOS_Glue/HLZ                      = 0.145 mm
@@ -217,7 +247,7 @@ s:Sc/Readout/OutputType = "Binary"
 i:Sc/Readout/BounceLimit = 100000000
 s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
 
-# Surface used to detect optical photons
+# # Surface used to detect optical photons
 s:Su/SurfaceDetector/Type                = "dielectric_metal"
 s:Su/SurfaceDetector/Finish              = "polished"
 s:Su/SurfaceDetector/Model               = "unified"
@@ -232,7 +262,8 @@ s:Sc/EnergyDeposition/Quantity                  = "EnergyDeposit"
 s:Sc/EnergyDeposition/OutputType                = "csv"
 s:Sc/EnergyDeposition/IfOutputFileAlreadyExists = "Overwrite"
 
+
 # These must be last lines three lines for bash script to replace!!
-d:So/PencilBeam/BeamEnergy = 6000 keV
-s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface_keV_6000"
-s:Sc/EnergyDeposition/OutputFile = "runs/EnergyDeposit_keV_6000"
+d:So/PencilBeam/BeamEnergy = 120 keV
+s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface_keV_0120"
+s:Sc/EnergyDeposition/OutputFile = "runs/EnergyDeposit_keV_0120"
