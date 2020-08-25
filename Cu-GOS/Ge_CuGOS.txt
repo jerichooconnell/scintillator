@@ -46,16 +46,16 @@ s:So/PencilBeam/Type                                       = "Beam"
 s:So/PencilBeam/Component                                  = "BeamPosition"
 s:So/PencilBeam/BeamParticle                               = "gamma"
 u:So/PencilBeam/BeamEnergySpread                           = 0.01
-d:So/PencilBeam/BeamPositionSpreadX                        = 0.3 mm
-d:So/PencilBeam/BeamPositionSpreadY                        = 0.3 mm
-d:So/PencilBeam/BeamPositionCutoffX                        = 0.6 mm
-d:So/PencilBeam/BeamPositionCutoffY                        = 0.6 mm
-s:So/PencilBeam/BeamPositionDistribution                   = "Gaussian"
-s:So/PencilBeam/BeamPositionCutoffShape                    = "Ellipse"
-# s:So/PencilBeam/BeamPositionDistribution                   = "None"
-# s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
+# d:So/PencilBeam/BeamPositionSpreadX                        = 0.3 mm
+# d:So/PencilBeam/BeamPositionSpreadY                        = 0.3 mm
+# d:So/PencilBeam/BeamPositionCutoffX                        = 0.6 mm
+# d:So/PencilBeam/BeamPositionCutoffY                        = 0.6 mm
+# s:So/PencilBeam/BeamPositionDistribution                   = "Gaussian"
+# s:So/PencilBeam/BeamPositionCutoffShape                    = "Ellipse"
+s:So/PencilBeam/BeamPositionDistribution                   = "None"
+s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
 s:So/PencilBeam/BeamAngularDistribution                    = "None"
-i:So/PencilBeam/NumberOfHistoriesInRun                     = 100000#0      # CHANGE
+i:So/PencilBeam/NumberOfHistoriesInRun                     = 1000000      # CHANGE
 
 
 # GEOMETRY
@@ -264,6 +264,6 @@ s:Sc/EnergyDeposition/IfOutputFileAlreadyExists = "Overwrite"
 
 
 # These must be last lines three lines for bash script to replace!!
-d:So/PencilBeam/BeamEnergy = 120 keV
-s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface_keV_0120"
-s:Sc/EnergyDeposition/OutputFile = "runs/EnergyDeposit_keV_0120"
+d:So/PencilBeam/BeamEnergy = 40 keV
+s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface_keV_40"
+s:Sc/EnergyDeposition/OutputFile = "runs/EnergyDeposit_keV_40"
