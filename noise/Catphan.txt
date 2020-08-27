@@ -49,9 +49,9 @@ i:Ts/ShowHistoryCountAtInterval        = 100000
 s:Ge/MyBox/Type                        = "TsBox"
 s:Ge/MyBox/Material                    = "Air"
 s:Ge/MyBox/Parent                      = "World"
-dc:Ge/MyBox/HLX                        = .001 m
-dc:Ge/MyBox/HLY                        = .172032 m # 0.336 pixel pitch * 1024
-dc:Ge/MyBox/HLZ                        = .005376 m # 0.336 pixel pitch * 32
+dc:Ge/MyBox/HLX                        = 7.5 mm
+dc:Ge/MyBox/HLY                        = .2007 m # 0.336 pixel pitch * 1024 # Should be 0.392
+dc:Ge/MyBox/HLZ                        = .0500 m # 0.336 pixel pitch * 32
 dc:Ge/MyBox/TransX                     = 0. m
 dc:Ge/MyBox/TransY                     = 0. m
 dc:Ge/MyBox/TransZ                     = -0.5 m
@@ -71,17 +71,26 @@ dc:Ge/MyBox/RotZ                       = 0. deg
 # s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout/OutputFile              = "Spectral_Scorer"
 
-s:Sc/Readout_light_primary/OnlyIncludeParticlesOfGeneration = "Primary"
-s:Sc/Readout_light_primary/Quantity                  = "SurfaceTrackCount"
-s:Sc/Readout_light_primary/Surface                   = "MyBox/XPlusSurface"
-i:Sc/Readout_light_primary/YBins                     = 1024
-i:Sc/Readout_light_primary/ZBins                     = 32
-i:Sc/Readout_light_primary/EBins                     = 50 # defaults to 1, that is, un-binned
-d:Sc/Readout_light_primary/EBinMin                   = .001 MeV # defaults to zero
-d:Sc/Readout_light_primary/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
-s:Sc/Readout_light_primary/OutputType                = "csv"
-s:Sc/Readout_light_primary/SplitByTimeFeature        = "beam_energy"
-s:Sc/Readout_light_primary/IfOutputFileAlreadyExists = "overwrite"
+# s:Sc/Readout_light_primary/OnlyIncludeParticlesOfGeneration = "Primary"
+# s:Sc/Readout_light_primary/Quantity                  = "SurfaceTrackCount"
+# s:Sc/Readout_light_primary/Surface                   = "MyBox/XPlusSurface"
+# i:Sc/Readout_light_primary/YBins                     = 1024
+# i:Sc/Readout_light_primary/ZBins                     = 32
+# i:Sc/Readout_light_primary/EBins                     = 50 # defaults to 1, that is, un-binned
+# d:Sc/Readout_light_primary/EBinMin                   = .001 MeV # defaults to zero
+# d:Sc/Readout_light_primary/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
+# s:Sc/Readout_light_primary/OutputType                = "csv"
+# s:Sc/Readout_light_primary/SplitByTimeFeature        = "beam_energy"
+# s:Sc/Readout_light_primary/IfOutputFileAlreadyExists = "overwrite"
+
+s:Sc/Readout/Quantity = "PhaseSpace"
+s:Sc/Readout/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
+b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
+s:Sc/Readout/OutputType = "Binary"
+i:Sc/Readout/BounceLimit = 100000000 
+s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
+
 
 # s:Sc/Readout_light_secondary/OnlyIncludeParticlesOfGeneration = "Secondary"
 # s:Sc/Readout_light_secondary/Quantity                  = "SurfaceTrackCount"
