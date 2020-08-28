@@ -1,5 +1,5 @@
-b:Ts/UseQt                             = "True"
-# b:Gr/Enable                          = "False"                # CHANGE
+# b:Ts/UseQt                             = "True"
+b:Gr/Enable                          = "False"                # CHANGE
 
 includeFile = inserts.txt
 includeFile = Ma_CuGOS.txt
@@ -7,7 +7,7 @@ includeFile = Ge_CuGOS.txt
 
 
 # b:Ts/PauseBeforeQuit                 = "True"
-i:Ts/NumberOfThreads                   = 1
+i:Ts/NumberOfThreads                   = -1
 
 s:Ge/InsertGroup/Type="Group"
 s:Ge/InsertGroup/Parent = "World"
@@ -42,9 +42,9 @@ dc:So/Example/BeamPositionCutoffY      = 0.07 cm
 dc:So/Example/BeamPositionSpreadX      = 0.1 cm
 dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
-dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
-dc:So/Example/BeamAngularCutoffY       = 0.04 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 5 #0000000
+dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad
+dc:So/Example/BeamAngularCutoffX       = 0.04 rad # Cheating a bit
+i:So/Example/NumberOfHistoriesInRun    = 1000000000
 
 d:Ge/BeamPosition/RotX                 = 180. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
@@ -65,6 +65,15 @@ dc:Ge/ScoringCylinder/DPhi             = 360. deg
 dc:Ge/ScoringCylinder/RotX             = 0. deg
 dc:Ge/ScoringCylinder/RotY             = 90. deg
 dc:Ge/ScoringCylinder/RotZ             = 0. deg
+
+s:Sc/Readout_Adipose/Quantity                  = "EnergyDeposit"
+s:Sc/Readout_Adipose/Component                   = "GOS_Glue"
+i:Sc/Readout_Adipose/YBins                     = 512
+i:Sc/Readout_Adipose/ZBins                     = 128 # Just changed this
+i:Sc/Readout_Adipose/XBins                     = 1 # Just changed this
+s:Sc/Readout_Adipose/OutputType                = "csv"
+s:Sc/Readout_Adipose/IfOutputFileAlreadyExists = "overwrite"
+
 
 # Don't know if this will include the dose to parrallel worlds
 s:Sc/Dose_Al_6/Quantity                  = "DoseToMedium"
