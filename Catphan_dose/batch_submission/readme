@@ -1,2 +1,8 @@
 This was runs on topas that I pushed to github
 I didn't push all of the csv files though so they might be in the other dirs
+
+batch_submission_smaller is Al_6 MV beam
+
+batch_submission_W is W_6 beam
+
+both are using energy deposition in the CWO det with a pixel size of 0.784 mm
