@@ -20,7 +20,7 @@ d:Tf/TimelineEnd                       = 17. ms
 i:Tf/NumberOfSequentialTimes           = 16
 s:Tf/beam_energy/Function              = "Step"
 dv:Tf/beam_energy/Times                = 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ms
-dv:Tf/beam_energy/Values               = 16 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 0.0003 keV
+dv:Tf/beam_energy/Values               = 16 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
 
 d:So/Example/BeamEnergy                = Tf/beam_energy/Value keV
 s:So/Example/Type                      = "Beam"
@@ -35,7 +35,7 @@ dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
 dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
 dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 200#000000
+i:So/Example/NumberOfHistoriesInRun    = 100000000
 
 d:Ge/BeamPosition/RotX                 = 180. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
@@ -54,7 +54,7 @@ dc:Ge/MyBox/HLY                        = .2007 m # 0.336 pixel pitch * 1024 # Sh
 dc:Ge/MyBox/HLZ                        = .0500 m # 0.336 pixel pitch * 32
 dc:Ge/MyBox/TransX                     = 0. m
 dc:Ge/MyBox/TransY                     = 0. m
-dc:Ge/MyBox/TransZ                     = -0.5 m
+dc:Ge/MyBox/TransZ                     = -0.52 m
 dc:Ge/MyBox/RotX                       = 0. deg
 dc:Ge/MyBox/RotY                       = 90. deg
 dc:Ge/MyBox/RotZ                       = 0. deg
@@ -83,21 +83,21 @@ dc:Ge/MyBox/RotZ                       = 0. deg
 # s:Sc/Readout_light_primary/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_primary/IfOutputFileAlreadyExists = "overwrite"
 
-# s:Sc/Readout/Quantity = "PhaseSpace"
-# s:Sc/Readout/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
-# # b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
-# s:Sc/Readout/OutputType = "Binary"
-# i:Sc/Readout/BounceLimit = 400000000 
-# s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
-# s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
-
-s:Sc/Readout_flood/Quantity = "PhaseSpace"
-s:Sc/Readout_flood/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
+s:Sc/Readout/Quantity = "PhaseSpace"
+s:Sc/Readout/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
 # b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
-s:Sc/Readout_flood/OutputType = "Binary"
-i:Sc/Readout_flood/BounceLimit = 400000000 
-s:Sc/Readout_flood/IfOutputFileAlreadyExists = "Overwrite"
-s:Sc/Readout_flood/SplitByTimeFeature        = "beam_energy"
+s:Sc/Readout/OutputType = "Binary"
+i:Sc/Readout/BounceLimit = 400000000 
+s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
+
+# s:Sc/Readout_flood/Quantity = "PhaseSpace"
+# s:Sc/Readout_flood/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
+# # b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
+# s:Sc/Readout_flood/OutputType = "Binary"
+# i:Sc/Readout_flood/BounceLimit = 400000000 
+# s:Sc/Readout_flood/IfOutputFileAlreadyExists = "Overwrite"
+# s:Sc/Readout_flood/SplitByTimeFeature        = "beam_energy"
 
 # s:Sc/Readout_light_secondary/OnlyIncludeParticlesOfGeneration = "Secondary"
 # s:Sc/Readout_light_secondary/Quantity                  = "SurfaceTrackCount"
