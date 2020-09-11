@@ -1,5 +1,5 @@
-b:Ts/UseQt                             = "True"
-# b:Gr/Enable                          = "False"                # CHANGE
+# b:Ts/UseQt                             = "True"
+b:Gr/Enable                          = "False"                # CHANGE
 
 # b:Ts/PauseBeforeQuit                 = "True"
 i:Ts/NumberOfThreads                   = -1
@@ -35,7 +35,7 @@ dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
 dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
 dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 100000000
+i:So/Example/NumberOfHistoriesInRun    = 200000000
 
 d:Ge/BeamPosition/RotX                 = 180. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
@@ -111,14 +111,14 @@ s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_secondary/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_secondary/IfOutputFileAlreadyExists = "overwrite"
 
-s:Ge/ScoringCylinder/Type              = "TsCylinder"
-s:Ge/ScoringCylinder/Parent            = "World"
-s:Ge/ScoringCylinder/Material          = "G4_WATER"
-dc:Ge/ScoringCylinder/RMin             = 0. cm
-dc:Ge/ScoringCylinder/RMax             = 8. cm
-dc:Ge/ScoringCylinder/HL               = 10. cm
-dc:Ge/ScoringCylinder/SPhi             = 0. deg
-dc:Ge/ScoringCylinder/DPhi             = 360. deg
-dc:Ge/ScoringCylinder/RotX             = 0. deg
-dc:Ge/ScoringCylinder/RotY             = 90. deg
-dc:Ge/ScoringCylinder/RotZ             = 0. deg
+# s:Ge/ScoringCylinder/Type              = "TsCylinder"
+# s:Ge/ScoringCylinder/Parent            = "World"
+# s:Ge/ScoringCylinder/Material          = "G4_WATER"
+# dc:Ge/ScoringCylinder/RMin             = 0. cm
+# dc:Ge/ScoringCylinder/RMax             = 8. cm
+# dc:Ge/ScoringCylinder/HL               = 10. cm
+# dc:Ge/ScoringCylinder/SPhi             = 0. deg
+# dc:Ge/ScoringCylinder/DPhi             = 360. deg
+# dc:Ge/ScoringCylinder/RotX             = 0. deg
+# dc:Ge/ScoringCylinder/RotY             = 90. deg
+# dc:Ge/ScoringCylinder/RotZ             = 0. deg
