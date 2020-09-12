@@ -1,8 +1,8 @@
-b:Ts/UseQt                             = "True"
-# b:Gr/Enable                          = "False"                # CHANGE
+# b:Ts/UseQt                             = "True"
+b:Gr/Enable                          = "False"                # CHANGE
 
 # b:Ts/PauseBeforeQuit                 = "True"
-i:Ts/NumberOfThreads                   = -1
+i:Ts/NumberOfThreads                   = 8 
 
 s:Ge/World/Material                    = "Vacuum"
 d:Ge/World/HLX                         = 1. m
@@ -29,17 +29,17 @@ s:So/Example/Type                      = "Beam"
 s:So/Example/Component                 = "BeamPosition"
 s:So/Example/BeamParticle              = "gamma"
 s:So/Example/BeamPositionDistribution  = "Flat"
-s:So/Example/BeamPositionCutoffShape   = "Rectangle"
-dc:So/Example/BeamPositionCutoffX      = 0.07 cm
-dc:So/Example/BeamPositionCutoffY      = 0.07 cm
+s:So/Example/BeamPositionCutoffShape   = "Ellipse"
+dc:So/Example/BeamPositionCutoffX      = 0.25 cm
+dc:So/Example/BeamPositionCutoffY      = 0.25 cm
 dc:So/Example/BeamPositionSpreadX      = 0.1 cm
 dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
 dc:So/Example/BeamAngularCutoffX       = 0.001 rad
 dc:So/Example/BeamAngularCutoffY       = 0.001 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 200#00000
+i:So/Example/NumberOfHistoriesInRun    = 20000000
 
-d:Ge/BeamPosition/RotX                 = 180. deg
+d:Ge/BeamPosition/RotX                 = 181. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
 d:Ge/BeamPosition/RotZ                 = 0. deg
 d:Ge/BeamPosition/TransX               = 0 m
@@ -48,70 +48,27 @@ d:Ge/BeamPosition/TransY               = 0 m
 i:Ts/ShowHistoryCountAtInterval        = 100000
 
 
-s:Ge/MyBox/Type                        = "TsBox"
+s:Ge/MyBox/Type                        = "TsCylinder" 
 s:Ge/MyBox/Material                    = "Air"
 s:Ge/MyBox/Parent                      = "World"
-d:Ge/MyBox/HLX                        = 7.5 mm
-d:Ge/MyBox/HLY                        = .2003 m # 0.336 pixel pitch * 1024 # Should be 0.392
-d:Ge/MyBox/HLZ                        = .1003 m # 0.336 pixel pitch * 32
+d:Ge/MyBox/RMin                        = 6 cm
+d:Ge/MyBox/RMax                        = 8 cm # 0.336 pixel pitch * 1024 # Should be 0.392
+d:Ge/MyBox/HL                        = .1003 m # 0.336 pixel pitch * 32
 d:Ge/MyBox/TransX                     = 0. m
-d:Ge/MyBox/TransY                     = 0.05 m
-d:Ge/MyBox/TransZ                     = 0 m
+d:Ge/MyBox/DPhi		     = 360. deg
+d:Ge/MyBox/SPhi                     = 0. deg 
 dc:Ge/MyBox/RotX                       = 0. deg
 dc:Ge/MyBox/RotY                       = 0. deg
-dc:Ge/MyBox/RotZ                       = 90. deg
-
-# s:Sc/Readout/Quantity                  = "SurfaceTrackCount"
-# s:Sc/Readout/Surface                   = "MyBox/XPlusSurface"
-# i:Sc/Readout/YBins                     = 1024
-# i:Sc/Readout/ZBins                     = 32
-# i:Sc/Readout/EBins                     = 50 # defaults to 1, that is, un-binned
-# d:Sc/Readout/EBinMin                   = .001 MeV # defaults to zero
-# d:Sc/Readout/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
-# s:Sc/Readout/OutputType                = "csv"
-# s:Sc/Readout/IfOutputFileAlreadyExists = "overwrite"
-# s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
-# s:Sc/Readout/OutputFile              = "Spectral_Scorer"
-
-# s:Sc/Readout_light_primary/OnlyIncludeParticlesOfGeneration = "Primary"
-# s:Sc/Readout_light_primary/Quantity                  = "SurfaceTrackCount"
-# s:Sc/Readout_light_primary/Surface                   = "MyBox/XPlusSurface"
-# i:Sc/Readout_light_primary/YBins                     = 1024
-# i:Sc/Readout_light_primary/ZBins                     = 32
-# i:Sc/Readout_light_primary/EBins                     = 50 # defaults to 1, that is, un-binned
-# d:Sc/Readout_light_primary/EBinMin                   = .001 MeV # defaults to zero
-# d:Sc/Readout_light_primary/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
-# s:Sc/Readout_light_primary/OutputType                = "csv"
-# s:Sc/Readout_light_primary/SplitByTimeFeature        = "beam_energy"
-# s:Sc/Readout_light_primary/IfOutputFileAlreadyExists = "overwrite"
+dc:Ge/MyBox/RotZ                       = 0. deg
 
 s:Sc/Readout/Quantity = "PhaseSpace"
-s:Sc/Readout/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
-# b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
-s:Sc/Readout/OutputType = "Binary"
+s:Sc/Readout/Surface  = "MyBox/InnerCurvedSurface"
+s:Sc/Readout/OutputType = "ASCII"
 i:Sc/Readout/BounceLimit = 400000000 
 s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
-# s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
-
-# s:Sc/Readout_flood/Quantity = "PhaseSpace"
-# s:Sc/Readout_flood/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
-# # b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
-# s:Sc/Readout_flood/OutputType = "Binary"
-# i:Sc/Readout_flood/BounceLimit = 400000000 
-# s:Sc/Readout_flood/IfOutputFileAlreadyExists = "Overwrite"
-# s:Sc/Readout_flood/SplitByTimeFeature        = "beam_energy"
-
-# s:Sc/Readout_light_secondary/OnlyIncludeParticlesOfGeneration = "Secondary"
-# s:Sc/Readout_light_secondary/Quantity                  = "SurfaceTrackCount"
-# s:Sc/Readout_light_secondary/Surface                   = "MyBox/XPlusSurface"
-# i:Sc/Readout_light_secondary/YBins                     = 1024
-# i:Sc/Readout_light_secondary/ZBins                     = 32
-# i:Sc/Readout_light_secondary/EBins                     = 50 # defaults to 1, that is, un-binned
-# d:Sc/Readout_light_secondary/EBinMin                   = .001 MeV # defaults to zero
-# d:Sc/Readout_light_secondary/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
-# s:Sc/Readout_light_secondary/OutputType                = "csv"
-# s:Sc/Readout_light_secondary/SplitByTimeFeature        = "beam_energy"
-# s:Sc/Readout_light_secondary/IfOutputFileAlreadyExists = "overwrite"
+b:Sc/Readout/IncludeParentID = "True"
+d:Sc/Readout/OnlyIncludeIfIncidentParticleKEBelow = 0.5115 MeV
+d:Sc/Readout/OnlyIncludeIfIncidentParticleKEAbove = 0.5105 MeV
 
 s:Ge/ScoringCylinder/Type              = "TsCylinder"
 s:Ge/ScoringCylinder/Parent            = "World"
