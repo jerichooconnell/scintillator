@@ -16,8 +16,8 @@
 includeFile                             = Ma_CuGOS.txt
 
 i:Ts/SequenceVerbosity                  = 1
-# b:Ts/UseQt                              = "True"
-b:Gr/Enable                           = "False"
+b:Ts/UseQt                              = "True"
+# b:Gr/Enable                           = "False"
 
 
 # SEQUENCE

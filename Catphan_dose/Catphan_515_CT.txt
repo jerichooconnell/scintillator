@@ -1,12 +1,12 @@
 b:Ts/UseQt                             = "True"
 # b:Gr/Enable                          = "False"                # CHANGE
 
-includeFile = inserts.txt
+# includeFile = inserts.txt
 
-# b:Ts/PauseBeforeQuit                 = "True"
-i:Ts/NumberOfThreads                   = 0
+# # b:Ts/PauseBeforeQuit                 = "True"
+i:Ts/NumberOfThreads                   = -1
 
-sv:Ph/Default/LayeredMassGeometryWorlds = 1 "Inserts"
+# sv:Ph/Default/LayeredMassGeometryWorlds = 1 "Inserts"
 
 s:Ge/World/Material                    = "Air"
 d:Ge/World/HLX                         = 1. m
@@ -31,9 +31,10 @@ dc:So/Example/BeamPositionCutoffY      = 0.07 cm
 dc:So/Example/BeamPositionSpreadX      = 0.1 cm
 dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
+
 dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
 dc:So/Example/BeamAngularCutoffY       = 0.04 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 5 #0000000
+i:So/Example/NumberOfHistoriesInRun    = 200#00000
 
 d:Ge/BeamPosition/RotX                 = 180. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
@@ -66,7 +67,7 @@ s:Sc/Readout_Adipose/Surface                   = "MyBox/XPlusSurface"
 # d:Sc/Readout_Adipose/EBinMax                   = 1. MeV # must be specified if EBins is greater than 1
 s:Sc/Readout_Adipose/OutputType                = "binary"
 s:Sc/Readout_Adipose/IfOutputFileAlreadyExists = "overwrite"
-s:Sc/Readout_Adipose/SplitByTimeFeature        = "beam_energy"
+# s:Sc/Readout_Adipose/SplitByTimeFeature        = "beam_energy"
 s:Sc/Readout_Adipose/OutputFile              = "runs/CT_readout_al_6"
 
 # s:Sc/Readout_light_primary/OnlyIncludeParticlesOfGeneration = "Primary"

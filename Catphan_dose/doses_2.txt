@@ -1,0 +1,13 @@
+
+1.342093192135962e-08
+2.736387827440012e-08
+1.096097257402562e-08
+2.485867334200975e-08
+2.91604074220686e-08
+5.120586976659069e-08
+Dose_Al_spectrum_25topas.txt.csv
+Dose_Al_spectrum_6topas.txt.csv
+Dose_C_spectrum_25topas.txt.csv
+Dose_C_spectrum_6topas.txt.csv
+Dose_W_spectrum_25topas.txt.csv
+Dose_W_spectrum_6topas.txt.csv
