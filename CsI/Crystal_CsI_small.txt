@@ -1,0 +1,968 @@
+s:Ge/CsI_0/Parent   = "SeptaGroup"
+s:Ge/CsI_0/Type = "TsCylinder"
+d:Ge/CsI_0/RMax = 0.0051 mm
+d:Ge/CsI_0/HL = 0.180 mm
+s:Ge/CsI_0/Material = "CsI"
+d:Ge/CsI_0/TransX = -0.05105 mm
+d:Ge/CsI_0/TransY = -0.051 mm
+
+s:Ge/CsI_1/Parent   = "SeptaGroup"
+s:Ge/CsI_1/Type = "TsCylinder"
+d:Ge/CsI_1/RMax = 0.0051 mm
+d:Ge/CsI_1/HL = 0.180 mm
+s:Ge/CsI_1/Material = "CsI"
+d:Ge/CsI_1/TransX = -0.05105 mm
+d:Ge/CsI_1/TransY = -0.0408 mm
+
+s:Ge/CsI_2/Parent   = "SeptaGroup"
+s:Ge/CsI_2/Type = "TsCylinder"
+d:Ge/CsI_2/RMax = 0.0051 mm
+d:Ge/CsI_2/HL = 0.180 mm
+s:Ge/CsI_2/Material = "CsI"
+d:Ge/CsI_2/TransX = -0.05105 mm
+d:Ge/CsI_2/TransY = -0.0306 mm
+
+s:Ge/CsI_3/Parent   = "SeptaGroup"
+s:Ge/CsI_3/Type = "TsCylinder"
+d:Ge/CsI_3/RMax = 0.0051 mm
+d:Ge/CsI_3/HL = 0.180 mm
+s:Ge/CsI_3/Material = "CsI"
+d:Ge/CsI_3/TransX = -0.05105 mm
+d:Ge/CsI_3/TransY = -0.0204 mm
+
+s:Ge/CsI_4/Parent   = "SeptaGroup"
+s:Ge/CsI_4/Type = "TsCylinder"
+d:Ge/CsI_4/RMax = 0.0051 mm
+d:Ge/CsI_4/HL = 0.180 mm
+s:Ge/CsI_4/Material = "CsI"
+d:Ge/CsI_4/TransX = -0.05105 mm
+d:Ge/CsI_4/TransY = -0.0102 mm
+
+s:Ge/CsI_5/Parent   = "SeptaGroup"
+s:Ge/CsI_5/Type = "TsCylinder"
+d:Ge/CsI_5/RMax = 0.0051 mm
+d:Ge/CsI_5/HL = 0.180 mm
+s:Ge/CsI_5/Material = "CsI"
+d:Ge/CsI_5/TransX = -0.05105 mm
+d:Ge/CsI_5/TransY = 0.0 mm
+
+s:Ge/CsI_6/Parent   = "SeptaGroup"
+s:Ge/CsI_6/Type = "TsCylinder"
+d:Ge/CsI_6/RMax = 0.0051 mm
+d:Ge/CsI_6/HL = 0.180 mm
+s:Ge/CsI_6/Material = "CsI"
+d:Ge/CsI_6/TransX = -0.05105 mm
+d:Ge/CsI_6/TransY = 0.0102 mm
+
+s:Ge/CsI_7/Parent   = "SeptaGroup"
+s:Ge/CsI_7/Type = "TsCylinder"
+d:Ge/CsI_7/RMax = 0.0051 mm
+d:Ge/CsI_7/HL = 0.180 mm
+s:Ge/CsI_7/Material = "CsI"
+d:Ge/CsI_7/TransX = -0.05105 mm
+d:Ge/CsI_7/TransY = 0.0204 mm
+
+s:Ge/CsI_8/Parent   = "SeptaGroup"
+s:Ge/CsI_8/Type = "TsCylinder"
+d:Ge/CsI_8/RMax = 0.0051 mm
+d:Ge/CsI_8/HL = 0.180 mm
+s:Ge/CsI_8/Material = "CsI"
+d:Ge/CsI_8/TransX = -0.05105 mm
+d:Ge/CsI_8/TransY = 0.0306 mm
+
+s:Ge/CsI_9/Parent   = "SeptaGroup"
+s:Ge/CsI_9/Type = "TsCylinder"
+d:Ge/CsI_9/RMax = 0.0051 mm
+d:Ge/CsI_9/HL = 0.180 mm
+s:Ge/CsI_9/Material = "CsI"
+d:Ge/CsI_9/TransX = -0.05105 mm
+d:Ge/CsI_9/TransY = 0.0408 mm
+
+s:Ge/CsI_10/Parent   = "SeptaGroup"
+s:Ge/CsI_10/Type = "TsCylinder"
+d:Ge/CsI_10/RMax = 0.0051 mm
+d:Ge/CsI_10/HL = 0.180 mm
+s:Ge/CsI_10/Material = "CsI"
+d:Ge/CsI_10/TransX = -0.05105 mm
+d:Ge/CsI_10/TransY = 0.051 mm
+
+s:Ge/CsI_11/Parent   = "SeptaGroup"
+s:Ge/CsI_11/Type = "TsCylinder"
+d:Ge/CsI_11/RMax = 0.0051 mm
+d:Ge/CsI_11/HL = 0.180 mm
+s:Ge/CsI_11/Material = "CsI"
+d:Ge/CsI_11/TransX = -0.04084 mm
+d:Ge/CsI_11/TransY = -0.051 mm
+
+s:Ge/CsI_12/Parent   = "SeptaGroup"
+s:Ge/CsI_12/Type = "TsCylinder"
+d:Ge/CsI_12/RMax = 0.0051 mm
+d:Ge/CsI_12/HL = 0.180 mm
+s:Ge/CsI_12/Material = "CsI"
+d:Ge/CsI_12/TransX = -0.04084 mm
+d:Ge/CsI_12/TransY = -0.0408 mm
+
+s:Ge/CsI_13/Parent   = "SeptaGroup"
+s:Ge/CsI_13/Type = "TsCylinder"
+d:Ge/CsI_13/RMax = 0.0051 mm
+d:Ge/CsI_13/HL = 0.180 mm
+s:Ge/CsI_13/Material = "CsI"
+d:Ge/CsI_13/TransX = -0.04084 mm
+d:Ge/CsI_13/TransY = -0.0306 mm
+
+s:Ge/CsI_14/Parent   = "SeptaGroup"
+s:Ge/CsI_14/Type = "TsCylinder"
+d:Ge/CsI_14/RMax = 0.0051 mm
+d:Ge/CsI_14/HL = 0.180 mm
+s:Ge/CsI_14/Material = "CsI"
+d:Ge/CsI_14/TransX = -0.04084 mm
+d:Ge/CsI_14/TransY = -0.0204 mm
+
+s:Ge/CsI_15/Parent   = "SeptaGroup"
+s:Ge/CsI_15/Type = "TsCylinder"
+d:Ge/CsI_15/RMax = 0.0051 mm
+d:Ge/CsI_15/HL = 0.180 mm
+s:Ge/CsI_15/Material = "CsI"
+d:Ge/CsI_15/TransX = -0.04084 mm
+d:Ge/CsI_15/TransY = -0.0102 mm
+
+s:Ge/CsI_16/Parent   = "SeptaGroup"
+s:Ge/CsI_16/Type = "TsCylinder"
+d:Ge/CsI_16/RMax = 0.0051 mm
+d:Ge/CsI_16/HL = 0.180 mm
+s:Ge/CsI_16/Material = "CsI"
+d:Ge/CsI_16/TransX = -0.04084 mm
+d:Ge/CsI_16/TransY = 0.0 mm
+
+s:Ge/CsI_17/Parent   = "SeptaGroup"
+s:Ge/CsI_17/Type = "TsCylinder"
+d:Ge/CsI_17/RMax = 0.0051 mm
+d:Ge/CsI_17/HL = 0.180 mm
+s:Ge/CsI_17/Material = "CsI"
+d:Ge/CsI_17/TransX = -0.04084 mm
+d:Ge/CsI_17/TransY = 0.0102 mm
+
+s:Ge/CsI_18/Parent   = "SeptaGroup"
+s:Ge/CsI_18/Type = "TsCylinder"
+d:Ge/CsI_18/RMax = 0.0051 mm
+d:Ge/CsI_18/HL = 0.180 mm
+s:Ge/CsI_18/Material = "CsI"
+d:Ge/CsI_18/TransX = -0.04084 mm
+d:Ge/CsI_18/TransY = 0.0204 mm
+
+s:Ge/CsI_19/Parent   = "SeptaGroup"
+s:Ge/CsI_19/Type = "TsCylinder"
+d:Ge/CsI_19/RMax = 0.0051 mm
+d:Ge/CsI_19/HL = 0.180 mm
+s:Ge/CsI_19/Material = "CsI"
+d:Ge/CsI_19/TransX = -0.04084 mm
+d:Ge/CsI_19/TransY = 0.0306 mm
+
+s:Ge/CsI_20/Parent   = "SeptaGroup"
+s:Ge/CsI_20/Type = "TsCylinder"
+d:Ge/CsI_20/RMax = 0.0051 mm
+d:Ge/CsI_20/HL = 0.180 mm
+s:Ge/CsI_20/Material = "CsI"
+d:Ge/CsI_20/TransX = -0.04084 mm
+d:Ge/CsI_20/TransY = 0.0408 mm
+
+s:Ge/CsI_21/Parent   = "SeptaGroup"
+s:Ge/CsI_21/Type = "TsCylinder"
+d:Ge/CsI_21/RMax = 0.0051 mm
+d:Ge/CsI_21/HL = 0.180 mm
+s:Ge/CsI_21/Material = "CsI"
+d:Ge/CsI_21/TransX = -0.04084 mm
+d:Ge/CsI_21/TransY = 0.051 mm
+
+s:Ge/CsI_22/Parent   = "SeptaGroup"
+s:Ge/CsI_22/Type = "TsCylinder"
+d:Ge/CsI_22/RMax = 0.0051 mm
+d:Ge/CsI_22/HL = 0.180 mm
+s:Ge/CsI_22/Material = "CsI"
+d:Ge/CsI_22/TransX = -0.03063 mm
+d:Ge/CsI_22/TransY = -0.051 mm
+
+s:Ge/CsI_23/Parent   = "SeptaGroup"
+s:Ge/CsI_23/Type = "TsCylinder"
+d:Ge/CsI_23/RMax = 0.0051 mm
+d:Ge/CsI_23/HL = 0.180 mm
+s:Ge/CsI_23/Material = "CsI"
+d:Ge/CsI_23/TransX = -0.03063 mm
+d:Ge/CsI_23/TransY = -0.0408 mm
+
+s:Ge/CsI_24/Parent   = "SeptaGroup"
+s:Ge/CsI_24/Type = "TsCylinder"
+d:Ge/CsI_24/RMax = 0.0051 mm
+d:Ge/CsI_24/HL = 0.180 mm
+s:Ge/CsI_24/Material = "CsI"
+d:Ge/CsI_24/TransX = -0.03063 mm
+d:Ge/CsI_24/TransY = -0.0306 mm
+
+s:Ge/CsI_25/Parent   = "SeptaGroup"
+s:Ge/CsI_25/Type = "TsCylinder"
+d:Ge/CsI_25/RMax = 0.0051 mm
+d:Ge/CsI_25/HL = 0.180 mm
+s:Ge/CsI_25/Material = "CsI"
+d:Ge/CsI_25/TransX = -0.03063 mm
+d:Ge/CsI_25/TransY = -0.0204 mm
+
+s:Ge/CsI_26/Parent   = "SeptaGroup"
+s:Ge/CsI_26/Type = "TsCylinder"
+d:Ge/CsI_26/RMax = 0.0051 mm
+d:Ge/CsI_26/HL = 0.180 mm
+s:Ge/CsI_26/Material = "CsI"
+d:Ge/CsI_26/TransX = -0.03063 mm
+d:Ge/CsI_26/TransY = -0.0102 mm
+
+s:Ge/CsI_27/Parent   = "SeptaGroup"
+s:Ge/CsI_27/Type = "TsCylinder"
+d:Ge/CsI_27/RMax = 0.0051 mm
+d:Ge/CsI_27/HL = 0.180 mm
+s:Ge/CsI_27/Material = "CsI"
+d:Ge/CsI_27/TransX = -0.03063 mm
+d:Ge/CsI_27/TransY = 0.0 mm
+
+s:Ge/CsI_28/Parent   = "SeptaGroup"
+s:Ge/CsI_28/Type = "TsCylinder"
+d:Ge/CsI_28/RMax = 0.0051 mm
+d:Ge/CsI_28/HL = 0.180 mm
+s:Ge/CsI_28/Material = "CsI"
+d:Ge/CsI_28/TransX = -0.03063 mm
+d:Ge/CsI_28/TransY = 0.0102 mm
+
+s:Ge/CsI_29/Parent   = "SeptaGroup"
+s:Ge/CsI_29/Type = "TsCylinder"
+d:Ge/CsI_29/RMax = 0.0051 mm
+d:Ge/CsI_29/HL = 0.180 mm
+s:Ge/CsI_29/Material = "CsI"
+d:Ge/CsI_29/TransX = -0.03063 mm
+d:Ge/CsI_29/TransY = 0.0204 mm
+
+s:Ge/CsI_30/Parent   = "SeptaGroup"
+s:Ge/CsI_30/Type = "TsCylinder"
+d:Ge/CsI_30/RMax = 0.0051 mm
+d:Ge/CsI_30/HL = 0.180 mm
+s:Ge/CsI_30/Material = "CsI"
+d:Ge/CsI_30/TransX = -0.03063 mm
+d:Ge/CsI_30/TransY = 0.0306 mm
+
+s:Ge/CsI_31/Parent   = "SeptaGroup"
+s:Ge/CsI_31/Type = "TsCylinder"
+d:Ge/CsI_31/RMax = 0.0051 mm
+d:Ge/CsI_31/HL = 0.180 mm
+s:Ge/CsI_31/Material = "CsI"
+d:Ge/CsI_31/TransX = -0.03063 mm
+d:Ge/CsI_31/TransY = 0.0408 mm
+
+s:Ge/CsI_32/Parent   = "SeptaGroup"
+s:Ge/CsI_32/Type = "TsCylinder"
+d:Ge/CsI_32/RMax = 0.0051 mm
+d:Ge/CsI_32/HL = 0.180 mm
+s:Ge/CsI_32/Material = "CsI"
+d:Ge/CsI_32/TransX = -0.03063 mm
+d:Ge/CsI_32/TransY = 0.051 mm
+
+s:Ge/CsI_33/Parent   = "SeptaGroup"
+s:Ge/CsI_33/Type = "TsCylinder"
+d:Ge/CsI_33/RMax = 0.0051 mm
+d:Ge/CsI_33/HL = 0.180 mm
+s:Ge/CsI_33/Material = "CsI"
+d:Ge/CsI_33/TransX = -0.02042 mm
+d:Ge/CsI_33/TransY = -0.051 mm
+
+s:Ge/CsI_34/Parent   = "SeptaGroup"
+s:Ge/CsI_34/Type = "TsCylinder"
+d:Ge/CsI_34/RMax = 0.0051 mm
+d:Ge/CsI_34/HL = 0.180 mm
+s:Ge/CsI_34/Material = "CsI"
+d:Ge/CsI_34/TransX = -0.02042 mm
+d:Ge/CsI_34/TransY = -0.0408 mm
+
+s:Ge/CsI_35/Parent   = "SeptaGroup"
+s:Ge/CsI_35/Type = "TsCylinder"
+d:Ge/CsI_35/RMax = 0.0051 mm
+d:Ge/CsI_35/HL = 0.180 mm
+s:Ge/CsI_35/Material = "CsI"
+d:Ge/CsI_35/TransX = -0.02042 mm
+d:Ge/CsI_35/TransY = -0.0306 mm
+
+s:Ge/CsI_36/Parent   = "SeptaGroup"
+s:Ge/CsI_36/Type = "TsCylinder"
+d:Ge/CsI_36/RMax = 0.0051 mm
+d:Ge/CsI_36/HL = 0.180 mm
+s:Ge/CsI_36/Material = "CsI"
+d:Ge/CsI_36/TransX = -0.02042 mm
+d:Ge/CsI_36/TransY = -0.0204 mm
+
+s:Ge/CsI_37/Parent   = "SeptaGroup"
+s:Ge/CsI_37/Type = "TsCylinder"
+d:Ge/CsI_37/RMax = 0.0051 mm
+d:Ge/CsI_37/HL = 0.180 mm
+s:Ge/CsI_37/Material = "CsI"
+d:Ge/CsI_37/TransX = -0.02042 mm
+d:Ge/CsI_37/TransY = -0.0102 mm
+
+s:Ge/CsI_38/Parent   = "SeptaGroup"
+s:Ge/CsI_38/Type = "TsCylinder"
+d:Ge/CsI_38/RMax = 0.0051 mm
+d:Ge/CsI_38/HL = 0.180 mm
+s:Ge/CsI_38/Material = "CsI"
+d:Ge/CsI_38/TransX = -0.02042 mm
+d:Ge/CsI_38/TransY = 0.0 mm
+
+s:Ge/CsI_39/Parent   = "SeptaGroup"
+s:Ge/CsI_39/Type = "TsCylinder"
+d:Ge/CsI_39/RMax = 0.0051 mm
+d:Ge/CsI_39/HL = 0.180 mm
+s:Ge/CsI_39/Material = "CsI"
+d:Ge/CsI_39/TransX = -0.02042 mm
+d:Ge/CsI_39/TransY = 0.0102 mm
+
+s:Ge/CsI_40/Parent   = "SeptaGroup"
+s:Ge/CsI_40/Type = "TsCylinder"
+d:Ge/CsI_40/RMax = 0.0051 mm
+d:Ge/CsI_40/HL = 0.180 mm
+s:Ge/CsI_40/Material = "CsI"
+d:Ge/CsI_40/TransX = -0.02042 mm
+d:Ge/CsI_40/TransY = 0.0204 mm
+
+s:Ge/CsI_41/Parent   = "SeptaGroup"
+s:Ge/CsI_41/Type = "TsCylinder"
+d:Ge/CsI_41/RMax = 0.0051 mm
+d:Ge/CsI_41/HL = 0.180 mm
+s:Ge/CsI_41/Material = "CsI"
+d:Ge/CsI_41/TransX = -0.02042 mm
+d:Ge/CsI_41/TransY = 0.0306 mm
+
+s:Ge/CsI_42/Parent   = "SeptaGroup"
+s:Ge/CsI_42/Type = "TsCylinder"
+d:Ge/CsI_42/RMax = 0.0051 mm
+d:Ge/CsI_42/HL = 0.180 mm
+s:Ge/CsI_42/Material = "CsI"
+d:Ge/CsI_42/TransX = -0.02042 mm
+d:Ge/CsI_42/TransY = 0.0408 mm
+
+s:Ge/CsI_43/Parent   = "SeptaGroup"
+s:Ge/CsI_43/Type = "TsCylinder"
+d:Ge/CsI_43/RMax = 0.0051 mm
+d:Ge/CsI_43/HL = 0.180 mm
+s:Ge/CsI_43/Material = "CsI"
+d:Ge/CsI_43/TransX = -0.02042 mm
+d:Ge/CsI_43/TransY = 0.051 mm
+
+s:Ge/CsI_44/Parent   = "SeptaGroup"
+s:Ge/CsI_44/Type = "TsCylinder"
+d:Ge/CsI_44/RMax = 0.0051 mm
+d:Ge/CsI_44/HL = 0.180 mm
+s:Ge/CsI_44/Material = "CsI"
+d:Ge/CsI_44/TransX = -0.01021 mm
+d:Ge/CsI_44/TransY = -0.051 mm
+
+s:Ge/CsI_45/Parent   = "SeptaGroup"
+s:Ge/CsI_45/Type = "TsCylinder"
+d:Ge/CsI_45/RMax = 0.0051 mm
+d:Ge/CsI_45/HL = 0.180 mm
+s:Ge/CsI_45/Material = "CsI"
+d:Ge/CsI_45/TransX = -0.01021 mm
+d:Ge/CsI_45/TransY = -0.0408 mm
+
+s:Ge/CsI_46/Parent   = "SeptaGroup"
+s:Ge/CsI_46/Type = "TsCylinder"
+d:Ge/CsI_46/RMax = 0.0051 mm
+d:Ge/CsI_46/HL = 0.180 mm
+s:Ge/CsI_46/Material = "CsI"
+d:Ge/CsI_46/TransX = -0.01021 mm
+d:Ge/CsI_46/TransY = -0.0306 mm
+
+s:Ge/CsI_47/Parent   = "SeptaGroup"
+s:Ge/CsI_47/Type = "TsCylinder"
+d:Ge/CsI_47/RMax = 0.0051 mm
+d:Ge/CsI_47/HL = 0.180 mm
+s:Ge/CsI_47/Material = "CsI"
+d:Ge/CsI_47/TransX = -0.01021 mm
+d:Ge/CsI_47/TransY = -0.0204 mm
+
+s:Ge/CsI_48/Parent   = "SeptaGroup"
+s:Ge/CsI_48/Type = "TsCylinder"
+d:Ge/CsI_48/RMax = 0.0051 mm
+d:Ge/CsI_48/HL = 0.180 mm
+s:Ge/CsI_48/Material = "CsI"
+d:Ge/CsI_48/TransX = -0.01021 mm
+d:Ge/CsI_48/TransY = -0.0102 mm
+
+s:Ge/CsI_49/Parent   = "SeptaGroup"
+s:Ge/CsI_49/Type = "TsCylinder"
+d:Ge/CsI_49/RMax = 0.0051 mm
+d:Ge/CsI_49/HL = 0.180 mm
+s:Ge/CsI_49/Material = "CsI"
+d:Ge/CsI_49/TransX = -0.01021 mm
+d:Ge/CsI_49/TransY = 0.0 mm
+
+s:Ge/CsI_50/Parent   = "SeptaGroup"
+s:Ge/CsI_50/Type = "TsCylinder"
+d:Ge/CsI_50/RMax = 0.0051 mm
+d:Ge/CsI_50/HL = 0.180 mm
+s:Ge/CsI_50/Material = "CsI"
+d:Ge/CsI_50/TransX = -0.01021 mm
+d:Ge/CsI_50/TransY = 0.0102 mm
+
+s:Ge/CsI_51/Parent   = "SeptaGroup"
+s:Ge/CsI_51/Type = "TsCylinder"
+d:Ge/CsI_51/RMax = 0.0051 mm
+d:Ge/CsI_51/HL = 0.180 mm
+s:Ge/CsI_51/Material = "CsI"
+d:Ge/CsI_51/TransX = -0.01021 mm
+d:Ge/CsI_51/TransY = 0.0204 mm
+
+s:Ge/CsI_52/Parent   = "SeptaGroup"
+s:Ge/CsI_52/Type = "TsCylinder"
+d:Ge/CsI_52/RMax = 0.0051 mm
+d:Ge/CsI_52/HL = 0.180 mm
+s:Ge/CsI_52/Material = "CsI"
+d:Ge/CsI_52/TransX = -0.01021 mm
+d:Ge/CsI_52/TransY = 0.0306 mm
+
+s:Ge/CsI_53/Parent   = "SeptaGroup"
+s:Ge/CsI_53/Type = "TsCylinder"
+d:Ge/CsI_53/RMax = 0.0051 mm
+d:Ge/CsI_53/HL = 0.180 mm
+s:Ge/CsI_53/Material = "CsI"
+d:Ge/CsI_53/TransX = -0.01021 mm
+d:Ge/CsI_53/TransY = 0.0408 mm
+
+s:Ge/CsI_54/Parent   = "SeptaGroup"
+s:Ge/CsI_54/Type = "TsCylinder"
+d:Ge/CsI_54/RMax = 0.0051 mm
+d:Ge/CsI_54/HL = 0.180 mm
+s:Ge/CsI_54/Material = "CsI"
+d:Ge/CsI_54/TransX = -0.01021 mm
+d:Ge/CsI_54/TransY = 0.051 mm
+
+s:Ge/CsI_55/Parent   = "SeptaGroup"
+s:Ge/CsI_55/Type = "TsCylinder"
+d:Ge/CsI_55/RMax = 0.0051 mm
+d:Ge/CsI_55/HL = 0.180 mm
+s:Ge/CsI_55/Material = "CsI"
+d:Ge/CsI_55/TransX = 0.0 mm
+d:Ge/CsI_55/TransY = -0.051 mm
+
+s:Ge/CsI_56/Parent   = "SeptaGroup"
+s:Ge/CsI_56/Type = "TsCylinder"
+d:Ge/CsI_56/RMax = 0.0051 mm
+d:Ge/CsI_56/HL = 0.180 mm
+s:Ge/CsI_56/Material = "CsI"
+d:Ge/CsI_56/TransX = 0.0 mm
+d:Ge/CsI_56/TransY = -0.0408 mm
+
+s:Ge/CsI_57/Parent   = "SeptaGroup"
+s:Ge/CsI_57/Type = "TsCylinder"
+d:Ge/CsI_57/RMax = 0.0051 mm
+d:Ge/CsI_57/HL = 0.180 mm
+s:Ge/CsI_57/Material = "CsI"
+d:Ge/CsI_57/TransX = 0.0 mm
+d:Ge/CsI_57/TransY = -0.0306 mm
+
+s:Ge/CsI_58/Parent   = "SeptaGroup"
+s:Ge/CsI_58/Type = "TsCylinder"
+d:Ge/CsI_58/RMax = 0.0051 mm
+d:Ge/CsI_58/HL = 0.180 mm
+s:Ge/CsI_58/Material = "CsI"
+d:Ge/CsI_58/TransX = 0.0 mm
+d:Ge/CsI_58/TransY = -0.0204 mm
+
+s:Ge/CsI_59/Parent   = "SeptaGroup"
+s:Ge/CsI_59/Type = "TsCylinder"
+d:Ge/CsI_59/RMax = 0.0051 mm
+d:Ge/CsI_59/HL = 0.180 mm
+s:Ge/CsI_59/Material = "CsI"
+d:Ge/CsI_59/TransX = 0.0 mm
+d:Ge/CsI_59/TransY = -0.0102 mm
+
+s:Ge/CsI_60/Parent   = "SeptaGroup"
+s:Ge/CsI_60/Type = "TsCylinder"
+d:Ge/CsI_60/RMax = 0.0051 mm
+d:Ge/CsI_60/HL = 0.180 mm
+s:Ge/CsI_60/Material = "CsI"
+d:Ge/CsI_60/TransX = 0.0 mm
+d:Ge/CsI_60/TransY = 0.0 mm
+
+s:Ge/CsI_61/Parent   = "SeptaGroup"
+s:Ge/CsI_61/Type = "TsCylinder"
+d:Ge/CsI_61/RMax = 0.0051 mm
+d:Ge/CsI_61/HL = 0.180 mm
+s:Ge/CsI_61/Material = "CsI"
+d:Ge/CsI_61/TransX = 0.0 mm
+d:Ge/CsI_61/TransY = 0.0102 mm
+
+s:Ge/CsI_62/Parent   = "SeptaGroup"
+s:Ge/CsI_62/Type = "TsCylinder"
+d:Ge/CsI_62/RMax = 0.0051 mm
+d:Ge/CsI_62/HL = 0.180 mm
+s:Ge/CsI_62/Material = "CsI"
+d:Ge/CsI_62/TransX = 0.0 mm
+d:Ge/CsI_62/TransY = 0.0204 mm
+
+s:Ge/CsI_63/Parent   = "SeptaGroup"
+s:Ge/CsI_63/Type = "TsCylinder"
+d:Ge/CsI_63/RMax = 0.0051 mm
+d:Ge/CsI_63/HL = 0.180 mm
+s:Ge/CsI_63/Material = "CsI"
+d:Ge/CsI_63/TransX = 0.0 mm
+d:Ge/CsI_63/TransY = 0.0306 mm
+
+s:Ge/CsI_64/Parent   = "SeptaGroup"
+s:Ge/CsI_64/Type = "TsCylinder"
+d:Ge/CsI_64/RMax = 0.0051 mm
+d:Ge/CsI_64/HL = 0.180 mm
+s:Ge/CsI_64/Material = "CsI"
+d:Ge/CsI_64/TransX = 0.0 mm
+d:Ge/CsI_64/TransY = 0.0408 mm
+
+s:Ge/CsI_65/Parent   = "SeptaGroup"
+s:Ge/CsI_65/Type = "TsCylinder"
+d:Ge/CsI_65/RMax = 0.0051 mm
+d:Ge/CsI_65/HL = 0.180 mm
+s:Ge/CsI_65/Material = "CsI"
+d:Ge/CsI_65/TransX = 0.0 mm
+d:Ge/CsI_65/TransY = 0.051 mm
+
+s:Ge/CsI_66/Parent   = "SeptaGroup"
+s:Ge/CsI_66/Type = "TsCylinder"
+d:Ge/CsI_66/RMax = 0.0051 mm
+d:Ge/CsI_66/HL = 0.180 mm
+s:Ge/CsI_66/Material = "CsI"
+d:Ge/CsI_66/TransX = 0.01021 mm
+d:Ge/CsI_66/TransY = -0.051 mm
+
+s:Ge/CsI_67/Parent   = "SeptaGroup"
+s:Ge/CsI_67/Type = "TsCylinder"
+d:Ge/CsI_67/RMax = 0.0051 mm
+d:Ge/CsI_67/HL = 0.180 mm
+s:Ge/CsI_67/Material = "CsI"
+d:Ge/CsI_67/TransX = 0.01021 mm
+d:Ge/CsI_67/TransY = -0.0408 mm
+
+s:Ge/CsI_68/Parent   = "SeptaGroup"
+s:Ge/CsI_68/Type = "TsCylinder"
+d:Ge/CsI_68/RMax = 0.0051 mm
+d:Ge/CsI_68/HL = 0.180 mm
+s:Ge/CsI_68/Material = "CsI"
+d:Ge/CsI_68/TransX = 0.01021 mm
+d:Ge/CsI_68/TransY = -0.0306 mm
+
+s:Ge/CsI_69/Parent   = "SeptaGroup"
+s:Ge/CsI_69/Type = "TsCylinder"
+d:Ge/CsI_69/RMax = 0.0051 mm
+d:Ge/CsI_69/HL = 0.180 mm
+s:Ge/CsI_69/Material = "CsI"
+d:Ge/CsI_69/TransX = 0.01021 mm
+d:Ge/CsI_69/TransY = -0.0204 mm
+
+s:Ge/CsI_70/Parent   = "SeptaGroup"
+s:Ge/CsI_70/Type = "TsCylinder"
+d:Ge/CsI_70/RMax = 0.0051 mm
+d:Ge/CsI_70/HL = 0.180 mm
+s:Ge/CsI_70/Material = "CsI"
+d:Ge/CsI_70/TransX = 0.01021 mm
+d:Ge/CsI_70/TransY = -0.0102 mm
+
+s:Ge/CsI_71/Parent   = "SeptaGroup"
+s:Ge/CsI_71/Type = "TsCylinder"
+d:Ge/CsI_71/RMax = 0.0051 mm
+d:Ge/CsI_71/HL = 0.180 mm
+s:Ge/CsI_71/Material = "CsI"
+d:Ge/CsI_71/TransX = 0.01021 mm
+d:Ge/CsI_71/TransY = 0.0 mm
+
+s:Ge/CsI_72/Parent   = "SeptaGroup"
+s:Ge/CsI_72/Type = "TsCylinder"
+d:Ge/CsI_72/RMax = 0.0051 mm
+d:Ge/CsI_72/HL = 0.180 mm
+s:Ge/CsI_72/Material = "CsI"
+d:Ge/CsI_72/TransX = 0.01021 mm
+d:Ge/CsI_72/TransY = 0.0102 mm
+
+s:Ge/CsI_73/Parent   = "SeptaGroup"
+s:Ge/CsI_73/Type = "TsCylinder"
+d:Ge/CsI_73/RMax = 0.0051 mm
+d:Ge/CsI_73/HL = 0.180 mm
+s:Ge/CsI_73/Material = "CsI"
+d:Ge/CsI_73/TransX = 0.01021 mm
+d:Ge/CsI_73/TransY = 0.0204 mm
+
+s:Ge/CsI_74/Parent   = "SeptaGroup"
+s:Ge/CsI_74/Type = "TsCylinder"
+d:Ge/CsI_74/RMax = 0.0051 mm
+d:Ge/CsI_74/HL = 0.180 mm
+s:Ge/CsI_74/Material = "CsI"
+d:Ge/CsI_74/TransX = 0.01021 mm
+d:Ge/CsI_74/TransY = 0.0306 mm
+
+s:Ge/CsI_75/Parent   = "SeptaGroup"
+s:Ge/CsI_75/Type = "TsCylinder"
+d:Ge/CsI_75/RMax = 0.0051 mm
+d:Ge/CsI_75/HL = 0.180 mm
+s:Ge/CsI_75/Material = "CsI"
+d:Ge/CsI_75/TransX = 0.01021 mm
+d:Ge/CsI_75/TransY = 0.0408 mm
+
+s:Ge/CsI_76/Parent   = "SeptaGroup"
+s:Ge/CsI_76/Type = "TsCylinder"
+d:Ge/CsI_76/RMax = 0.0051 mm
+d:Ge/CsI_76/HL = 0.180 mm
+s:Ge/CsI_76/Material = "CsI"
+d:Ge/CsI_76/TransX = 0.01021 mm
+d:Ge/CsI_76/TransY = 0.051 mm
+
+s:Ge/CsI_77/Parent   = "SeptaGroup"
+s:Ge/CsI_77/Type = "TsCylinder"
+d:Ge/CsI_77/RMax = 0.0051 mm
+d:Ge/CsI_77/HL = 0.180 mm
+s:Ge/CsI_77/Material = "CsI"
+d:Ge/CsI_77/TransX = 0.02042 mm
+d:Ge/CsI_77/TransY = -0.051 mm
+
+s:Ge/CsI_78/Parent   = "SeptaGroup"
+s:Ge/CsI_78/Type = "TsCylinder"
+d:Ge/CsI_78/RMax = 0.0051 mm
+d:Ge/CsI_78/HL = 0.180 mm
+s:Ge/CsI_78/Material = "CsI"
+d:Ge/CsI_78/TransX = 0.02042 mm
+d:Ge/CsI_78/TransY = -0.0408 mm
+
+s:Ge/CsI_79/Parent   = "SeptaGroup"
+s:Ge/CsI_79/Type = "TsCylinder"
+d:Ge/CsI_79/RMax = 0.0051 mm
+d:Ge/CsI_79/HL = 0.180 mm
+s:Ge/CsI_79/Material = "CsI"
+d:Ge/CsI_79/TransX = 0.02042 mm
+d:Ge/CsI_79/TransY = -0.0306 mm
+
+s:Ge/CsI_80/Parent   = "SeptaGroup"
+s:Ge/CsI_80/Type = "TsCylinder"
+d:Ge/CsI_80/RMax = 0.0051 mm
+d:Ge/CsI_80/HL = 0.180 mm
+s:Ge/CsI_80/Material = "CsI"
+d:Ge/CsI_80/TransX = 0.02042 mm
+d:Ge/CsI_80/TransY = -0.0204 mm
+
+s:Ge/CsI_81/Parent   = "SeptaGroup"
+s:Ge/CsI_81/Type = "TsCylinder"
+d:Ge/CsI_81/RMax = 0.0051 mm
+d:Ge/CsI_81/HL = 0.180 mm
+s:Ge/CsI_81/Material = "CsI"
+d:Ge/CsI_81/TransX = 0.02042 mm
+d:Ge/CsI_81/TransY = -0.0102 mm
+
+s:Ge/CsI_82/Parent   = "SeptaGroup"
+s:Ge/CsI_82/Type = "TsCylinder"
+d:Ge/CsI_82/RMax = 0.0051 mm
+d:Ge/CsI_82/HL = 0.180 mm
+s:Ge/CsI_82/Material = "CsI"
+d:Ge/CsI_82/TransX = 0.02042 mm
+d:Ge/CsI_82/TransY = 0.0 mm
+
+s:Ge/CsI_83/Parent   = "SeptaGroup"
+s:Ge/CsI_83/Type = "TsCylinder"
+d:Ge/CsI_83/RMax = 0.0051 mm
+d:Ge/CsI_83/HL = 0.180 mm
+s:Ge/CsI_83/Material = "CsI"
+d:Ge/CsI_83/TransX = 0.02042 mm
+d:Ge/CsI_83/TransY = 0.0102 mm
+
+s:Ge/CsI_84/Parent   = "SeptaGroup"
+s:Ge/CsI_84/Type = "TsCylinder"
+d:Ge/CsI_84/RMax = 0.0051 mm
+d:Ge/CsI_84/HL = 0.180 mm
+s:Ge/CsI_84/Material = "CsI"
+d:Ge/CsI_84/TransX = 0.02042 mm
+d:Ge/CsI_84/TransY = 0.0204 mm
+
+s:Ge/CsI_85/Parent   = "SeptaGroup"
+s:Ge/CsI_85/Type = "TsCylinder"
+d:Ge/CsI_85/RMax = 0.0051 mm
+d:Ge/CsI_85/HL = 0.180 mm
+s:Ge/CsI_85/Material = "CsI"
+d:Ge/CsI_85/TransX = 0.02042 mm
+d:Ge/CsI_85/TransY = 0.0306 mm
+
+s:Ge/CsI_86/Parent   = "SeptaGroup"
+s:Ge/CsI_86/Type = "TsCylinder"
+d:Ge/CsI_86/RMax = 0.0051 mm
+d:Ge/CsI_86/HL = 0.180 mm
+s:Ge/CsI_86/Material = "CsI"
+d:Ge/CsI_86/TransX = 0.02042 mm
+d:Ge/CsI_86/TransY = 0.0408 mm
+
+s:Ge/CsI_87/Parent   = "SeptaGroup"
+s:Ge/CsI_87/Type = "TsCylinder"
+d:Ge/CsI_87/RMax = 0.0051 mm
+d:Ge/CsI_87/HL = 0.180 mm
+s:Ge/CsI_87/Material = "CsI"
+d:Ge/CsI_87/TransX = 0.02042 mm
+d:Ge/CsI_87/TransY = 0.051 mm
+
+s:Ge/CsI_88/Parent   = "SeptaGroup"
+s:Ge/CsI_88/Type = "TsCylinder"
+d:Ge/CsI_88/RMax = 0.0051 mm
+d:Ge/CsI_88/HL = 0.180 mm
+s:Ge/CsI_88/Material = "CsI"
+d:Ge/CsI_88/TransX = 0.03063 mm
+d:Ge/CsI_88/TransY = -0.051 mm
+
+s:Ge/CsI_89/Parent   = "SeptaGroup"
+s:Ge/CsI_89/Type = "TsCylinder"
+d:Ge/CsI_89/RMax = 0.0051 mm
+d:Ge/CsI_89/HL = 0.180 mm
+s:Ge/CsI_89/Material = "CsI"
+d:Ge/CsI_89/TransX = 0.03063 mm
+d:Ge/CsI_89/TransY = -0.0408 mm
+
+s:Ge/CsI_90/Parent   = "SeptaGroup"
+s:Ge/CsI_90/Type = "TsCylinder"
+d:Ge/CsI_90/RMax = 0.0051 mm
+d:Ge/CsI_90/HL = 0.180 mm
+s:Ge/CsI_90/Material = "CsI"
+d:Ge/CsI_90/TransX = 0.03063 mm
+d:Ge/CsI_90/TransY = -0.0306 mm
+
+s:Ge/CsI_91/Parent   = "SeptaGroup"
+s:Ge/CsI_91/Type = "TsCylinder"
+d:Ge/CsI_91/RMax = 0.0051 mm
+d:Ge/CsI_91/HL = 0.180 mm
+s:Ge/CsI_91/Material = "CsI"
+d:Ge/CsI_91/TransX = 0.03063 mm
+d:Ge/CsI_91/TransY = -0.0204 mm
+
+s:Ge/CsI_92/Parent   = "SeptaGroup"
+s:Ge/CsI_92/Type = "TsCylinder"
+d:Ge/CsI_92/RMax = 0.0051 mm
+d:Ge/CsI_92/HL = 0.180 mm
+s:Ge/CsI_92/Material = "CsI"
+d:Ge/CsI_92/TransX = 0.03063 mm
+d:Ge/CsI_92/TransY = -0.0102 mm
+
+s:Ge/CsI_93/Parent   = "SeptaGroup"
+s:Ge/CsI_93/Type = "TsCylinder"
+d:Ge/CsI_93/RMax = 0.0051 mm
+d:Ge/CsI_93/HL = 0.180 mm
+s:Ge/CsI_93/Material = "CsI"
+d:Ge/CsI_93/TransX = 0.03063 mm
+d:Ge/CsI_93/TransY = 0.0 mm
+
+s:Ge/CsI_94/Parent   = "SeptaGroup"
+s:Ge/CsI_94/Type = "TsCylinder"
+d:Ge/CsI_94/RMax = 0.0051 mm
+d:Ge/CsI_94/HL = 0.180 mm
+s:Ge/CsI_94/Material = "CsI"
+d:Ge/CsI_94/TransX = 0.03063 mm
+d:Ge/CsI_94/TransY = 0.0102 mm
+
+s:Ge/CsI_95/Parent   = "SeptaGroup"
+s:Ge/CsI_95/Type = "TsCylinder"
+d:Ge/CsI_95/RMax = 0.0051 mm
+d:Ge/CsI_95/HL = 0.180 mm
+s:Ge/CsI_95/Material = "CsI"
+d:Ge/CsI_95/TransX = 0.03063 mm
+d:Ge/CsI_95/TransY = 0.0204 mm
+
+s:Ge/CsI_96/Parent   = "SeptaGroup"
+s:Ge/CsI_96/Type = "TsCylinder"
+d:Ge/CsI_96/RMax = 0.0051 mm
+d:Ge/CsI_96/HL = 0.180 mm
+s:Ge/CsI_96/Material = "CsI"
+d:Ge/CsI_96/TransX = 0.03063 mm
+d:Ge/CsI_96/TransY = 0.0306 mm
+
+s:Ge/CsI_97/Parent   = "SeptaGroup"
+s:Ge/CsI_97/Type = "TsCylinder"
+d:Ge/CsI_97/RMax = 0.0051 mm
+d:Ge/CsI_97/HL = 0.180 mm
+s:Ge/CsI_97/Material = "CsI"
+d:Ge/CsI_97/TransX = 0.03063 mm
+d:Ge/CsI_97/TransY = 0.0408 mm
+
+s:Ge/CsI_98/Parent   = "SeptaGroup"
+s:Ge/CsI_98/Type = "TsCylinder"
+d:Ge/CsI_98/RMax = 0.0051 mm
+d:Ge/CsI_98/HL = 0.180 mm
+s:Ge/CsI_98/Material = "CsI"
+d:Ge/CsI_98/TransX = 0.03063 mm
+d:Ge/CsI_98/TransY = 0.051 mm
+
+s:Ge/CsI_99/Parent   = "SeptaGroup"
+s:Ge/CsI_99/Type = "TsCylinder"
+d:Ge/CsI_99/RMax = 0.0051 mm
+d:Ge/CsI_99/HL = 0.180 mm
+s:Ge/CsI_99/Material = "CsI"
+d:Ge/CsI_99/TransX = 0.04084 mm
+d:Ge/CsI_99/TransY = -0.051 mm
+
+s:Ge/CsI_100/Parent   = "SeptaGroup"
+s:Ge/CsI_100/Type = "TsCylinder"
+d:Ge/CsI_100/RMax = 0.0051 mm
+d:Ge/CsI_100/HL = 0.180 mm
+s:Ge/CsI_100/Material = "CsI"
+d:Ge/CsI_100/TransX = 0.04084 mm
+d:Ge/CsI_100/TransY = -0.0408 mm
+
+s:Ge/CsI_101/Parent   = "SeptaGroup"
+s:Ge/CsI_101/Type = "TsCylinder"
+d:Ge/CsI_101/RMax = 0.0051 mm
+d:Ge/CsI_101/HL = 0.180 mm
+s:Ge/CsI_101/Material = "CsI"
+d:Ge/CsI_101/TransX = 0.04084 mm
+d:Ge/CsI_101/TransY = -0.0306 mm
+
+s:Ge/CsI_102/Parent   = "SeptaGroup"
+s:Ge/CsI_102/Type = "TsCylinder"
+d:Ge/CsI_102/RMax = 0.0051 mm
+d:Ge/CsI_102/HL = 0.180 mm
+s:Ge/CsI_102/Material = "CsI"
+d:Ge/CsI_102/TransX = 0.04084 mm
+d:Ge/CsI_102/TransY = -0.0204 mm
+
+s:Ge/CsI_103/Parent   = "SeptaGroup"
+s:Ge/CsI_103/Type = "TsCylinder"
+d:Ge/CsI_103/RMax = 0.0051 mm
+d:Ge/CsI_103/HL = 0.180 mm
+s:Ge/CsI_103/Material = "CsI"
+d:Ge/CsI_103/TransX = 0.04084 mm
+d:Ge/CsI_103/TransY = -0.0102 mm
+
+s:Ge/CsI_104/Parent   = "SeptaGroup"
+s:Ge/CsI_104/Type = "TsCylinder"
+d:Ge/CsI_104/RMax = 0.0051 mm
+d:Ge/CsI_104/HL = 0.180 mm
+s:Ge/CsI_104/Material = "CsI"
+d:Ge/CsI_104/TransX = 0.04084 mm
+d:Ge/CsI_104/TransY = 0.0 mm
+
+s:Ge/CsI_105/Parent   = "SeptaGroup"
+s:Ge/CsI_105/Type = "TsCylinder"
+d:Ge/CsI_105/RMax = 0.0051 mm
+d:Ge/CsI_105/HL = 0.180 mm
+s:Ge/CsI_105/Material = "CsI"
+d:Ge/CsI_105/TransX = 0.04084 mm
+d:Ge/CsI_105/TransY = 0.0102 mm
+
+s:Ge/CsI_106/Parent   = "SeptaGroup"
+s:Ge/CsI_106/Type = "TsCylinder"
+d:Ge/CsI_106/RMax = 0.0051 mm
+d:Ge/CsI_106/HL = 0.180 mm
+s:Ge/CsI_106/Material = "CsI"
+d:Ge/CsI_106/TransX = 0.04084 mm
+d:Ge/CsI_106/TransY = 0.0204 mm
+
+s:Ge/CsI_107/Parent   = "SeptaGroup"
+s:Ge/CsI_107/Type = "TsCylinder"
+d:Ge/CsI_107/RMax = 0.0051 mm
+d:Ge/CsI_107/HL = 0.180 mm
+s:Ge/CsI_107/Material = "CsI"
+d:Ge/CsI_107/TransX = 0.04084 mm
+d:Ge/CsI_107/TransY = 0.0306 mm
+
+s:Ge/CsI_108/Parent   = "SeptaGroup"
+s:Ge/CsI_108/Type = "TsCylinder"
+d:Ge/CsI_108/RMax = 0.0051 mm
+d:Ge/CsI_108/HL = 0.180 mm
+s:Ge/CsI_108/Material = "CsI"
+d:Ge/CsI_108/TransX = 0.04084 mm
+d:Ge/CsI_108/TransY = 0.0408 mm
+
+s:Ge/CsI_109/Parent   = "SeptaGroup"
+s:Ge/CsI_109/Type = "TsCylinder"
+d:Ge/CsI_109/RMax = 0.0051 mm
+d:Ge/CsI_109/HL = 0.180 mm
+s:Ge/CsI_109/Material = "CsI"
+d:Ge/CsI_109/TransX = 0.04084 mm
+d:Ge/CsI_109/TransY = 0.051 mm
+
+s:Ge/CsI_110/Parent   = "SeptaGroup"
+s:Ge/CsI_110/Type = "TsCylinder"
+d:Ge/CsI_110/RMax = 0.0051 mm
+d:Ge/CsI_110/HL = 0.180 mm
+s:Ge/CsI_110/Material = "CsI"
+d:Ge/CsI_110/TransX = 0.05105 mm
+d:Ge/CsI_110/TransY = -0.051 mm
+
+s:Ge/CsI_111/Parent   = "SeptaGroup"
+s:Ge/CsI_111/Type = "TsCylinder"
+d:Ge/CsI_111/RMax = 0.0051 mm
+d:Ge/CsI_111/HL = 0.180 mm
+s:Ge/CsI_111/Material = "CsI"
+d:Ge/CsI_111/TransX = 0.05105 mm
+d:Ge/CsI_111/TransY = -0.0408 mm
+
+s:Ge/CsI_112/Parent   = "SeptaGroup"
+s:Ge/CsI_112/Type = "TsCylinder"
+d:Ge/CsI_112/RMax = 0.0051 mm
+d:Ge/CsI_112/HL = 0.180 mm
+s:Ge/CsI_112/Material = "CsI"
+d:Ge/CsI_112/TransX = 0.05105 mm
+d:Ge/CsI_112/TransY = -0.0306 mm
+
+s:Ge/CsI_113/Parent   = "SeptaGroup"
+s:Ge/CsI_113/Type = "TsCylinder"
+d:Ge/CsI_113/RMax = 0.0051 mm
+d:Ge/CsI_113/HL = 0.180 mm
+s:Ge/CsI_113/Material = "CsI"
+d:Ge/CsI_113/TransX = 0.05105 mm
+d:Ge/CsI_113/TransY = -0.0204 mm
+
+s:Ge/CsI_114/Parent   = "SeptaGroup"
+s:Ge/CsI_114/Type = "TsCylinder"
+d:Ge/CsI_114/RMax = 0.0051 mm
+d:Ge/CsI_114/HL = 0.180 mm
+s:Ge/CsI_114/Material = "CsI"
+d:Ge/CsI_114/TransX = 0.05105 mm
+d:Ge/CsI_114/TransY = -0.0102 mm
+
+s:Ge/CsI_115/Parent   = "SeptaGroup"
+s:Ge/CsI_115/Type = "TsCylinder"
+d:Ge/CsI_115/RMax = 0.0051 mm
+d:Ge/CsI_115/HL = 0.180 mm
+s:Ge/CsI_115/Material = "CsI"
+d:Ge/CsI_115/TransX = 0.05105 mm
+d:Ge/CsI_115/TransY = 0.0 mm
+
+s:Ge/CsI_116/Parent   = "SeptaGroup"
+s:Ge/CsI_116/Type = "TsCylinder"
+d:Ge/CsI_116/RMax = 0.0051 mm
+d:Ge/CsI_116/HL = 0.180 mm
+s:Ge/CsI_116/Material = "CsI"
+d:Ge/CsI_116/TransX = 0.05105 mm
+d:Ge/CsI_116/TransY = 0.0102 mm
+
+s:Ge/CsI_117/Parent   = "SeptaGroup"
+s:Ge/CsI_117/Type = "TsCylinder"
+d:Ge/CsI_117/RMax = 0.0051 mm
+d:Ge/CsI_117/HL = 0.180 mm
+s:Ge/CsI_117/Material = "CsI"
+d:Ge/CsI_117/TransX = 0.05105 mm
+d:Ge/CsI_117/TransY = 0.0204 mm
+
+s:Ge/CsI_118/Parent   = "SeptaGroup"
+s:Ge/CsI_118/Type = "TsCylinder"
+d:Ge/CsI_118/RMax = 0.0051 mm
+d:Ge/CsI_118/HL = 0.180 mm
+s:Ge/CsI_118/Material = "CsI"
+d:Ge/CsI_118/TransX = 0.05105 mm
+d:Ge/CsI_118/TransY = 0.0306 mm
+
+s:Ge/CsI_119/Parent   = "SeptaGroup"
+s:Ge/CsI_119/Type = "TsCylinder"
+d:Ge/CsI_119/RMax = 0.0051 mm
+d:Ge/CsI_119/HL = 0.180 mm
+s:Ge/CsI_119/Material = "CsI"
+d:Ge/CsI_119/TransX = 0.05105 mm
+d:Ge/CsI_119/TransY = 0.0408 mm
+
+s:Ge/CsI_120/Parent   = "SeptaGroup"
+s:Ge/CsI_120/Type = "TsCylinder"
+d:Ge/CsI_120/RMax = 0.0051 mm
+d:Ge/CsI_120/HL = 0.180 mm
+s:Ge/CsI_120/Material = "CsI"
+d:Ge/CsI_120/TransX = 0.05105 mm
+d:Ge/CsI_120/TransY = 0.051 mm
+
