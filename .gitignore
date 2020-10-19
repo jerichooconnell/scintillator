@@ -1,5 +1,7 @@
 *.phsp
 *.header
 *.csv
+*.gz
+*.png
 **/*.phsp
 *.npy

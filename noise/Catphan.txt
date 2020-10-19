@@ -16,11 +16,11 @@ s:Gr/ViewA/CenterOn                    = "MyBox"
 
 u:So/Example/BeamEnergySpread          = 0.001
 
-d:Tf/TimelineEnd                       = 17. ms
-i:Tf/NumberOfSequentialTimes           = 16
+d:Tf/TimelineEnd                       = 19. ms
+i:Tf/NumberOfSequentialTimes           = 18
 s:Tf/beam_energy/Function              = "Step"
-dv:Tf/beam_energy/Times                = 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ms
-dv:Tf/beam_energy/Values               = 16 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
+dv:Tf/beam_energy/Times                = 18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 ms
+dv:Tf/beam_energy/Values               = 18 10 20 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
 
 d:So/Example/BeamEnergy                = Tf/beam_energy/Value keV
 s:So/Example/Type                      = "Beam"
@@ -83,13 +83,24 @@ dc:Ge/MyBox/RotZ                       = 0. deg
 # s:Sc/Readout_light_primary/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_primary/IfOutputFileAlreadyExists = "overwrite"
 
-s:Sc/Readout/Quantity = "PhaseSpace"
-s:Sc/Readout/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
+s:Sc/Readout_filt/Quantity = "PhaseSpace"
+s:Sc/Readout_filt/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
 # b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
-s:Sc/Readout/OutputType = "Binary"
-i:Sc/Readout/BounceLimit = 400000000 
-s:Sc/Readout/IfOutputFileAlreadyExists = "Overwrite"
-s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
+s:Sc/Readout_filt/OutputType = "Binary"
+i:Sc/Readout_filt/BounceLimit = 400000000 
+s:Sc/Readout_filt/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/Readout_filt/SplitByTimeFeature        = "beam_energy"
+sv:Sc/MyScorer_filt/OnlyIncludeIfParticleOrAncestorInteractedInComponent = 1 "ScoringCylinder"
+
+s:Sc/Readout_prim/Quantity = "PhaseSpace"
+s:Sc/Readout_prim/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
+# b:Sc/Readout/IncludeParentID = "True" # Track ID of parent particle
+s:Sc/Readout_prim/OutputType = "Binary"
+i:Sc/Readout_prim/BounceLimit = 400000000 
+s:Sc/Readout_prim/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/Readout_prim/SplitByTimeFeature        = "beam_energy"
+sv:Sc/Readout_prim/OnlyIncludeIfParticleOrAncestorNotInteractedInComponent = 1 "ScoringCylinder"
+
 
 # s:Sc/Readout_flood/Quantity = "PhaseSpace"
 # s:Sc/Readout_flood/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"
@@ -111,14 +122,14 @@ s:Sc/Readout/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_secondary/SplitByTimeFeature        = "beam_energy"
 # s:Sc/Readout_light_secondary/IfOutputFileAlreadyExists = "overwrite"
 
-# s:Ge/ScoringCylinder/Type              = "TsCylinder"
-# s:Ge/ScoringCylinder/Parent            = "World"
-# s:Ge/ScoringCylinder/Material          = "G4_WATER"
-# dc:Ge/ScoringCylinder/RMin             = 0. cm
-# dc:Ge/ScoringCylinder/RMax             = 8. cm
-# dc:Ge/ScoringCylinder/HL               = 10. cm
-# dc:Ge/ScoringCylinder/SPhi             = 0. deg
-# dc:Ge/ScoringCylinder/DPhi             = 360. deg
-# dc:Ge/ScoringCylinder/RotX             = 0. deg
-# dc:Ge/ScoringCylinder/RotY             = 90. deg
-# dc:Ge/ScoringCylinder/RotZ             = 0. deg
+s:Ge/ScoringCylinder/Type              = "TsCylinder"
+s:Ge/ScoringCylinder/Parent            = "World"
+s:Ge/ScoringCylinder/Material          = "G4_WATER"
+dc:Ge/ScoringCylinder/RMin             = 0. cm
+dc:Ge/ScoringCylinder/RMax             = 8. cm
+dc:Ge/ScoringCylinder/HL               = 10. cm
+dc:Ge/ScoringCylinder/SPhi             = 0. deg
+dc:Ge/ScoringCylinder/DPhi             = 360. deg
+dc:Ge/ScoringCylinder/RotX             = 0. deg
+dc:Ge/ScoringCylinder/RotY             = 90. deg
+dc:Ge/ScoringCylinder/RotZ             = 0. deg

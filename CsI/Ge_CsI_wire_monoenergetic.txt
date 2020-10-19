@@ -19,16 +19,16 @@
 includeFile   = Ma_CsI.txt
 # includeFile = Crystal_Ge_small.txt
 # includeFile = Sc_COW_small.txt
-includeFile   = Crystal_CsI_wire_small.txt         # CHANGE
+includeFile   = Crystal_CsI_wire_small.txt # Not actually small         # CHANGE
 # includeFile   = Sc_COW.txt
 
 i:Tf/Verbosity                      = 3
 
-d:Tf/TimelineEnd = 17. ms
-i:Tf/NumberOfSequentialTimes = 16
+d:Tf/TimelineEnd = 3. ms
+i:Tf/NumberOfSequentialTimes = 2
 s:Tf/beam_energy/Function = "Step"
-dv:Tf/beam_energy/Times = 16 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 ms
-dv:Tf/beam_energy/Values = 16 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
+dv:Tf/beam_energy/Times = 2 1 2 ms
+dv:Tf/beam_energy/Values = 2 10 20 keV
 
 # GRAPHICS
 i:Ts/SequenceVerbosity                                  = 3
@@ -142,7 +142,7 @@ d:Ge/WireChamberA/TransZ= Ge/WireChamberA/TransZ1 -  Ge/WireChamberA/HLX mm
 dc:Ge/WireChamberA/RotX=0.0 deg
 dc:Ge/WireChamberA/RotY=90.0 deg
 dc:Ge/WireChamberA/RotZ=0.0 deg
-i:Ge/WireChamberA/NbOfLayers= 501 #Number of wire sets.
+i:Ge/WireChamberA/NbOfLayers= 1001 #Number of wire sets.
 
 d:Ge/Epoxy_Optical/HLX                                 = Ge/Carbon_Cover/HLX mm
 d:Ge/Epoxy_Optical/HLY                                 = Ge/Carbon_Cover/HLX mm
