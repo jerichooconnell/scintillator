@@ -35,7 +35,7 @@ dc:So/Example/BeamPositionSpreadY      = 0.1 cm
 sc:So/Example/BeamAngularDistribution  = "Flat"
 dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
 dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 200000000
+i:So/Example/NumberOfHistoriesInRun    = 10000000 #200000000
 
 d:Ge/BeamPosition/RotX                 = 180. deg
 d:Ge/BeamPosition/RotY                 = 0. deg
@@ -90,7 +90,7 @@ s:Sc/Readout_filt/OutputType = "Binary"
 i:Sc/Readout_filt/BounceLimit = 400000000 
 s:Sc/Readout_filt/IfOutputFileAlreadyExists = "Overwrite"
 s:Sc/Readout_filt/SplitByTimeFeature        = "beam_energy"
-sv:Sc/MyScorer_filt/OnlyIncludeIfParticleOrAncestorInteractedInComponent = 1 "ScoringCylinder"
+sv:Sc/Readout_filt/OnlyIncludeIfParticleOrAncestorInteractedInComponent = 1 "ScoringCylinder"
 
 s:Sc/Readout_prim/Quantity = "PhaseSpace"
 s:Sc/Readout_prim/Surface  = "MyBox/XPlusSurface"# s:Sc/Readout/OutputFile = "PhotodiodeSurface"

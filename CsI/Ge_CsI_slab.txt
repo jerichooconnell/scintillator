@@ -1,0 +1,201 @@
+# ------------------------------------------------------------------ #
+#  Main Script for CdWO Scintillator pencil beam simulation
+#  XCITE Tango2
+#
+#  Run -> topas Ge_COW.txt
+#
+#  File Structure
+#  -- > Ma_COW.txt (Contains optical materials)
+#  -- > Crystal_Ge.txt (Contains all the crystal geometries)
+#  -- > Crystal_Ge_small.txt (Contains smaller crystal for test)
+#
+#  Output
+#  -- > PhotodiodeReadout.phsp (Contains optical photons hitting AMFPI)
+#
+#  CHANGE == parameter that you might want to change 
+# ------------------------------------------------------------------ #
+
+# IMPORTS
+includeFile   = Ma_CsI.txt
+# includeFile = Crystal_Ge_small.txt
+# includeFile = Sc_COW_small.txt
+# includeFile   = Crystal_CsI_wire_small.txt         # CHANGE
+# includeFile   = Sc_COW.txt
+
+i:Tf/Verbosity                      = 3
+
+d:Tf/TimelineEnd = 19. ms
+i:Tf/NumberOfSequentialTimes = 18
+s:Tf/beam_energy/Function = "Step"
+dv:Tf/beam_energy/Times = 18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 ms
+dv:Tf/beam_energy/Values = 18 10 20 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
+
+# GRAPHICS
+i:Ts/SequenceVerbosity                                  = 3
+# b:Ts/UseQt                                            = "True"                 # CHANGE
+b:Gr/Enable                                             = "False"                # CHANGE
+b:Ge/CheckForOverlaps                                   = "False"
+
+# SEQUENCE
+b:Ts/ShowCPUTime                                        = "True"
+i:Ts/ShowHistoryCountAtInterval                         = 10000
+i:Ts/NumberOfThreads                                    = -1
+
+# VISUALIZATION
+s:Gr/view/Type                                          = "OpenGl"
+i:Gr/view/WindowSizeX                                   = 600
+i:Gr/view/WindowSizeY                                   = 600
+d:Gr/view/Theta                                         = 90. deg
+d:Gr/view/Phi                                           = 0. deg
+u:Gr/view/Zoom                                          = 10
+s:Gr/view/ColorBy                                       = "Energy"
+dv:Gr/view/ColorByEnergyRanges                          = 4 0.000001 0.2 100. 4000. keV # limits of energy ranges
+sv:Gr/view/ColorByEnergyColors                          = 5 "blue" "green" "yellow" "red" "red"  # one for every energy interval that is defined by those ranges - one more value than number of ranges since includes less than first range value and greater than first range value
+
+# PHYSICS LIST (STAR-LACK USED)
+s:Ph/ListName                                           = "Optical"
+s:Ph/Optical/Type                                       = "Geant4_Modular"
+sv:Ph/Optical/Modules                                   = 1 "g4em-penelope" #"g4optical"
+
+# SOURCE (SIMPLE MONOENERGETIC)
+s:So/PencilBeam/Type                                       = "Beam"
+s:So/PencilBeam/Component                                  = "BeamPosition"
+s:So/PencilBeam/BeamParticle                               = "gamma"
+u:So/PencilBeam/BeamEnergySpread                           = 0.5
+s:So/PencilBeam/BeamPositionDistribution                   = "None"
+s:So/PencilBeam/BeamPositionCutoffShape                    = "Rectangle"
+s:So/PencilBeam/BeamAngularDistribution                    = "None"
+i:So/PencilBeam/NumberOfHistoriesInRun                     = 1000000     # CHANGE
+d:So/PencilBeam/BeamEnergy = Tf/beam_energy/Value keV
+
+# SCORER (OPTICAL)
+# s:Sc/Readout/Quantity                                   = "OpticalPhotonCount"
+# s:Sc/Readout/Component                                  = "Photodiode_Readout"
+# s:Sc/Readout/OutputType                                 = "Binary"
+# s:Sc/Readout/IfOutputFileAlreadyExists                  = "Overwrite"
+# s:Sc/Readout/SplitByTimeFeature                         = "beam_energy"
+
+# SCORER (Energy Deposition)
+s:Sc/EnergyDeposition/Component                 = "Amorphous_CsI"
+s:Sc/EnergyDeposition/Quantity                  = "EnergyDeposit"
+s:Sc/EnergyDeposition/OutputType                = "csv"
+s:Sc/EnergyDeposition/IfOutputFileAlreadyExists = "Overwrite"
+s:Sc/EnergyDeposition/SplitByTimeFeature = "beam_energy"
+
+# # SCORER (Energy Deposition)
+# s:Sc/EnergyDeposition_wire/Component                 = "WireChamberA"
+# s:Sc/EnergyDeposition_wire/Quantity                  = "EnergyDeposit"
+# s:Sc/EnergyDeposition_wire/OutputType                = "csv"
+# s:Sc/EnergyDeposition_wire/IfOutputFileAlreadyExists = "Overwrite"
+# s:Sc/EnergyDeposition_wire/SplitByTimeFeature        = "beam_energy"
+
+s:Su/SurfaceDetector/Type                               = "dielectric_metal"
+s:Su/SurfaceDetector/Finish                             = "polished"
+s:Su/SurfaceDetector/Model                              = "unified"
+dv:Su/SurfaceDetector/Efficiency/Energies               = 2 1.6 7.2 eV
+uv:Su/SurfaceDetector/Efficiency/Values                 = 2 1.0 1.0
+dv:Su/SurfaceDetector/Reflectivity/Energies             = 2 1.6 4.2 eV
+uv:Su/SurfaceDetector/Reflectivity/Values               = 2 0.0 0.0
+
+
+# GEOMETRY
+d:Ge/World/HLX                                          = 5 cm
+d:Ge/World/HLY                                          = 5 cm
+d:Ge/World/HLZ                                          = 10 cm
+s:Ge/World/Material                                     = "Air"
+
+d:Ge/Carbon_Cover/HLX                                  = 50 mm
+d:Ge/Carbon_Cover/HLY                                  = 50 mm
+d:Ge/Carbon_Cover/HLZ                                  = 0.5 mm
+s:Ge/Carbon_Cover/Material                             = "Al_mylar"
+d:Ge/Carbon_Cover/RotX                                 = 0. deg
+d:Ge/Carbon_Cover/RotY                                 = 0. deg
+d:Ge/Carbon_Cover/RotZ                                 = 0. deg
+d:Ge/Carbon_Cover/TransX                               = 0. mm
+d:Ge/Carbon_Cover/TransZ                               = 0. mm
+s:Ge/Carbon_Cover/Color                                = "silver"
+s:Ge/Carbon_Cover/Type                                 = "TsBox"
+s:Ge/Carbon_Cover/DrawingStyle                         = "WireFrame"
+s:Ge/Carbon_Cover/Parent                               = "World"
+
+d:Ge/Amorphous_CsI/HLX            = Ge/Carbon_Cover/HLX mm
+d:Ge/Amorphous_CsI/HLY            = Ge/Carbon_Cover/HLY mm
+d:Ge/Amorphous_CsI/HLZ            = 0.225 mm
+s:Ge/Amorphous_CsI/Material       = "CsI"
+d:Ge/Amorphous_CsI/TransZ1        = Ge/Carbon_Cover/TransZ - Ge/Carbon_Cover/HLZ mm
+d:Ge/Amorphous_CsI/TransZ         = Ge/Amorphous_CsI/TransZ1 - Ge/Amorphous_CsI/HLZ mm
+s:Ge/Amorphous_CsI/Type           = "TsBox"
+s:Ge/Amorphous_CsI/DrawingStyle   = "WireFrame"
+s:Ge/Amorphous_CsI/Parent         = "World"
+
+
+# s:Ge/WireChamberA/Parent = "World"
+# s:Ge/WireChamberA/Type = "TsMultiWireChamber" #Type of geometry
+# d:Ge/WireChamberA/HLX=0.180 mm #Chamber dimension
+# d:Ge/WireChamberA/HLY=2.5 cm
+# d:Ge/WireChamberA/HLZ=2.5 cm
+# s:Ge/WireChamberA/Material="Air" #Chamber is filled with this material.
+# d:Ge/WireChamberA/TransX=0.0 cm
+# d:Ge/WireChamberA/TransY=0.0 cm
+# d:Ge/WireChamberA/TransZ1= Ge/Amorphous_CsI/TransZ - Ge/Amorphous_CsI/HLZ mm
+# d:Ge/WireChamberA/TransZ= Ge/WireChamberA/TransZ1 -  Ge/WireChamberA/HLX mm
+# dc:Ge/WireChamberA/RotX=0.0 deg
+# dc:Ge/WireChamberA/RotY=90.0 deg
+# dc:Ge/WireChamberA/RotZ=0.0 deg
+# i:Ge/WireChamberA/NbOfLayers= 1501 #Number of wire sets.
+
+d:Ge/Epoxy_Optical/HLX                                 = Ge/Carbon_Cover/HLX mm
+d:Ge/Epoxy_Optical/HLY                                 = Ge/Carbon_Cover/HLX mm
+d:Ge/Epoxy_Optical/HLZ                                 = 0.004 mm
+s:Ge/Epoxy_Optical/Material                            = "Epoxy_Optical"
+d:Ge/Epoxy_Optical/TransZ1                             = Ge/Amorphous_CsI/TransZ - Ge/Amorphous_CsI/HLZ mm
+d:Ge/Epoxy_Optical/TransZ                              = Ge/Epoxy_Optical/TransZ1 - Ge/Epoxy_Optical/HLZ mm
+s:Ge/Epoxy_Optical/Type                                = "TsBox"
+s:Ge/Epoxy_Optical/DrawingStyle                        = "WireFrame"
+s:Ge/Epoxy_Optical/Parent                              = "World"
+
+d:Ge/Photodiode_Readout/HLX                            = Ge/Carbon_Cover/HLX mm
+d:Ge/Photodiode_Readout/HLY                            = Ge/Carbon_Cover/HLY mm
+d:Ge/Photodiode_Readout/HLZ                            = 0.5 mm
+s:Ge/Photodiode_Readout/Material                       = "Silicon_Dioxide"
+d:Ge/Photodiode_Readout/TransZ1                        = Ge/Epoxy_Optical/TransZ - Ge/Epoxy_Optical/HLZ mm
+d:Ge/Photodiode_Readout/TransZ                         = Ge/Photodiode_Readout/TransZ1 - Ge/Photodiode_Readout/HLZ mm
+s:Ge/Photodiode_Readout/Type                           = "TsBox"
+s:Ge/Photodiode_Readout/DrawingStyle                   = "WireFrame"
+s:Ge/Photodiode_Readout/Parent                         = "World"
+s:Ge/Photodiode_Readout/OpticalBehavior                = "SurfaceDetector"
+
+
+d:Ge/Fiberglass_Backing/HLX                            = Ge/Carbon_Cover/HLX mm
+d:Ge/Fiberglass_Backing/HLY                            = Ge/Carbon_Cover/HLY mm
+d:Ge/Fiberglass_Backing/HLZ                            = 0.3 mm
+s:Ge/Fiberglass_Backing/Material                       = "Fiberglass"
+d:Ge/Fiberglass_Backing/TransZ1                        = Ge/Photodiode_Readout/TransZ - Ge/Photodiode_Readout/HLZ mm
+d:Ge/Fiberglass_Backing/TransZ                         = Ge/Fiberglass_Backing/TransZ1 - Ge/Fiberglass_Backing/HLZ mm
+s:Ge/Fiberglass_Backing/Type                           = "TsBox"
+s:Ge/Fiberglass_Backing/DrawingStyle                   = "WireFrame"
+s:Ge/Fiberglass_Backing/Parent                         = "World"
+
+d:Ge/Rohacell_Foam_2/HLX                               = Ge/Carbon_Cover/HLX mm
+d:Ge/Rohacell_Foam_2/HLY                               = Ge/Carbon_Cover/HLY mm
+d:Ge/Rohacell_Foam_2/HLZ                               = 12.5 mm
+s:Ge/Rohacell_Foam_2/Material                          = "Rohacell"
+d:Ge/Rohacell_Foam_2/TransZ1                            = Ge/Fiberglass_Backing/TransZ - Ge/Fiberglass_Backing/HLZ mm
+d:Ge/Rohacell_Foam_2/TransZ                            = Ge/Rohacell_Foam_2/TransZ1 - Ge/Rohacell_Foam_2/HLZ mm
+s:Ge/Rohacell_Foam_2/Type                               = "TsBox"
+s:Ge/Rohacell_Foam_2/DrawingStyle                      = "WireFrame"
+s:Ge/Rohacell_Foam_2/Parent                             = "World"
+
+d:Ge/Fiberglass_Backing_2/HLX                          = Ge/Carbon_Cover/HLX mm
+d:Ge/Fiberglass_Backing_2/HLY                          = Ge/Carbon_Cover/HLY mm
+d:Ge/Fiberglass_Backing_2/HLZ                          = 3 mm
+s:Ge/Fiberglass_Backing_2/Material                     = "Fiberglass"
+d:Ge/Fiberglass_Backing_2/TransZ1                       = Ge/Rohacell_Foam_2/TransZ - Ge/Rohacell_Foam_2/HLZ mm
+d:Ge/Fiberglass_Backing_2/TransZ                       = Ge/Fiberglass_Backing_2/TransZ1 - Ge/Fiberglass_Backing_2/HLZ mm
+s:Ge/Fiberglass_Backing_2/Type                          = "TsBox"
+s:Ge/Fiberglass_Backing_2/DrawingStyle                 = "WireFrame"
+s:Ge/Fiberglass_Backing_2/Parent                        = "World"
+
+# # These must be last lines two lines for bash script to replace!!
+# d:So/PencilBeam/BeamEnergy = 6000 keV
+# s:Sc/Readout/OutputFile = "runs/PhotodiodeSurface"

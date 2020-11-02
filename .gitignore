@@ -5,3 +5,6 @@
 *.png
 **/*.phsp
 *.npy
+*.bin
+*.dcm
+*.bz2

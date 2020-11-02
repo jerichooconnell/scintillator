@@ -1,0 +1,84 @@
+# Demonstrates scoring in an XCAT file.
+# sv:Ph/MyList/LayeredMassGeometryWorlds = 1 "Vials"
+
+includeFile = phantom.txt
+
+b:Gr/Enable = "False" 
+# b:Ts/UseQt = "True"
+i:Ts/NumberOfThreads = 0
+
+s:Ge/World/Material    = "G4_AIR"
+d:Ge/World/HLX         = .5 m
+d:Ge/World/HLY         = .5 m
+d:Ge/World/HLZ         = .5 m
+b:Ge/World/Invisible   = "TRUE"
+
+s:So/Example/Type                            = "PhaseSpace"
+s:So/Example/PhaseSpaceFileName              = "EX6MVp"
+s:So/Example/Component                       = "World"
+i:So/Example/PhaseSpaceMultipleUse          = 1
+b:So/Example/PhaseSpaceIncludeEmptyHistories = "False"
+b:So/MyPhaseSpaceSource/LimitedAssumePhotonIsNewHistory = "True"
+u:So/Example/PhaseSpaceScaleXPosBy = 0.5 # adjust starting point on X axis by factor of 0.1
+u:So/Example/PhaseSpaceScaleYPosBy = 0.5 # adjust starting point on Y axis by factor of 0.1
+# i:So/Example/NumberOfHistoriesInRun = 10000000
+
+s:Ge/Detector1/Type="Group"
+s:Ge/Detector1/Parent = "World"
+d:Ge/Detector1/TransX=0. cm
+d:Ge/Detector1/TransY=0. cm
+d:Ge/Detector1/TransZ=0. cm
+d:Ge/Detector1/RotX=0. deg
+d:Ge/Detector1/RotY=0. deg
+
+# Geometry for CdTe crystal
+s:Ge/CdTeCrystal1/Type     = "TsBox"
+s:Ge/CdTeCrystal1/Parent   = "Detector1"
+s:Ge/CdTeCrystal1/Material = "CWO"
+d:Ge/CdTeCrystal1/HLX      = 19.6 mm 
+d:Ge/CdTeCrystal1/HLY      = 19.6 mm 
+d:Ge/CdTeCrystal1/HLZ      = 7.5 mm
+d:Ge/CdTeCrystal1/TransX   = 0. cm
+d:Ge/CdTeCrystal1/TransY   = 0. cm
+dc:Ge/CdTeCrystal1/TransZ   = 6. cm
+d:Ge/CdTeCrystal1/RotX     = 0. deg
+d:Ge/CdTeCrystal1/RotY     = 0. deg
+d:Ge/CdTeCrystal1/RotZ     = 0. deg
+s:Ge/CdTeCrystal1/Color    = "magenta"
+
+# Geometry for CdTe crystal
+s:Ge/WBlock/Type     = "TsBox"
+s:Ge/WBlock/Parent   = "World"
+s:Ge/WBlock/Material = "G4_Pb"
+dc:Ge/WBlock/HLX      = 30 mm 
+dc:Ge/WBlock/HLY      = 25 mm 
+dc:Ge/WBlock/HLZ      = 20 mm
+dc:Ge/WBlock/TransX   = 4.5 cm
+dc:Ge/WBlock/TransY   = 0. cm
+dc:Ge/WBlock/TransZ   = 2. cm
+dc:Ge/WBlock/RotX     = 0. deg
+dc:Ge/WBlock/RotY     = 0. deg
+dc:Ge/WBlock/RotZ     = 2. deg
+s:Ge/WBlock/Color    = "lightgold"
+
+s:Sc/PhantomDose/Quantity = "EnergyDeposit"
+s:Sc/PhantomDose/Component = "CdTeCrystal1"
+i:Sc/PhantomDose/XBins = 50
+i:Sc/PhantomDose/YBins = 50
+s:Sc/PhantomDose/OutputType = "csv"
+s:Sc/PhantomDose/OutputFile = "phantomDose_test120kVp"
+s:Sc/PhantomDose/IfOutputFileAlreadyExists = "Increment"
+
+s:Gr/ViewA/Type           = "OpenGL"
+i:Gr/ViewA/WindowSizeX    = 900
+i:Gr/ViewA/WindowSizeY    = 900
+d:Gr/ViewA/Theta          = 90 deg
+d:Gr/ViewA/Phi            = 0 deg
+u:Gr/ViewA/Zoom             = 0.5
+
+# Extra graphics options to handle complex voxel geometries
+i:Gr/ShowOnlyOutlineIfVoxelCountExceeds = 210000000
+
+i:Ts/ShowHistoryCountAtInterval = 10000
+
+b:Ts/PauseBeforeQuit = "True"

@@ -1,0 +1,159 @@
+# Demonstrates scoring in an XCAT file.
+
+b:Ts/UseQt                              = "True"
+
+s:Ge/Patient/Type		= "TsImageCube"
+s:Ge/Patient/InputDirectory	= "./"
+s:Ge/Patient/InputFile		= "even_smaller_output_atn_1.bin"
+s:Ge/Patient/MetaDataFile	= "even_smaller_output_log"
+s:Ge/Patient/ImagingToMaterialConverter = "XCAT_Attenuation" # "XCAT_Activity"
+# includeFile = custom_materials_topas.txt
+includeFile = XCAT_Materials.txt
+
+# These parameters are only used if no MetaDataFile is provided.
+# i:Ge/Patient/NumberOfVoxelsX	= 86
+# i:Ge/Patient/NumberOfVoxelsY	= 86
+# i:Ge/Patient/NumberOfVoxelsZ	= 161
+# d:Ge/Patient/VoxelSizeX	= .5 mm
+# d:Ge/Patient/VoxelSizeY	= .5 mm
+dv:Ge/Patient/VoxelSizeZ = 1 .1 mm
+
+s:Ge/Patient/DataType = "FLOAT"
+u:Ge/Patient/AttenuationForMaterial_XCAT_Air = 0.
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Body_(water)   =     0.1538
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle         =     195.2515
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Adipose_(fat)  =     114.9825
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Lung           =      57.5347
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Spine_Bone     =     225.7159
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Rib_Bone       =     283.3633
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Blood          =     201.7046
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Heart          =     195.6546
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Kidney         =     196.5382
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Liver          =     197.4710
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Lymph          =     204.0590
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Pancreas       =     190.0039
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Spleen         =     200.6941
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Intestine      =     195.1612
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Skull          =     247.5866
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Cartilage      =     208.0629
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Brain          =     192.2248
+
+# u:Ge/Patient/AttenuationForMaterial_G4_TISSUE_SOFT_ICRP =       0.1538
+# # u:Ge/Patient/AttenuationForMaterial_G4_TISSUE_SOFT_ICRU-4 =       0.1601
+# u:Ge/Patient/AttenuationForMaterial_G4_MUSCLE_SKELETAL_ICRP =       0.1415
+# u:Ge/Patient/AttenuationForMaterial_ADIPOSE_TISSUE_ICRP     =       0.0457
+# u:Ge/Patient/AttenuationForMaterial_G4_LUNG_ICRP     =       0.1853
+# u:Ge/Patient/AttenuationForMaterial_C4_Vertebra_ICRP      =       0.2237
+# u:Ge/Patient/AttenuationForMaterial_RIB_BONE_ICRP      =       0.1617
+# u:Ge/Patient/AttenuationForMaterial_G4_BLOOD_ICRP      =       0.1603
+# u:Ge/Patient/AttenuationForMaterial_HEART_ICRP     =       0.1602
+# u:Ge/Patient/AttenuationForMaterial_KIDNEY_ICRP     =       0.1616
+# u:Ge/Patient/AttenuationForMaterial_LIVER_ICRP      =       0.1579
+# u:Ge/Patient/AttenuationForMaterial_LYMPH_ICRP      =       0.1590
+# u:Ge/Patient/AttenuationForMaterial_PANCREAS_ICRP      =       0.1618
+# u:Ge/Patient/AttenuationForMaterial_SPLEEN_ICRP      =       0.1575
+# u:Ge/Patient/AttenuationForMaterial_INTESTINE_ICRP      =       0.2000
+# u:Ge/Patient/AttenuationForMaterial_SKULL_ICRP      =       0.1672
+# u:Ge/Patient/AttenuationForMaterial_CARTILAGE_ICRP      =       0.1592
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1723
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1663
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1620
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1605
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1570
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1501
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1591
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1610
+# u:Ge/Patient/AttenuationForMaterial_XCAT_Muscle      =       0.1590
+
+s:Ge/Patient/Parent   = "World"
+d:Ge/Patient/TransX   = 0. m
+d:Ge/Patient/TransY   = 0. m
+d:Ge/Patient/TransZ   = .1 m
+d:Ge/Patient/RotX     = 0. deg
+d:Ge/Patient/RotY     = 90. deg
+d:Ge/Patient/RotZ     = 0. deg
+
+# Specify which slices to show.
+# Comment this out or set to zero to show all slices.
+# Set to -1 to show only center slice.
+# Set to -2 to show first, center and last slice.
+#iv:Ge/Patient/ShowSpecificSlicesX = 1 -2
+#iv:Ge/Patient/ShowSpecificSlicesY = 1 -2
+iv:Ge/Patient/ShowSpecificSlicesZ = 3 1 12 25
+
+s:Ge/World/Material    = "G4_AIR"
+d:Ge/World/HLX         = .5 m
+d:Ge/World/HLY         = .5 m
+d:Ge/World/HLZ         = .5 m
+b:Ge/World/Invisible   = "TRUE"
+
+# s:So/Example/Type                            = "PhaseSpace"
+# s:So/Example/PhaseSpaceFileName              = "EX6MVp"
+# s:So/Example/Component                       = "World"
+# # JO 2020
+# i:So/Example/PhaseSpaceMultipleUse          = 10
+# # i:So/MySource/NumberOfHistoriesInRun        = 100000
+# #i:So/Example/PhaseSpaceBufferSize           = 100
+# b:So/Example/PhaseSpaceIncludeEmptyHistories = "False"
+# d:Ge/BeamPosition/TransZ=-0.2 m
+# d:Ge/BeamPosition/TransY=0. m
+
+# s:So/Example/Type                     = "Beam"
+# s:So/Example/Component                = "BeamPosition"
+# s:So/Example/BeamParticle             = "proton"
+# d:So/Example/BeamEnergy               = 70. MeV
+# u:So/Example/BeamEnergySpread         = 0.757504
+# s:So/Example/BeamPositionDistribution = "Flat"
+# s:So/Example/BeamPositionCutoffShape  = "Ellipse"
+# d:So/Example/BeamPositionCutoffX      = 5. mm
+# d:So/Example/BeamPositionCutoffY      = 5. mm
+# s:So/Example/BeamAngularDistribution  = "None"
+# i:So/Example/NumberOfHistoriesInRun   = 10
+
+s:Ge/Detector1/Type="Group"
+s:Ge/Detector1/Parent = "World"
+d:Ge/Detector1/TransX=0. cm
+d:Ge/Detector1/TransY=0. cm
+d:Ge/Detector1/TransZ=0. cm
+d:Ge/Detector1/RotX=0. deg
+d:Ge/Detector1/RotY=0. deg
+
+# Geometry for CdTe crystal
+# s:Ge/CdTeCrystal1/Type     = "TsBox"
+# s:Ge/CdTeCrystal1/Parent   = "Detector1"
+# s:Ge/CdTeCrystal1/Material = "G4_Au"
+# d:Ge/CdTeCrystal1/HLX      = 39.2 mm 
+# d:Ge/CdTeCrystal1/HLY      = 39.2 mm 
+# d:Ge/CdTeCrystal1/HLZ      = 15 mm
+# d:Ge/CdTeCrystal1/TransX   = 0. cm
+# d:Ge/CdTeCrystal1/TransY   = 0. cm
+# d:Ge/CdTeCrystal1/TransZ   = 20. cm
+# d:Ge/CdTeCrystal1/RotX     = 0. deg
+# d:Ge/CdTeCrystal1/RotY     = 0. deg
+# d:Ge/CdTeCrystal1/RotZ     = 0. deg
+# s:Ge/CdTeCrystal1/Color    = "magenta"
+
+# s:Sc/PhantomDose/Quantity = "EnergyDeposit"
+# s:Sc/PhantomDose/Component = "CdTeCrystal1"
+# i:Sc/PhantomDose/XBins = 100
+# i:Sc/PhantomDose/YBins = 100
+# i:Sc/Phantomdose/EBins = 100 # defaults to 1, that is, un-binned
+# d:Sc/PhantomDose/EBinMin = .016 MeV # defaults to zero
+# d:Sc/PhantomDose/EBinMax = .120 MeV # must be specified if EBins is greater than 1 
+s:Sc/PhantomDose/OutputType = "csv"
+s:Sc/PhantomDose/OutputFile = "phantomDose_test120kVp"
+s:Sc/PhantomDose/IfOutputFileAlreadyExists = "Increment"
+
+s:Gr/ViewA/Type           = "OpenGL"
+i:Gr/ViewA/WindowSizeX    = 900
+i:Gr/ViewA/WindowSizeY    = 900
+d:Gr/ViewA/Theta          = 90 deg
+d:Gr/ViewA/Phi            = 0 deg
+u:Gr/ViewA/Zoom             = 0.5
+
+# Extra graphics options to handle complex voxel geometries
+i:Gr/ShowOnlyOutlineIfVoxelCountExceeds = 210000000
+
+i:Ts/ShowHistoryCountAtInterval = 100
+
+b:Ts/PauseBeforeQuit = "True"
