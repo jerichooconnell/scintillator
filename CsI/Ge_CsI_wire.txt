@@ -32,8 +32,8 @@ dv:Tf/beam_energy/Values = 18 10 20 30 40 50 60 70 80 90 100 300 500 700 900 100
 
 # GRAPHICS
 i:Ts/SequenceVerbosity                                  = 3
-# b:Ts/UseQt                                            = "True"                 # CHANGE
-b:Gr/Enable                                             = "False"                # CHANGE
+b:Ts/UseQt                                            = "True"                 # CHANGE
+# b:Gr/Enable                                             = "False"                # CHANGE
 b:Ge/CheckForOverlaps                                   = "False"
 
 # SEQUENCE

@@ -99,33 +99,33 @@ Linear Attenuation Coefficients (1/cm):
    Bladder        =       0.1590
 
 Linear Attenuation Coefficients (1/pixel):
-Air = 0.
-   Body (water)   =       0.0308
-   Muscle         =       0.0320
-   Adipose (fat)  =       0.0283
-   Lung           =       0.0091
-   Spine Bone     =       0.0371
-   Rib Bone       =       0.0447
-   Blood          =       0.0323
-   Heart          =       0.0321
-   Kidney         =       0.0320
-   Liver          =       0.0323
-   Lymph          =       0.0316
-   Pancreas       =       0.0318
-   Spleen         =       0.0324
-   Intestine      =       0.0315
-   Skull          =       0.0400
-   Cartilage      =       0.0334
-   Brain          =       0.0318
-   Iodine Blood   =       0.0345
-   Skin           =       0.0333
-   Eye Lens       =       0.0324
-   Ovary          =       0.0321
-   Red Marrow     =       0.0314
-   Yellow Marrow  =       0.0300
-   Testis         =       0.0318
-   Thyroid        =       0.0322
-   Bladder        =       0.0318
+   G4_AIR = 0.
+   G4_TISSUE_SOFT_ICRP   =       0.0308
+   G4_MUSCLE_SKELETAL_ICRP         =       0.0320
+   G4_ADIPOSE_TISSUE_ICRP2  =       0.0283
+   G4_LUNG_LD_ICRP           =       0.0091
+   C4_Vertebra_ICRP     =       0.0371
+   RIB_BONE_ICRP       =       0.0447
+   G4_BLOOD_ICRP          =       0.0323
+   HEART_ICRP          =       0.0321
+   KIDNEY_ICRP         =       0.0320
+   LIVER_ICRP          =       0.0323
+   LYMPH_ICRP          =       0.0316
+   PANCREAS_ICRP       =       0.0318
+   SPLEEN_ICRP         =       0.0324
+   INTESTINE_ICRP      =       0.0315
+   SKULL_ICRP          =       0.0400
+   CARTILAGE_ICRP      =       0.0334
+   G4_BRAIN_ICRP          =       0.0318
+   G4_CADMIUM_TUNGSTATE   =       0.0345
+   G4_SKIN_ICRP           =       0.0333
+   G4_EYE_LENS_ICRP       =       0.0324
+   OVARY_ICRP          =       0.0321
+   RED_MARROW_ICRP     =       0.0314
+   YELLOW_MARROW_ICRP  =       0.0300
+   G4_TESTIS_ICRP         =       0.0318
+   THYROID_ICRP        =       0.0322
+   BLADDER_ICRP        =       0.0318
 
 ---------------------------------------------------
 
