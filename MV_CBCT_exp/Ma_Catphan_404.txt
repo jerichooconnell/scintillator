@@ -1,0 +1,40 @@
+
+sv:Ma/CATPHAN_PMP/Components = 2 "Hydrogen" "Carbon"
+uv:Ma/CATPHAN_PMP/Fractions = 2 0.1437 0.8563
+d:Ma/CATPHAN_PMP/Density = 0.83 g/cm3
+s:Ma/CATPHAN_PMP/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_LDPE/Components = 2 "Hydrogen" "Carbon"
+uv:Ma/CATPHAN_LDPE/Fractions = 2 0.1437 0.8563
+d:Ma/CATPHAN_LDPE/Density = 0.92 g/cm3
+s:Ma/CATPHAN_LDPE/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_Polystyrene/Components = 2 "Hydrogen" "Carbon"
+uv:Ma/CATPHAN_Polystyrene/Fractions = 2 0.0774 0.9226
+d:Ma/CATPHAN_Polystyrene/Density = 1.03 g/cm3
+s:Ma/CATPHAN_Polystyrene/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_Acrylic/Components = 3 "Hydrogen" "Carbon" "Oxygen"
+uv:Ma/CATPHAN_Acrylic/Fractions = 3 0.0806 0.5998 0.3196
+d:Ma/CATPHAN_Acrylic/Density = 1.18 g/cm3
+s:Ma/CATPHAN_Acrylic/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_Delrin/Components = 3 "Hydrogen" "Carbon" "Oxygen"
+uv:Ma/CATPHAN_Delrin/Fractions = 3 0.5172 0.0695 0.4133
+d:Ma/CATPHAN_Delrin/Density = 1.42 g/cm3
+s:Ma/CATPHAN_Delrin/DefaultColor = "red"
+
+sv:Ma/CATPHAN_B20/Components = 6 "Hydrogen" "Carbon" "Nitrogen" "Oxygen" "Phosphorus" "Calcium"
+uv:Ma/CATPHAN_B20/Fractions = 6 0.06 0.49 0.06 0.3 0.03 0.06
+d:Ma/CATPHAN_B20/Density = 1.14 g/cm3
+s:Ma/CATPHAN_B20/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_B50/Components = 6 "Hydrogen" "Carbon" "Nitrogen" "Oxygen" "Phosphorus" "Calcium"
+uv:Ma/CATPHAN_B50/Fractions = 6 0.04 0.36 0.06 0.34 0.14 0.06
+d:Ma/CATPHAN_B50/Density = 1.4 g/cm3
+s:Ma/CATPHAN_B50/DefaultColor = "lime"
+
+sv:Ma/CATPHAN_Teflon/Components = 2 "Hydrogen" "Fluorine"
+uv:Ma/CATPHAN_Teflon/Fractions = 2 0.2402 0.7598
+d:Ma/CATPHAN_Teflon/Density = 2.16 g/cm3
+s:Ma/CATPHAN_Teflon/DefaultColor = "red"
