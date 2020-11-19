@@ -13,11 +13,7 @@
 #  CHANGE == parameter that you might want to change 
 # ------------------------------------------------------------------ #
 
-# includeFile                             = Ma_CuGOS.txt
-
-# -
-
-dc:Ge/Plastic_Housing/HLX               = .05376 m 
+dc:Ge/Plastic_Housing/HLX               = .050176 m 
 dc:Ge/Plastic_Housing/HLY               = .2007 m
 dc:Ge/Plastic_Housing/HLZ               = 0.8 mm
 sc:Ge/Plastic_Housing/Material          = "Epoxy"
@@ -93,26 +89,6 @@ s:Ge/White_Plastic/Type                 = "TsBox"
 sc:Ge/White_Plastic/DrawingStyle        = "Solid"
 s:Ge/White_Plastic/Parent               = "World"
 
-# s:Ge/GOS_Glue/OpticalBehaviorTo/White_Plastic = "MySurface1"
-# s:Ge/White_Plastic/OpticalBehaviorTo/GOS_Glue = "MySurface2"
-
-# dv:Su/MySurface1/Reflectivity/Energies = 3 1.0 4.0 7.0 eV
-# uv:Su/MySurface1/Reflectivity/Values   = 3 0.88 0.88 0.88
-# dv:Su/MySurface1/Efficiency/Energies   = 2 1.6 7.2 eV
-# uv:Su/MySurface1/Efficiency/Values     = 2 1.0 1.0
-# s:Su/MySurface1/Type                   = "dielectric_metal"
-# s:Su/MySurface1/Model                  = "Glisur"
-# s:Su/MySurface1/Finish                 = "Polished"
-
-# dv:Su/MySurface2/Reflectivity/Energies = 3 1.0 4.0 7.0 eV
-# uv:Su/MySurface2/Reflectivity/Values = 3 0.88 0.88 0.88 
-# dv:Su/MySurface2/Efficiency/Energies   = 2 1.6 7.2 eV
-# uv:Su/MySurface2/Efficiency/Values     = 2 1.0 1.0
-# s:Su/MySurface2/Type = "dielectric_dielectric"
-# s:Su/MySurface2/Model = "Glisur"
-# s:Su/MySurface2/Finish = "Polished"
-
-
 # GOS glue means a mixture of GOS and glue and is the scintillator
 dc:Ge/GOS_Glue/HLX                      = Ge/Plastic_Housing/HLX mm
 dc:Ge/GOS_Glue/HLY                      = Ge/Plastic_Housing/HLY mm
@@ -143,7 +119,6 @@ dc:Ge/Photodiode_Readout/TransZ         = Ge/Photodiode_Readout/TransZ1 - Ge/Pho
 s:Ge/Photodiode_Readout/Type            = "TsBox"
 sc:Ge/Photodiode_Readout/DrawingStyle   = "Solid"
 s:Ge/Photodiode_Readout/Parent          = "World"
-s:Ge/Photodiode_Readout/OpticalBehavior = "SurfaceDetector"
 
 dc:Ge/PCB_Board_3/HLX                   = Ge/Plastic_Housing/HLX mm
 dc:Ge/PCB_Board_3/HLY                   = Ge/Plastic_Housing/HLY mm
