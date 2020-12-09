@@ -2,12 +2,12 @@
 sv:Ma/CATPHAN_PMP/Components = 2 "Hydrogen" "Carbon"
 uv:Ma/CATPHAN_PMP/Fractions = 2 0.1437 0.8563
 d:Ma/CATPHAN_PMP/Density = 0.83 g/cm3
-s:Ma/CATPHAN_PMP/DefaultColor = "lime"
+s:Ma/CATPHAN_PMP/DefaultColor = "brown"
 
 sv:Ma/CATPHAN_LDPE/Components = 2 "Hydrogen" "Carbon"
 uv:Ma/CATPHAN_LDPE/Fractions = 2 0.1437 0.8563
 d:Ma/CATPHAN_LDPE/Density = 0.92 g/cm3
-s:Ma/CATPHAN_LDPE/DefaultColor = "lime"
+s:Ma/CATPHAN_LDPE/DefaultColor = "brown"
 
 sv:Ma/CATPHAN_Polystyrene/Components = 2 "Hydrogen" "Carbon"
 uv:Ma/CATPHAN_Polystyrene/Fractions = 2 0.0774 0.9226
@@ -32,9 +32,9 @@ s:Ma/CATPHAN_B20/DefaultColor = "lime"
 sv:Ma/CATPHAN_B50/Components = 6 "Hydrogen" "Carbon" "Nitrogen" "Oxygen" "Phosphorus" "Calcium"
 uv:Ma/CATPHAN_B50/Fractions = 6 0.04 0.36 0.06 0.34 0.14 0.06
 d:Ma/CATPHAN_B50/Density = 1.4 g/cm3
-s:Ma/CATPHAN_B50/DefaultColor = "lime"
+s:Ma/CATPHAN_B50/DefaultColor = "blue"
 
 sv:Ma/CATPHAN_Teflon/Components = 2 "Hydrogen" "Fluorine"
 uv:Ma/CATPHAN_Teflon/Fractions = 2 0.2402 0.7598
 d:Ma/CATPHAN_Teflon/Density = 2.16 g/cm3
-s:Ma/CATPHAN_Teflon/DefaultColor = "red"
+s:Ma/CATPHAN_Teflon/DefaultColor = "orange"

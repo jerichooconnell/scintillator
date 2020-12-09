@@ -1,5 +1,5 @@
-# b:Ts/UseQt                             = "True"
-b:Gr/Enable                          = "False"                # CHANGE
+b:Ts/UseQt                             = "True"
+# b:Gr/Enable                          = "False"                # CHANGE
 i:Ts/SequenceVerbosity                  = 1
 b:Ts/ShowCPUTime                        = "True"
 
@@ -26,52 +26,85 @@ s:Gr/ViewA/CenterOn                    = "GOS_Glue"
 
 u:So/Example/BeamEnergySpread          = 0.001
 
-s:So/Example/Type                      = "Beam"
-s:So/Example/Component                 = "BeamPosition"
-s:So/Example/BeamParticle              = "gamma"
-s:So/Example/BeamPositionDistribution  = "Flat"
-s:So/Example/BeamPositionCutoffShape   = "Rectangle"
-dc:So/Example/BeamPositionCutoffX      = 0.07 cm
-dc:So/Example/BeamPositionCutoffY      = 0.07 cm
-dc:So/Example/BeamPositionSpreadX      = 0.1 cm
-dc:So/Example/BeamPositionSpreadY      = 0.1 cm
-sc:So/Example/BeamAngularDistribution  = "Flat"
-dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
-dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
-i:So/Example/NumberOfHistoriesInRun    = 100000000
+# s:So/Example/Type                      = "Beam"
+# s:So/Example/Component                 = "BeamPosition"
+# s:So/Example/BeamParticle              = "gamma"
+# s:So/Example/BeamPositionDistribution  = "Flat"
+# s:So/Example/BeamPositionCutoffShape   = "Rectangle"
+# dc:So/Example/BeamPositionCutoffX      = 0.07 cm
+# dc:So/Example/BeamPositionCutoffY      = 0.07 cm
+# dc:So/Example/BeamPositionSpreadX      = 0.1 cm
+# dc:So/Example/BeamPositionSpreadY      = 0.1 cm
+# sc:So/Example/BeamAngularDistribution  = "Flat"
+# dc:So/Example/BeamAngularCutoffX       = 0.160793105 rad
+# dc:So/Example/BeamAngularCutoffY       = 0.160793105 rad # Cheating a bit
+# i:So/Example/NumberOfHistoriesInRun    = 100000000
 
-d:Ge/BeamPosition/RotX                 = 180. deg
-d:Ge/BeamPosition/RotY                 = 0. deg
-d:Ge/BeamPosition/RotZ                 = 0. deg
-d:Ge/BeamPosition/TransX               = 0 m
-d:Ge/BeamPosition/TransY               = 0 m
-i:Ts/ShowHistoryCountAtInterval        = 100000
+# d:Ge/BeamPosition/RotX                 = 180. deg
+# d:Ge/BeamPosition/RotY                 = 0. deg
+# d:Ge/BeamPosition/RotZ                 = 0. deg
+# d:Ge/BeamPosition/TransX               = 0 m
+# d:Ge/BeamPosition/TransY               = 0 m
+# i:Ts/ShowHistoryCountAtInterval        = 1000000
 
-s:Sc/Readout_gos_ebin/Component = "GOS_Glue"
-s:Sc/Readout_gos_ebin/Quantity = "EnergyDeposit"
-s:Sc/Readout_gos_ebin/OutputType = "csv"
+
+s:So/Example/Type                            = "PhaseSpace"
+s:So/Example/PhaseSpaceFileName              = "Varian_TrueBeam6MV_01"
+s:So/Example/Component                       = "World"
+# JO 2020
+# i:So/Example/PhaseSpaceMultipleUse          = 0
+i:So/Example/NumberOfHistoriesInRun        = 1000
+#i:So/Example/PhaseSpaceBufferSize           = 100
+b:So/Example/PhaseSpaceIncludeEmptyHistories = "False"
+dc:Ge/BeamPosition/TransX=-0.2 m
+dc:Ge/BeamPosition/TransY=0. m
+dc:Ge/BeamPosition/TransZ=0. m
+dc:Ge/BeamPosition/RotX=180. deg
+dc:Ge/BeamPosition/RotY=0. deg
+dc:Ge/BeamPosition/RotZ=0. deg
+
+s:Sc/Readout_gos_sec/Component = "GOS_Glue"
+s:Sc/Readout_gos_sec/Quantity = "EnergyDeposit"
+s:Sc/Readout_gos_sec/OutputType = "csv"
 # i:Sc/Readout_gos4/BounceLimit = 400000000 
-s:Sc/Readout_gos_ebin/SplitByTimeFeature        = "beam_energy"
-s:Sc/Readout_gos_ebin/IfOutputFileAlreadyExists = "Overwrite"
-i:Sc/Readout_gos_ebin/XBins = 128
-i:Sc/Readout_gos_ebin/YBins = 512
-i:Sc/Readout_gos_ebin/EBins = 20 # defaults to 1, that is, un-binned
-d:Sc/Readout_gos_ebin/EBinMin = 0. MeV # defaults to zero
-d:Sc/Readout_gos_ebin/EBinMax = 6. MeV # must be specified if EBins is greater than 1
-i:Ts/seed = 37128
+s:Sc/Readout_gos_sec/SplitByTimeFeature        = "beam_energy"
+s:Sc/Readout_gos_sec/IfOutputFileAlreadyExists = "Overwrite"
+i:Sc/Readout_gos_sec/XBins = 128
+i:Sc/Readout_gos_sec/YBins = 512
+sv:Sc/Readout_gos_sec/OnlyIncludeIfParticleOrAncestorInteractedInComponent = 1 "ScoringCylinder"
 
+s:Sc/Readout_gos_filt/Component = "GOS_Glue"
+s:Sc/Readout_gos_filt/Quantity = "EnergyDeposit"
+s:Sc/Readout_gos_filt/OutputType = "csv"
+# i:Sc/Readout_gos4/BounceLimit = 400000000 
+s:Sc/Readout_gos_filt/SplitByTimeFeature        = "beam_energy"
+s:Sc/Readout_gos_filt/IfOutputFileAlreadyExists = "Overwrite"
+i:Sc/Readout_gos_filt/XBins = 128
+i:Sc/Readout_gos_filt/YBins = 512
+sv:Sc/Readout_gos_filt/OnlyIncludeIfParticleOrAncestorNotInteractedInComponent = 1 "ScoringCylinder"
 
-# s:Ge/ScoringCylinder/Type              = "TsCylinder"
-# s:Ge/ScoringCylinder/Parent            = "World"
-# s:Ge/ScoringCylinder/Material          = "G4_WATER"
-# dc:Ge/ScoringCylinder/RMin             = 0. cm
-# dc:Ge/ScoringCylinder/RMax             = 10. cm
-# dc:Ge/ScoringCylinder/HL               = 10. cm
-# dc:Ge/ScoringCylinder/SPhi             = 0. deg
-# dc:Ge/ScoringCylinder/DPhi             = 360. deg
-# dc:Ge/ScoringCylinder/RotX             = 0. deg
-# dc:Ge/ScoringCylinder/RotY             = 90. deg
-# dc:Ge/ScoringCylinder/RotZ             = 0. deg
+# i:Sc/Readout_gos_ebin/EBins = 20 # defaults to 1, that is, un-binned
+# d:Sc/Readout_gos_ebin/EBinMin = 0. MeV # defaults to zero
+# d:Sc/Readout_gos_ebin/EBinMax = 6. MeV # must be specified if EBins is greater than 1
+i:Ts/seed = 37156
+
+# s:Sc/EnergyDeposition/Component                 = "GOS_Glue"
+# s:Sc/EnergyDeposition/Quantity                  = "EnergyDeposit"
+# s:Sc/EnergyDeposition/OutputType                = "csv"
+# s:Sc/EnergyDeposition/IfOutputFileAlreadyExists = "Overwrite"
+# s:Sc/EnergyDeposition/SplitByTimeFeature = "beam_energy"
+
+s:Ge/ScoringCylinder/Type              = "TsCylinder"
+s:Ge/ScoringCylinder/Parent            = "World"
+s:Ge/ScoringCylinder/Material          = "G4_WATER"
+dc:Ge/ScoringCylinder/RMin             = 0. cm
+dc:Ge/ScoringCylinder/RMax             = 10. cm
+dc:Ge/ScoringCylinder/HL               = 10. cm
+dc:Ge/ScoringCylinder/SPhi             = 0. deg
+dc:Ge/ScoringCylinder/DPhi             = 360. deg
+dc:Ge/ScoringCylinder/RotX             = 0. deg
+dc:Ge/ScoringCylinder/RotY             = 90. deg
+dc:Ge/ScoringCylinder/RotZ             = 0. deg
 
 # W_spectrum_6.txt
 # s:So/Example/BeamEnergySpectrumType       = "Continuous"
@@ -83,3 +116,4 @@ i:Tf/NumberOfSequentialTimes           = 18
 s:Tf/beam_energy/Function              = "Step"
 dv:Tf/beam_energy/Times                = 18 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 ms
 dv:Tf/beam_energy/Values               = 18 10 20 30 40 50 60 70 80 90 100 300 500 700 900 1000 2000 4000 6000 keV
+d:So/Example/BeamEnergy                = Tf/beam_energy/Value keV
