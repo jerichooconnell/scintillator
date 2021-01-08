@@ -3,7 +3,7 @@ s:Ge/InsertGroup/Type="Group"
 s:Ge/InsertGroup/Parent = "World"
 d:Ge/InsertGroup/TransX=0. m
 d:Ge/InsertGroup/TransY=0. m
-d:Ge/InsertGroup/TransZ=0. m
+d:Ge/InsertGroup/TransZ=-1. m
 d:Ge/InsertGroup/RotX=0. deg
 d:Ge/InsertGroup/RotY=0. deg
 

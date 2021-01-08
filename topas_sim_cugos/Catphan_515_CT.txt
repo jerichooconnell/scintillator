@@ -1,5 +1,5 @@
-# b:Ts/UseQt                             = "True"
-b:Gr/Enable                          = "False"                # CHANGE
+b:Ts/UseQt                             = "True"
+# b:Gr/Enable                          = "False"                # CHANGE
 
 includeFile = inserts.txt
 includeFile = Ma_CuGOS.txt
